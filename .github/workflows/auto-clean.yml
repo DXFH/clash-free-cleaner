@@ -29,7 +29,8 @@ jobs:
       - name: 提交并推送更新
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add config.yaml
-          git commit -m "Auto: 清洗 + 优化 $(date '+%Y-%m-%d %H:%M')" || echo "No changes"
-          git push --force origin main  # 加 --force 强制覆盖，忽略冲突
+          git commit -m "Auto: 清洗 + 优化 $(date '+%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git pull origin main --rebase || true  # 先拉取远程，rebase 本地 commit
+          git push origin main
