@@ -32,4 +32,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add config.yaml
           git commit -m "Auto: 清洗 + 优化 $(date '+%Y-%m-%d %H:%M')" || echo "No changes"
-          git push
+          git push --force origin main  # 加 --force 强制覆盖，忽略冲突
