@@ -1,0 +1,7 @@
+name: Test Activation
+on: [workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is just to activate Actions"
