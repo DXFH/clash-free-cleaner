@@ -1,0 +1,28 @@
+mixed-port: 7890
+mode: rule
+dns:
+  enable: true
+  ipv6: false
+proxy-providers:
+  hysteria2_clean:
+    type: http
+    url: https://raw.githubusercontent.com/DXFH/clash-free-cleaner/main/sub/protocols/hysteria2.txt
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      timeout: 3000
+proxy-groups:
+- name: 🚀 免费Hysteria2下载王
+  type: url-test
+  use:
+  - hysteria2_clean
+  filter: (?i)1X|2X|5X|hysteria2|hy2
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 50
+rules:
+- PROCESS-NAME,qBittorrent,🚀 免费Hysteria2下载王
+- PROCESS-NAME,aria2c,🚀 免费Hysteria2下载王
+- PROCESS-NAME,Thunder,🚀 免费Hysteria2下载王
+- MATCH,🚀 免费Hysteria2下载王
