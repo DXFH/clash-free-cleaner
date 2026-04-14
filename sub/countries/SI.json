@@ -71,15 +71,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.238:2096",
-      "type": "vless",
-      "server": "92.53.191.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.188.36:443",
       "type": "vless",
       "server": "92.53.188.36",
@@ -113,6 +104,15 @@
       "port": 989,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 194.58.66.7:443",
+      "type": "vless",
+      "server": "194.58.66.7",
+      "port": 443,
+      "uuid": "c8d1c6d3-388f-48fc-a8f0-ed90d955d096",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.60.74.56:443",
@@ -416,6 +416,14 @@
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.188.238:2096",
+      "type": "ss",
+      "server": "92.53.188.238",
+      "port": 2096,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -430,11 +438,11 @@
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.149:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.248:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.247:8880",
-        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.238:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.188.36:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 104.22.38.37:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.188.238:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 192.71.244.49:989",
+        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 194.58.66.7:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.60.74.56:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 192.71.244.150:989",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.188.36:443",
@@ -469,7 +477,8 @@
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 45.83.129.17:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 45.83.131.43:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.138:2096",
-        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.138:2096"
+        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.138:2096",
+        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.188.238:2096"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
