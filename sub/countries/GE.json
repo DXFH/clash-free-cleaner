@@ -26,22 +26,12 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.74.179:8443",
-      "type": "vless",
-      "server": "77.91.74.179",
-      "port": 8443,
-      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 88.218.94.97:8443",
-      "type": "vless",
-      "server": "88.218.94.97",
-      "port": 8443,
-      "uuid": "62b0e46b-d2a5-423d-8457-95bde707fc19",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - SS 77.91.123.173:18332",
+      "type": "ss",
+      "server": "77.91.123.173",
+      "port": 18332,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.74.189:28495",
@@ -51,14 +41,6 @@
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - SS 77.91.123.173:18332",
-      "type": "ss",
-      "server": "77.91.123.173",
-      "port": 18332,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.101.201:443",
@@ -122,6 +104,15 @@
       "uuid": "a5e0c391-accd-45a7-8bb9-99ffb9b09b16",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.74.179:8443",
+      "type": "vless",
+      "server": "77.91.74.179",
+      "port": 8443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -131,10 +122,8 @@
       "proxies": [
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.67:10004",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.70.208:443",
-        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.74.179:8443",
-        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 88.218.94.97:8443",
-        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.74.189:28495",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - SS 77.91.123.173:18332",
+        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.74.189:28495",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.101.201:443",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.101.228:443",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.103.216:2082",
@@ -142,6 +131,7 @@
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.73.188:2096",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.73.188:443",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.73.188:8443",
+        "\uD83C\uDDEC\uD83C\uDDEA Georgia - VLESS 77.91.74.179:8443",
         "\uD83C\uDDEC\uD83C\uDDEA Georgia - HY2 77.91.77.27:39292"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
