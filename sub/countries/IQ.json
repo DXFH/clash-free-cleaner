@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.48.57:443",
+      "type": "vless",
+      "server": "178.17.48.57",
+      "port": 443,
+      "uuid": "062e6bee-c3f2-42e7-a1c1-e09305b2cffe",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - SS 81.90.29.126:53672",
       "type": "ss",
       "server": "81.90.29.126",
@@ -34,22 +43,20 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.48.230:443",
-      "type": "vless",
-      "server": "178.17.48.230",
+      "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - TROJAN 178.17.48.170:443",
+      "type": "trojan",
+      "server": "178.17.48.170",
       "port": 443,
-      "uuid": "e0268476-14fd-4030-9186-347800dc56e1",
-      "tls": true,
-      "flow": ""
+      "password": "1234567890",
+      "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.48.57:443",
-      "type": "vless",
-      "server": "178.17.48.57",
+      "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - TROJAN 178.17.48.78:443",
+      "type": "trojan",
+      "server": "178.17.48.78",
       "port": 443,
-      "uuid": "062e6bee-c3f2-42e7-a1c1-e09305b2cffe",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "password": "1234567890",
+      "tls": true
     }
   ],
   "proxy_groups": [
@@ -57,11 +64,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.48.57:443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - SS 81.90.29.126:53672",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.29.39:2443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.29.137:443",
-        "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.48.230:443",
-        "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.48.57:443"
+        "\uD83C\uDDEE\uD83C\uDDF6 Iraq - TROJAN 178.17.48.170:443",
+        "\uD83C\uDDEE\uD83C\uDDF6 Iraq - TROJAN 178.17.48.78:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
