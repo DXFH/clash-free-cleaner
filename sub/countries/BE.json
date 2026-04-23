@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.10.79:443",
+      "type": "vless",
+      "server": "151.101.10.79",
+      "port": 443,
+      "uuid": "ed76b56c-9009-46f0-9f97-c37bf2375815",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.9.80:80",
       "type": "vless",
       "server": "151.101.9.80",
@@ -22,15 +31,6 @@
       "server": "34.22.142.117",
       "port": 443,
       "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.10.79:443",
-      "type": "vless",
-      "server": "151.101.10.79",
-      "port": 443,
-      "uuid": "ed76b56c-9009-46f0-9f97-c37bf2375815",
       "tls": true,
       "flow": ""
     },
@@ -178,7 +178,7 @@
       "type": "vless",
       "server": "151.101.9.194",
       "port": 443,
-      "uuid": "6570d7cc-0e3d-49c2-ae23-e8ff8425b79d",
+      "uuid": "92270115-969b-45cd-a72a-1cb52ed295b9",
       "tls": true,
       "flow": ""
     },
@@ -283,9 +283,9 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.10.79:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.9.80:80",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 34.22.142.117:443",
-        "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.10.79:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.9.81:80",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 141.98.233.95:1518",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 194.110.115.93:44208",
