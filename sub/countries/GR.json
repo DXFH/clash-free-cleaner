@@ -8,36 +8,9 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:40443",
-      "type": "vless",
-      "server": "94.241.141.104",
-      "port": 40443,
-      "uuid": "6a30f559-b99d-497f-858a-3002b33c9a95",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:1443",
-      "type": "vless",
-      "server": "94.241.141.104",
-      "port": 1443,
-      "uuid": "6a30f559-b99d-497f-858a-3002b33c9a95",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 91.186.219.47:443",
       "type": "vless",
       "server": "91.186.219.47",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 91.186.216.142:443",
-      "type": "vless",
-      "server": "91.186.216.142",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
@@ -198,6 +171,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:1443",
+      "type": "vless",
+      "server": "94.241.141.104",
+      "port": 1443,
+      "uuid": "0e404b26-a62a-441b-8157-7b49f9ef8a49",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:8443",
       "type": "vless",
       "server": "94.241.141.104",
@@ -229,10 +211,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:40443",
-        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:1443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 91.186.219.47:443",
-        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 91.186.216.142:443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 91.186.219.15:443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 31.22.116.134:2096",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 31.22.116.216:2087",
@@ -251,6 +230,7 @@
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - SS 192.71.166.102:990",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - SS 192.71.166.100:989",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 91.186.217.108:443",
+        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:1443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.141.104:8443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 83.147.216.182:443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - SS 83.147.216.182:443"
