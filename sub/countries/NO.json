@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 172.238.142.152:443",
-      "type": "vless",
-      "server": "172.238.142.152",
-      "port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 217.170.199.132:443",
       "type": "vless",
       "server": "217.170.199.132",
@@ -68,6 +59,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.90.61.153:989",
+      "type": "ss",
+      "server": "185.90.61.153",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.63:990",
       "type": "ss",
       "server": "185.213.23.63",
@@ -87,14 +86,6 @@
       "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.226:989",
       "type": "ss",
       "server": "185.213.23.226",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.90.61.153:989",
-      "type": "ss",
-      "server": "185.90.61.153",
       "port": 989,
       "cipher": "auto",
       "password": ""
@@ -183,17 +174,16 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 172.238.142.152:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 217.170.199.132:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 185.125.171.13:443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 185.125.171.13:8443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.226:990",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 91.219.215.67:40282",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 194.68.32.29:989",
+        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.90.61.153:989",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.63:990",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 51.13.182.236:6870",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.213.23.226:989",
-        "\uD83C\uDDF3\uD83C\uDDF4 Norway - SS 185.90.61.153:989",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 95.173.205.70:8443",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - VLESS 148.135.195.96:44356",
         "\uD83C\uDDF3\uD83C\uDDF4 Norway - TROJAN 80.173.231.254:12420",
