@@ -8,26 +8,18 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.33.19.105:2083",
-      "type": "trojan",
-      "server": "149.33.19.105",
-      "port": 2083,
-      "password": "q2jXRWncMA7pQren_VjQKhSQfoBWK_",
-      "tls": true
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:990",
+      "type": "ss",
+      "server": "190.103.176.32",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 154.205.154.200:11201",
       "type": "ss",
       "server": "154.205.154.200",
       "port": 11201,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:990",
-      "type": "ss",
-      "server": "190.103.176.32",
-      "port": 990,
       "cipher": "auto",
       "password": ""
     },
@@ -71,6 +63,14 @@
       "port": 989,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.33.19.105:2083",
+      "type": "trojan",
+      "server": "149.33.19.105",
+      "port": 2083,
+      "password": "q2jXRWncMA7pQren_VjQKhSQfoBWK_",
+      "tls": true
     }
   ],
   "proxy_groups": [
@@ -78,14 +78,14 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.33.19.105:2083",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 154.205.154.200:11201",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:990",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 154.205.154.200:11201",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 38.54.45.129:990",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.29:989",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 15.220.121.237:443",
         "\uD83C\uDDE6\uD83C\uDDF7 Argentina - VLESS 154.205.154.81:443",
-        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:989"
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - SS 190.103.176.32:989",
+        "\uD83C\uDDE6\uD83C\uDDF7 Argentina - TROJAN 149.33.19.105:2083"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
