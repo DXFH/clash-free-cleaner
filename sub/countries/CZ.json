@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - VLESS 95.85.235.240:8443",
+      "type": "vless",
+      "server": "95.85.235.240",
+      "port": 8443,
+      "uuid": "26e4d8b5-ee98-4a8d-88c9-7f81b7be3379",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 194.135.38.131:8443",
       "type": "trojan",
       "server": "194.135.38.131",
@@ -260,6 +269,22 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 185.253.46.5:443",
+      "type": "trojan",
+      "server": "185.253.46.5",
+      "port": 443,
+      "password": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 212.102.38.88:443",
+      "type": "ss",
+      "server": "212.102.38.88",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 212.102.38.41:443",
       "type": "ss",
       "server": "212.102.38.41",
@@ -271,22 +296,6 @@
       "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 143.244.58.102:443",
       "type": "ss",
       "server": "143.244.58.102",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 195.123.246.15:51348",
-      "type": "ss",
-      "server": "195.123.246.15",
-      "port": 51348,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 212.102.38.88:443",
-      "type": "ss",
-      "server": "212.102.38.88",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -304,6 +313,14 @@
       "type": "ss",
       "server": "212.193.27.52",
       "port": 2222,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 195.123.246.15:51348",
+      "type": "ss",
+      "server": "195.123.246.15",
+      "port": 51348,
       "cipher": "auto",
       "password": ""
     },
@@ -369,14 +386,6 @@
       "server": "185.253.46.105",
       "port": 443,
       "password": "5y8y3CwxRVYhyfSY",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 185.253.46.5:443",
-      "type": "trojan",
-      "server": "185.253.46.5",
-      "port": 443,
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
       "tls": true
     },
     {
@@ -793,6 +802,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE8\uD83C\uDDFF Czechia - VLESS 95.85.235.240:8443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 194.135.38.131:8443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 194.87.200.151:8443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 194.87.130.44:8443",
@@ -822,12 +832,13 @@
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - VLESS 212.192.246.29:443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - VLESS 212.192.246.37:443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - VLESS 212.192.246.24:443",
+        "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 185.253.46.5:443",
+        "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 212.102.38.88:443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 212.102.38.41:443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 143.244.58.102:443",
-        "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 195.123.246.15:51348",
-        "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 212.102.38.88:443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 194.182.79.250:52612",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 212.193.27.52:2222",
+        "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 195.123.246.15:51348",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 195.181.160.6:990",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 194.182.79.235:28256",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 194.182.79.252:37815",
@@ -836,7 +847,6 @@
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 194.182.79.142:11746",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - SS 194.182.79.205:33979",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 185.253.46.105:443",
-        "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 185.253.46.5:443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 37.157.192.61:9902",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 195.85.23.232:443",
         "\uD83C\uDDE8\uD83C\uDDFF Czechia - TROJAN 185.253.46.121:443",
