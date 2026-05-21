@@ -79,13 +79,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 83.228.225.98:24472",
+      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 92.119.165.11:443",
       "type": "vless",
-      "server": "83.228.225.98",
-      "port": 24472,
-      "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
+      "server": "92.119.165.11",
+      "port": 443,
+      "uuid": "41b92d9f-6c8d-4ac3-8eeb-eb3fcf48e102",
       "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 83.228.228.44:22",
@@ -106,13 +106,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 92.119.165.11:443",
+      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 83.228.225.98:24472",
       "type": "vless",
-      "server": "92.119.165.11",
-      "port": 443,
-      "uuid": "41b92d9f-6c8d-4ac3-8eeb-eb3fcf48e102",
+      "server": "83.228.225.98",
+      "port": 24472,
+      "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.25:443",
@@ -375,14 +375,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 185.18.250.252:443",
-      "type": "trojan",
-      "server": "185.18.250.252",
-      "port": 443,
-      "password": "humanity",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.252:443",
       "type": "vless",
       "server": "185.18.250.252",
@@ -399,6 +391,14 @@
       "uuid": "d28ae54e-0f72-4741-beff-c4ba83feb1d3",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 185.18.250.252:443",
+      "type": "trojan",
+      "server": "185.18.250.252",
+      "port": 443,
+      "password": "humanity",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 138.124.32.188:30047",
@@ -441,15 +441,6 @@
       "port": 443,
       "password": "humanity",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.238:2096",
-      "type": "vless",
-      "server": "185.18.250.238",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 83.228.225.98:24472",
@@ -546,12 +537,12 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.160:443",
-      "type": "ss",
-      "server": "156.146.62.160",
+      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 51.34.85.34:443",
+      "type": "trojan",
+      "server": "51.34.85.34",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
+      "password": "8r%3C%5B9%27l6hAO%238ZQi",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 45.95.232.236:4248",
@@ -582,6 +573,14 @@
       "type": "ss",
       "server": "195.15.215.198",
       "port": 5555,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.160:443",
+      "type": "ss",
+      "server": "156.146.62.160",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -706,14 +705,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 51.34.85.34:443",
-      "type": "trojan",
-      "server": "51.34.85.34",
-      "port": 443,
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 91.192.102.55:443",
       "type": "trojan",
       "server": "91.192.102.55",
@@ -752,6 +743,15 @@
       "port": 443,
       "password": "your_password",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.238:2096",
+      "type": "vless",
+      "server": "185.18.250.238",
+      "port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 138.124.80.238:443",
@@ -850,6 +850,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 92.119.165.11:443",
+      "type": "ss",
+      "server": "92.119.165.11",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 23.166.88.198:3306",
       "type": "ss",
       "server": "23.166.88.198",
@@ -904,10 +912,10 @@
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 45.12.111.151:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 45.12.111.128:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 138.124.65.10:443",
-        "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 83.228.225.98:24472",
+        "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 92.119.165.11:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 83.228.228.44:22",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 193.168.144.46:443",
-        "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 92.119.165.11:443",
+        "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 83.228.225.98:24472",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.25:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.117:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 140.238.214.247:443",
@@ -937,15 +945,14 @@
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 94.156.203.153:29880",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.29:8880",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 31.171.246.150:1080",
-        "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 185.18.250.252:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.252:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 208.69.78.94:8443",
+        "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 185.18.250.252:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 138.124.32.188:30047",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 138.124.111.115:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 212.237.210.158:989",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 37.120.213.230:50004",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 185.18.250.245:443",
-        "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.238:2096",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 83.228.225.98:24472",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.162:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 138.124.111.115:443",
@@ -957,11 +964,12 @@
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.218.204.186:2034",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.218.204.186:47004",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 38.180.161.123:8119",
-        "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.160:443",
+        "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 51.34.85.34:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 45.95.232.236:4248",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 84.234.31.193:1080",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 138.124.67.26:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 195.15.215.198:5555",
+        "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.160:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.161:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.163:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 156.146.62.164:443",
@@ -977,12 +985,12 @@
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 146.70.71.157:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 38.180.84.86:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 45.59.117.238:8443",
-        "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 51.34.85.34:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 91.192.102.55:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 94.156.203.224:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 45.155.54.117:110",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 141.227.138.29:1935",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - TROJAN 16.62.65.57:443",
+        "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.238:2096",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 138.124.80.238:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.135:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 86.106.84.196:13263",
@@ -997,6 +1005,7 @@
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - HY2 45.155.76.159:4380",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - HY2 45.155.76.171:4380",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - HY2 45.155.76.197:4380",
+        "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 92.119.165.11:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 23.166.88.198:3306",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - SS 138.124.32.78:443",
         "\uD83C\uDDE8\uD83C\uDDED Switzerland - VLESS 185.18.250.121:2095",
