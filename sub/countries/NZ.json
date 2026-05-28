@@ -8,20 +8,20 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.80:443",
-      "type": "vless",
-      "server": "202.37.33.80",
-      "port": 443,
-      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.251:8880",
       "type": "vless",
       "server": "114.129.43.251",
       "port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.80:443",
+      "type": "vless",
+      "server": "202.37.33.80",
+      "port": 443,
+      "uuid": "0f1b6d8d-3f8c-4713-b32d-c94947083485",
       "tls": true,
       "flow": ""
     },
@@ -83,8 +83,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.80:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.251:8880",
+        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.80:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.30:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.168:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 114.129.43.238:2096",
