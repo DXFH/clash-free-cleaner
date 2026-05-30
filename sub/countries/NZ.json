@@ -12,7 +12,16 @@
       "type": "vless",
       "server": "202.37.33.80",
       "port": 443,
-      "uuid": "06df48c8-854b-408b-bbc7-265adb870d40",
+      "uuid": "cc752a3e-1537-4e86-bb50-1b897bf7b33c",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.30:8880",
+      "type": "vless",
+      "server": "114.129.43.30",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": ""
     },
@@ -31,15 +40,6 @@
       "server": "114.129.43.251",
       "port": 8880,
       "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.30:8880",
-      "type": "vless",
-      "server": "114.129.43.30",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": ""
     },
@@ -70,6 +70,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.80:443",
+      "type": "ss",
+      "server": "202.37.33.80",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 202.37.33.80:443",
       "type": "trojan",
       "server": "202.37.33.80",
@@ -85,14 +93,6 @@
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.80:443",
-      "type": "ss",
-      "server": "202.37.33.80",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 114.129.43.29:8880",
@@ -126,15 +126,15 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.80:443",
+        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.30:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.81:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.251:8880",
-        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.30:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.151:2087",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.168:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 114.129.43.238:2096",
+        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.80:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 202.37.33.80:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.238:2096",
-        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.80:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 114.129.43.29:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.29:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.81:443"
