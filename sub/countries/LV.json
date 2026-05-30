@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 104.253.43.29:58053",
+      "type": "vless",
+      "server": "104.253.43.29",
+      "port": 58053,
+      "uuid": "570c4926-ccd2-4415-966c-6bfa52c826ee",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 213.21.241.104:35935",
       "type": "vless",
       "server": "213.21.241.104",
@@ -1141,29 +1150,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:51187",
-      "type": "vless",
-      "server": "185.77.231.80",
-      "port": 51187,
-      "uuid": "2b215723-1fc5-4206-b0bd-65c44130cec6",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:20814",
       "type": "vless",
       "server": "185.77.231.80",
       "port": 20814,
       "uuid": "52b32247-4747-41de-b816-ba750a5e8bd1",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:443",
-      "type": "vless",
-      "server": "185.77.231.80",
-      "port": 443,
-      "uuid": "b02262ee-d4e8-44c5-b08b-2dba07d1eec7",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -1177,11 +1168,29 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:443",
+      "type": "vless",
+      "server": "185.77.231.80",
+      "port": 443,
+      "uuid": "b02262ee-d4e8-44c5-b08b-2dba07d1eec7",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 62.192.174.198:443",
       "type": "vless",
       "server": "62.192.174.198",
       "port": 443,
       "uuid": "18664eed-9d0f-475b-a5d6-0842239a6b1d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:51187",
+      "type": "vless",
+      "server": "185.77.231.80",
+      "port": 51187,
+      "uuid": "2b215723-1fc5-4206-b0bd-65c44130cec6",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -1206,6 +1215,14 @@
       "type": "ss",
       "server": "185.176.221.72",
       "port": 24637,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 46.183.217.204:990",
+      "type": "ss",
+      "server": "46.183.217.204",
+      "port": 990,
       "cipher": "auto",
       "password": ""
     },
@@ -1260,38 +1277,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 46.183.217.204:990",
-      "type": "ss",
-      "server": "46.183.217.204",
-      "port": 990,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9041",
-      "type": "ss",
-      "server": "185.135.86.173",
-      "port": 9041,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9027",
-      "type": "ss",
-      "server": "185.135.86.173",
-      "port": 9027,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9042",
-      "type": "ss",
-      "server": "185.135.86.173",
-      "port": 9042,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9043",
       "type": "ss",
       "server": "185.135.86.173",
@@ -1300,18 +1285,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9025",
-      "type": "ss",
-      "server": "185.135.86.173",
-      "port": 9025,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9000",
       "type": "ss",
       "server": "185.135.86.173",
       "port": 9000,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9030",
+      "type": "ss",
+      "server": "185.135.86.173",
+      "port": 9030,
       "cipher": "auto",
       "password": ""
     },
@@ -1332,10 +1317,34 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9025",
+      "type": "ss",
+      "server": "185.135.86.173",
+      "port": 9025,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9040",
       "type": "ss",
       "server": "185.135.86.173",
       "port": 9040,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9027",
+      "type": "ss",
+      "server": "185.135.86.173",
+      "port": 9027,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9041",
+      "type": "ss",
+      "server": "185.135.86.173",
+      "port": 9041,
       "cipher": "auto",
       "password": ""
     },
@@ -1348,10 +1357,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9019",
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9031",
       "type": "ss",
       "server": "185.135.86.173",
-      "port": 9019,
+      "port": 9031,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 83.222.20.64:17910",
+      "type": "ss",
+      "server": "83.222.20.64",
+      "port": 17910,
       "cipher": "auto",
       "password": ""
     },
@@ -1412,18 +1429,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9031",
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9019",
       "type": "ss",
       "server": "185.135.86.173",
-      "port": 9031,
+      "port": 9019,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9030",
+      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9042",
       "type": "ss",
       "server": "185.135.86.173",
-      "port": 9030,
+      "port": 9042,
       "cipher": "auto",
       "password": ""
     },
@@ -1562,15 +1579,6 @@
       "port": 443,
       "password": "8r%3C%5B9%27l6hAO%238ZQi",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 104.253.43.29:58053",
-      "type": "vless",
-      "server": "104.253.43.29",
-      "port": 58053,
-      "uuid": "570c4926-ccd2-4415-966c-6bfa52c826ee",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 188.253.17.113:443",
@@ -1983,6 +1991,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 104.253.43.29:58053",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 213.21.241.104:35935",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 193.163.203.76:50547",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 193.163.203.76:50580",
@@ -2112,32 +2121,33 @@
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 216.173.70.187:57456",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 31.128.35.216:2053",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 31.170.22.68:443",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:51187",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:20814",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:16991",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 62.192.174.198:443",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 185.77.231.80:51187",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 91.218.143.194:43798",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 195.135.252.28:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.176.221.72:24637",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 46.183.217.204:990",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.82.126.184:2053",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 62.192.174.162:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 5.34.215.226:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 138.124.182.202:3443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 91.218.143.194:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 37.233.82.140:443",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 46.183.217.204:990",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9041",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9027",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9042",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9043",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9025",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9000",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9030",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9020",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9029",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9025",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9040",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9027",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9041",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9037",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9019",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9031",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 83.222.20.64:17910",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 193.163.203.76:50580",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 90.156.254.164:19562",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 46.32.186.234:1080",
@@ -2145,8 +2155,8 @@
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 146.19.247.183:8388",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 45.128.151.67:31348",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 46.183.217.232:990",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9031",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9030",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9019",
+        "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 185.135.86.173:9042",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 89.46.238.35:989",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 46.183.217.232:989",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - SS 37.233.82.140:40478",
@@ -2164,7 +2174,6 @@
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - TROJAN 195.123.212.215:2053",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - TROJAN 91.197.1.127:8443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - TROJAN 91.239.23.10:443",
-        "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 104.253.43.29:58053",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 188.253.17.113:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 195.135.254.201:443",
         "\uD83C\uDDF1\uD83C\uDDFB Latvia - VLESS 213.139.229.211:443",
