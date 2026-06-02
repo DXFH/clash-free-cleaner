@@ -17,15 +17,6 @@
       "flow": "xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%B3%F0%9F%87%B1%20NL-7424"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 89.46.42.73:8443",
-      "type": "vless",
-      "server": "89.46.42.73",
-      "port": 8443,
-      "uuid": "748b694f-c317-463e-a80b-f800fb03eb14",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 45.129.141.130:34045",
       "type": "vless",
       "server": "45.129.141.130",
@@ -33,6 +24,15 @@
       "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 89.46.42.73:8443",
+      "type": "vless",
+      "server": "89.46.42.73",
+      "port": 8443,
+      "uuid": "748b694f-c317-463e-a80b-f800fb03eb14",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 188.123.123.133:989",
@@ -60,9 +60,9 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 89.46.42.73:8443",
+      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 45.66.161.10:8443",
       "type": "ss",
-      "server": "89.46.42.73",
+      "server": "45.66.161.10",
       "port": 8443,
       "cipher": "auto",
       "password": ""
@@ -74,14 +74,14 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 45.66.161.10:8443",
-        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 89.46.42.73:8443",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 45.129.141.130:34045",
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 89.46.42.73:8443",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 188.123.123.133:989",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 156.146.40.194:989",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 5.180.55.116:443",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - HY2 5.35.103.44:4380",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - HY2 5.35.103.66:4380",
-        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 89.46.42.73:8443"
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 45.66.161.10:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
