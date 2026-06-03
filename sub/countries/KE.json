@@ -1,0 +1,72 @@
+{
+  "name": "FastNodes KE",
+  "port": 7890,
+  "socks_port": 7891,
+  "allow_lan": true,
+  "mode": "Rule",
+  "log_level": "info",
+  "external_controller": "127.0.0.1:9090",
+  "proxies": [
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEA Kenya - VLESS 104.22.30.97:80",
+      "type": "vless",
+      "server": "104.22.30.97",
+      "port": 80,
+      "uuid": "243ff879-b317-4430-894e-767a131db2ca",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEA Kenya - VLESS 693154089:1",
+      "type": "vless",
+      "server": "693154089",
+      "port": 1,
+      "uuid": "bfaec836-be0b-4688-b1a3-21d0fdfce79d",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEA Kenya - SS 62.12.116.66:989",
+      "type": "ss",
+      "server": "62.12.116.66",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEA Kenya - SS 104.22.30.97:80",
+      "type": "ss",
+      "server": "104.22.30.97",
+      "port": 80,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEA Kenya - SS 693154089:1",
+      "type": "ss",
+      "server": "693154089",
+      "port": 1,
+      "cipher": "auto",
+      "password": ""
+    }
+  ],
+  "proxy_groups": [
+    {
+      "name": "AUTO",
+      "type": "url-test",
+      "proxies": [
+        "\uD83C\uDDF0\uD83C\uDDEA Kenya - VLESS 104.22.30.97:80",
+        "\uD83C\uDDF0\uD83C\uDDEA Kenya - VLESS 693154089:1",
+        "\uD83C\uDDF0\uD83C\uDDEA Kenya - SS 62.12.116.66:989",
+        "\uD83C\uDDF0\uD83C\uDDEA Kenya - SS 104.22.30.97:80",
+        "\uD83C\uDDF0\uD83C\uDDEA Kenya - SS 693154089:1"
+      ],
+      "url": "http://cp.cloudflare.com/generate_204",
+      "interval": 300,
+      "tolerance": 50
+    }
+  ],
+  "rules": [
+    "MATCH,AUTO"
+  ]
+}
