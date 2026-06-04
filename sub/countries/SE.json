@@ -8,20 +8,20 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.127.207.188:8443",
-      "type": "vless",
-      "server": "89.127.207.188",
-      "port": 8443,
-      "uuid": "7625adbb-52f7-4ff4-95f8-677471071a77",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.127.207.188:11443",
       "type": "vless",
       "server": "89.127.207.188",
       "port": 11443,
       "uuid": "7625adbb-52f7-4ff4-95f8-677471071a77",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 78.40.117.131:443",
+      "type": "vless",
+      "server": "78.40.117.131",
+      "port": 443,
+      "uuid": "bb2b0112-577f-4862-886a-3c2ee004ca23",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -60,15 +60,6 @@
       "uuid": "00000000-0000-4000-8000-000000000000",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 78.40.117.131:443",
-      "type": "vless",
-      "server": "78.40.117.131",
-      "port": 443,
-      "uuid": "bb2b0112-577f-4862-886a-3c2ee004ca23",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 193.25.216.201:36019",
@@ -134,11 +125,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.158:80",
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.59:80",
       "type": "vless",
-      "server": "185.146.173.158",
+      "server": "185.146.173.59",
       "port": 80,
-      "uuid": "telegram-id-ArV2ray",
+      "uuid": "telegram-deli-servers",
       "tls": true,
       "flow": ""
     },
@@ -161,20 +152,20 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.59:80",
-      "type": "vless",
-      "server": "185.146.173.59",
-      "port": 80,
-      "uuid": "SVNTEAM",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.24:8880",
       "type": "vless",
       "server": "185.146.173.24",
       "port": 8880,
       "uuid": "53ed61cd-8be2-46eb-b7c2-850a732ed849",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.158:80",
+      "type": "vless",
+      "server": "185.146.173.158",
+      "port": 80,
+      "uuid": "telegram-id-ArV2ray",
       "tls": true,
       "flow": ""
     },
@@ -1258,6 +1249,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.127.207.188:8443",
+      "type": "vless",
+      "server": "89.127.207.188",
+      "port": 8443,
+      "uuid": "7625adbb-52f7-4ff4-95f8-677471071a77",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.103.103.213:443",
       "type": "vless",
       "server": "185.103.103.213",
@@ -1508,6 +1508,15 @@
       "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.22.229.214:443",
+      "type": "vless",
+      "server": "89.22.229.214",
+      "port": 443,
+      "uuid": "b517ac65-22f7-4aed-9662-f71abbfe4a24",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 83.219.250.104:8090",
@@ -2192,41 +2201,9 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.45.205:22222",
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 16.171.58.121:22222",
       "type": "trojan",
-      "server": "13.48.45.205",
-      "port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.213:443",
-      "type": "ss",
-      "server": "37.19.222.213",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.105.114:22222",
-      "type": "trojan",
-      "server": "13.48.105.114",
-      "port": 22222,
-      "password": "telegram-id-directvpn",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.50.16.231:22222",
-      "type": "trojan",
-      "server": "13.50.16.231",
-      "port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.202.26:22222",
-      "type": "trojan",
-      "server": "13.48.202.26",
+      "server": "16.171.58.121",
       "port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": true
@@ -2240,17 +2217,9 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.212:443",
-      "type": "ss",
-      "server": "37.19.222.212",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 16.171.58.121:22222",
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.202.26:22222",
       "type": "trojan",
-      "server": "16.171.58.121",
+      "server": "13.48.202.26",
       "port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": true
@@ -2272,9 +2241,41 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.211:443",
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.50.16.231:22222",
+      "type": "trojan",
+      "server": "13.50.16.231",
+      "port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.105.114:22222",
+      "type": "trojan",
+      "server": "13.48.105.114",
+      "port": 22222,
+      "password": "telegram-id-directvpn",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.46.49:22222",
+      "type": "trojan",
+      "server": "13.49.46.49",
+      "port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.213:443",
       "type": "ss",
-      "server": "37.19.222.211",
+      "server": "37.19.222.213",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.212:443",
+      "type": "ss",
+      "server": "37.19.222.212",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -2286,6 +2287,14 @@
       "port": 8443,
       "password": "8r%3C%5B9%27l6hAO%238ZQi",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 70.34.201.81:443",
+      "type": "ss",
+      "server": "70.34.201.81",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 45.80.230.190:65047",
@@ -2396,6 +2405,14 @@
       "type": "ss",
       "server": "13.49.241.14",
       "port": 27092,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.211:443",
+      "type": "ss",
+      "server": "37.19.222.211",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -3040,9 +3057,9 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.46.49:22222",
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.45.205:22222",
       "type": "trojan",
-      "server": "13.49.46.49",
+      "server": "13.48.45.205",
       "port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": true
@@ -3298,6 +3315,15 @@
       "server": "94.242.58.117",
       "port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.46:80",
+      "type": "vless",
+      "server": "185.146.173.46",
+      "port": 80,
+      "uuid": "77be959a-3a9f-53a1-ab5c-71e461a79f4d",
       "tls": true,
       "flow": ""
     },
@@ -3793,13 +3819,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.127.207.188:8443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.127.207.188:11443",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 78.40.117.131:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.22.236.213:54346",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.22.236.213:666",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 46.226.161.7:8443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 83.147.254.4:36089",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 78.40.117.131:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 193.25.216.201:36019",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 109.120.132.142:40617",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 194.238.57.104:443",
@@ -3807,11 +3832,11 @@
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 148.253.211.237:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.22.230.82:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 87.120.196.18:443",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.158:80",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.59:80",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.58:8080",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.185:2095",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.59:80",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.24:8880",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.158:80",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.68:2095",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.37:2095",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.237:80",
@@ -3932,6 +3957,7 @@
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 16.16.123.230:8443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.83:80",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.252:443",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.127.207.188:8443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.103.103.213:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.103.103.213:9443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.38:2052",
@@ -3960,6 +3986,7 @@
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 144.31.235.75:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 193.168.197.76:2443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 94.242.58.133:443",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.22.229.214:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 83.219.250.104:8090",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.38:2095",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.43:2095",
@@ -4039,18 +4066,18 @@
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 213.21.229.144:8085",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.125.37.114:7443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.125.37.138:7443",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.45.205:22222",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.213:443",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.105.114:22222",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.50.16.231:22222",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.202.26:22222",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.224.224:22222",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.212:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 16.171.58.121:22222",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.224.224:22222",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.202.26:22222",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 121.127.46.147:989",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.214:443",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.211:443",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.50.16.231:22222",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.105.114:22222",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.46.49:22222",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.213:443",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.212:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 62.60.151.252:8443",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 70.34.201.81:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 45.80.230.190:65047",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 13.49.228.30:8080",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 109.122.201.178:2087",
@@ -4065,6 +4092,7 @@
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 46.246.97.140:53908",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 188.126.85.217:8443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 13.49.241.14:27092",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 37.19.222.211:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 46.226.160.215:34045",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 41.216.182.162:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 13.49.93.83:22222",
@@ -4145,7 +4173,7 @@
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 16.16.136.12:22222",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 51.20.158.190:22222",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 51.21.49.146:22222",
-        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.46.49:22222",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.48.45.205:22222",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.54.20:22222",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.49.93.83:22222",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - TROJAN 13.51.37.0:22222",
@@ -4177,6 +4205,7 @@
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 89.22.233.52:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 91.108.242.91:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 94.242.58.117:443",
+        "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.46:80",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.20:2053",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - VLESS 185.146.173.20:443",
         "\uD83C\uDDF8\uD83C\uDDEA Sweden - SS 51.20.184.97:1003",
