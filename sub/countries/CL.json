@@ -17,6 +17,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 165.1.123.204:443",
+      "type": "vless",
+      "server": "165.1.123.204",
+      "port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - TROJAN 130.94.104.210:443",
       "type": "trojan",
       "server": "130.94.104.210",
@@ -47,6 +56,14 @@
       "port": 989,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 165.1.123.204:443",
+      "type": "ss",
+      "server": "165.1.123.204",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -55,10 +72,12 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 172.64.195.195:443",
+        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 165.1.123.204:443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - TROJAN 130.94.104.210:443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 37.235.52.112:989",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 64.176.17.53:8313",
-        "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 190.120.230.9:989"
+        "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 190.120.230.9:989",
+        "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 165.1.123.204:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
