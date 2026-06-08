@@ -17,15 +17,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.138:2096",
-      "type": "vless",
-      "server": "92.53.191.138",
-      "port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.43:443",
       "type": "vless",
       "server": "92.53.191.43",
@@ -68,7 +59,7 @@
       "port": 2053,
       "uuid": "08c7f096-d057-4d53-82fd-c739d372887b",
       "tls": true,
-      "flow": "#4Kian-4860"
+      "flow": "#4Kian-4851"
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.247:8880",
@@ -219,6 +210,15 @@
       "type": "vless",
       "server": "92.53.190.30",
       "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.138:2096",
+      "type": "vless",
+      "server": "92.53.191.138",
+      "port": 2096,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": ""
@@ -376,14 +376,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.191.138:2096",
-      "type": "ss",
-      "server": "92.53.191.138",
-      "port": 2096,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.188.36:443",
       "type": "ss",
       "server": "92.53.188.36",
@@ -479,6 +471,14 @@
       "uuid": "a5e0c391-accd-45a7-8bb9-99ffb9b09b16",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.191.138:2096",
+      "type": "ss",
+      "server": "92.53.191.138",
+      "port": 2096,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -487,7 +487,6 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.60.78.221:443",
-        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.138:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.43:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 104.22.38.61:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.149:443",
@@ -510,6 +509,7 @@
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.188.30:8880",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.138:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.30:8880",
+        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.138:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.201:8880",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.238:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.191.253:8880",
@@ -527,7 +527,6 @@
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 104.22.38.37:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 92.53.190.201:8880",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 192.71.244.49:989",
-        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.191.138:2096",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.188.36:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 192.71.244.150:990",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 192.71.244.150:989",
@@ -539,7 +538,8 @@
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - TROJAN 104.22.38.144:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - TROJAN 92.53.188.162:443",
         "\uD83C\uDDF8\uD83C\uDDEE Slovenia - TROJAN 92.60.74.143:443",
-        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 45.83.129.58:443"
+        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - VLESS 45.83.129.58:443",
+        "\uD83C\uDDF8\uD83C\uDDEE Slovenia - SS 92.53.191.138:2096"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
