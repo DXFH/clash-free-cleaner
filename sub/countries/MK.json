@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDF0 North Macedonia - VLESS 46.183.185.142:443",
+      "type": "vless",
+      "server": "46.183.185.142",
+      "port": 443,
+      "uuid": "36af4874-d6a3-4f7c-82a7-1cb724961b52",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDF0 North Macedonia - SS 185.225.28.85:47121",
       "type": "ss",
       "server": "185.225.28.85",
@@ -54,6 +63,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF2\uD83C\uDDF0 North Macedonia - VLESS 46.183.185.142:443",
         "\uD83C\uDDF2\uD83C\uDDF0 North Macedonia - SS 185.225.28.85:47121",
         "\uD83C\uDDF2\uD83C\uDDF0 North Macedonia - SS 46.183.185.15:989",
         "\uD83C\uDDF2\uD83C\uDDF0 North Macedonia - VLESS 89.185.82.64:19771",
