@@ -1,0 +1,74 @@
+{
+  "name": "FastNodes KG",
+  "port": 7890,
+  "socks_port": 7891,
+  "allow_lan": true,
+  "mode": "Rule",
+  "log_level": "info",
+  "external_controller": "127.0.0.1:9090",
+  "proxies": [
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.47.135:443",
+      "type": "vless",
+      "server": "217.177.47.135",
+      "port": 443,
+      "uuid": "93d7b794-cca6-4c6d-bae8-dd2df25961b4",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.179.49.34:443",
+      "type": "vless",
+      "server": "217.179.49.34",
+      "port": 443,
+      "uuid": "431a2764-3bc8-4842-9917-18a6fb72d564",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.179.49.34:2053",
+      "type": "vless",
+      "server": "217.179.49.34",
+      "port": 2053,
+      "uuid": "5aac5f08-a711-4265-bd05-a97153e55fad",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - TROJAN 188.240.213.45:20071",
+      "type": "trojan",
+      "server": "188.240.213.45",
+      "port": 20071,
+      "password": "4467ae8518abf1ef321618c0bfb5549ccc",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 213.155.28.92:16140",
+      "type": "vless",
+      "server": "213.155.28.92",
+      "port": 16140,
+      "uuid": "a489c356-a51f-4da9-ae2b-87460e01d4f4",
+      "tls": true,
+      "flow": ""
+    }
+  ],
+  "proxy_groups": [
+    {
+      "name": "AUTO",
+      "type": "url-test",
+      "proxies": [
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.47.135:443",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.179.49.34:443",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.179.49.34:2053",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - TROJAN 188.240.213.45:20071",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 213.155.28.92:16140"
+      ],
+      "url": "http://cp.cloudflare.com/generate_204",
+      "interval": 300,
+      "tolerance": 50
+    }
+  ],
+  "rules": [
+    "MATCH,AUTO"
+  ]
+}
