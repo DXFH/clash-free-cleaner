@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 148.223.138.11:443",
-      "type": "vless",
-      "server": "148.223.138.11",
-      "port": 443,
-      "uuid": "b4a10cb3-9835-4027-a5d5-9404ec7b1e4e",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 121.127.43.215:8443",
       "type": "vless",
       "server": "121.127.43.215",
@@ -60,6 +51,15 @@
       "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
       "tls": true,
       "flow": "xtls-rprx-vision-udp443"
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 148.223.138.11:443",
+      "type": "vless",
+      "server": "148.223.138.11",
+      "port": 443,
+      "uuid": "b4a10cb3-9835-4027-a5d5-9404ec7b1e4e",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 190.103.179.23:989",
@@ -131,12 +131,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 148.223.138.11:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 121.127.43.215:8443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 140.84.179.114:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 158.23.168.120:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 45.134.9.133:8443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 159.54.134.203:443",
+        "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 148.223.138.11:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 190.103.179.23:989",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 89.223.88.33:11201",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 147.78.1.27:990",
