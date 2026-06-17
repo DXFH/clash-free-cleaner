@@ -8,6 +8,33 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 31.97.64.102:3443",
+      "type": "vless",
+      "server": "31.97.64.102",
+      "port": 3443,
+      "uuid": "f5a2c547-734e-4655-8069-618e38e2cd5c",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 46.202.148.138:3443",
+      "type": "vless",
+      "server": "46.202.148.138",
+      "port": 3443,
+      "uuid": "f5a2c547-734e-4655-8069-618e38e2cd5c",
+      "tls": true,
+      "flow": "xtls-rprx-vision#%5BOpenRay%5D%20%F0%9F%87%A7%F0%9F%87%B7%20BR-127"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.2.115:443",
+      "type": "vless",
+      "server": "201.51.2.115",
+      "port": 443,
+      "uuid": "e70ad57f-5b39-46f5-ba70-44953ad23164",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 199.232.15.13:443",
       "type": "vless",
       "server": "199.232.15.13",
@@ -251,15 +278,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.2.115:443",
-      "type": "vless",
-      "server": "201.51.2.115",
-      "port": 443,
-      "uuid": "8871d6a1-85cf-4588-b6f5-830043781ee9",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 77.111.101.80:443",
       "type": "vless",
       "server": "77.111.101.80",
@@ -443,6 +461,9 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 31.97.64.102:3443",
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 46.202.148.138:3443",
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.2.115:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 199.232.15.13:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.115:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 199.232.12.41:443",
@@ -470,7 +491,6 @@
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.253:8880",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.30:8880",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.98:443",
-        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.2.115:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 77.111.101.80:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.3:8880",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 20.201.12.45:1998",
