@@ -8,22 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 114.25.11.56:50099",
-      "type": "ss",
-      "server": "114.25.11.56",
-      "port": 50099,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 36.224.147.24:50099",
-      "type": "ss",
-      "server": "36.224.147.24",
-      "port": 50099,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 36.230.59.142:50099",
       "type": "ss",
       "server": "36.230.59.142",
@@ -52,6 +36,14 @@
       "type": "ss",
       "server": "46.249.109.128",
       "port": 56594,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 36.224.147.24:50099",
+      "type": "ss",
+      "server": "36.224.147.24",
+      "port": 50099,
       "cipher": "auto",
       "password": ""
     },
@@ -1250,6 +1242,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF9\uD83C\uDDFC Taiwan - VLESS 114.41.19.138:25454",
+      "type": "vless",
+      "server": "114.41.19.138",
+      "port": 25454,
+      "uuid": "cfd0c8cc-d7b7-42b5-8b3f-7b07923c1456",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 59.125.62.188:2377",
       "type": "ss",
       "server": "59.125.62.188",
@@ -1327,12 +1328,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 114.25.11.56:50099",
-        "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 36.224.147.24:50099",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 36.230.59.142:50099",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 36.224.128.4:50099",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 61.231.11.137:50099",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 46.249.109.128:56594",
+        "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 36.224.147.24:50099",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - VLESS 188.253.6.249:443",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - VLESS 213.210.4.19:443",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - VLESS 82.152.91.210:443",
@@ -1508,6 +1508,7 @@
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - HY2 60.249.35.94:3074",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - HY2 60.249.35.95:3074",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - HY2 60.249.35.96:3074",
+        "\uD83C\uDDF9\uD83C\uDDFC Taiwan - VLESS 114.41.19.138:25454",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 59.125.62.188:2377",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 59.125.62.189:2377",
         "\uD83C\uDDF9\uD83C\uDDFC Taiwan - SS 59.125.62.191:2377",
