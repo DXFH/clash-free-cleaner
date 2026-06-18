@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 185.164.35.37:443",
-      "type": "vless",
-      "server": "185.164.35.37",
-      "port": 443,
-      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 77.74.228.247:8880",
       "type": "vless",
       "server": "77.74.228.247",
@@ -24,6 +15,15 @@
       "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 185.164.35.37:443",
+      "type": "vless",
+      "server": "185.164.35.37",
+      "port": 443,
+      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 77.74.228.138:2096",
@@ -115,8 +115,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 185.164.35.37:443",
         "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 77.74.228.247:8880",
+        "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 185.164.35.37:443",
         "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 77.74.228.138:2096",
         "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 77.74.228.30:8880",
         "\uD83C\uDDE7\uD83C\uDDE6 Bosnia and Herzegovina - VLESS 77.74.228.97:2087",
