@@ -8,6 +8,24 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.143:2053",
+      "type": "vless",
+      "server": "193.202.11.143",
+      "port": 2053,
+      "uuid": "ca428a2e-7f82-4030-851b-cab731a5645a",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.143:7443",
+      "type": "vless",
+      "server": "193.202.11.143",
+      "port": 7443,
+      "uuid": "ca428a2e-7f82-4030-851b-cab731a5645a",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.204.119:443",
       "type": "vless",
       "server": "45.140.204.119",
@@ -87,15 +105,6 @@
       "uuid": "4db2d7bf-c88d-4fdf-85f8-154c05202dc9",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.143:7443",
-      "type": "vless",
-      "server": "193.202.11.143",
-      "port": 7443,
-      "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 64.177.68.199:443",
@@ -185,14 +194,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 64.176.166.143:443",
-      "type": "ss",
-      "server": "64.176.166.143",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 192.71.27.87:989",
       "type": "ss",
       "server": "192.71.27.87",
@@ -230,6 +231,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.143:2053",
+        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.143:7443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.204.119:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.204.121:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.203.10.86:443",
@@ -239,7 +242,6 @@
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 80.178.58.56:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 64.176.166.143:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 185.239.48.109:443",
-        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.11.143:7443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 64.177.68.199:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.10.86:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 45.140.204.198:20048",
@@ -250,7 +252,6 @@
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 31.133.100.49:50004",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 212.199.61.55:8389",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 193.202.10.47:2443",
-        "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 64.176.166.143:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 192.71.27.87:989",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 193.182.144.240:989",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 185.239.48.109:8388",
