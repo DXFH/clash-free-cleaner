@@ -25,6 +25,15 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 81.177.213.232:1020",
+      "type": "vless",
+      "server": "81.177.213.232",
+      "port": 1020,
+      "uuid": "42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.150.111.18:1020",
       "type": "vless",
       "server": "45.150.111.18",
@@ -48,15 +57,6 @@
       "server": "185.148.147.27",
       "port": 1443,
       "uuid": "f68435e2-ac00-4374-8c03-c1d36e171088",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 81.177.213.232:1020",
-      "type": "vless",
-      "server": "81.177.213.232",
-      "port": 1020,
-      "uuid": "42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -1216,6 +1216,24 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.36.59:443",
+      "type": "vless",
+      "server": "95.164.36.59",
+      "port": 443,
+      "uuid": "ecf605cd-bddf-45db-a3d4-a254c776ef52",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 46.253.4.25:443",
+      "type": "vless",
+      "server": "46.253.4.25",
+      "port": 443,
+      "uuid": "11640749066945cc87b15cebb0f13ecf",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 147.78.140.20:8880",
       "type": "vless",
       "server": "147.78.140.20",
@@ -1223,6 +1241,22 @@
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 95.164.68.37:443",
+      "type": "ss",
+      "server": "95.164.68.37",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 81.177.213.232:1020",
+      "type": "ss",
+      "server": "81.177.213.232",
+      "port": 1020,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -1232,10 +1266,10 @@
       "proxies": [
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 94.156.155.234:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 81.161.229.170:2087",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 81.177.213.232:1020",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 45.150.111.18:1020",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 87.229.34.23:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 185.148.147.27:1443",
-        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 81.177.213.232:1020",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.6.149:8880",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.8.12:443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.117.128:8880",
@@ -1370,7 +1404,11 @@
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - TROJAN 95.164.113.96:9443",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 95.164.113.153:5669",
         "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 95.164.113.198:53829",
-        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 147.78.140.20:8880"
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 95.164.36.59:443",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 46.253.4.25:443",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - VLESS 147.78.140.20:8880",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 95.164.68.37:443",
+        "\uD83C\uDDE7\uD83C\uDDEC Bulgaria - SS 81.177.213.232:1020"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
