@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 149.33.31.115:14302",
+      "type": "vless",
+      "server": "149.33.31.115",
+      "port": 14302,
+      "uuid": "1dd5f2be-f124-4f35-9239-8abc042829c2",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 38.180.100.80:443",
       "type": "vless",
       "server": "38.180.100.80",
@@ -69,15 +78,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 149.33.31.115:14302",
-      "type": "vless",
-      "server": "149.33.31.115",
-      "port": 14302,
-      "uuid": "1dd5f2be-f124-4f35-9239-8abc042829c2",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 194.71.126.31:989",
       "type": "ss",
       "server": "194.71.126.31",
@@ -91,6 +91,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 149.33.31.115:14302",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 38.180.100.80:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 87.121.38.57:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 38.180.101.65:443",
@@ -98,7 +99,6 @@
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 38.180.17.232:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - TROJAN 185.48.251.29:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 152.89.160.115:33992",
-        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 149.33.31.115:14302",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 194.71.126.31:989"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
