@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 45.133.234.113:8443",
-      "type": "vless",
-      "server": "45.133.234.113",
-      "port": 8443,
-      "uuid": "2cb4c8ff-7eac-445a-b922-2d4eddce356d",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 109.248.170.119:13447",
       "type": "vless",
       "server": "109.248.170.119",
@@ -61,15 +52,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 77.73.232.61:19747",
-      "type": "vless",
-      "server": "77.73.232.61",
-      "port": 19747,
-      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 212.111.84.187:8443",
       "type": "vless",
       "server": "212.111.84.187",
@@ -84,6 +66,15 @@
       "server": "194.76.18.189",
       "port": 443,
       "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 77.73.232.61:19747",
+      "type": "vless",
+      "server": "77.73.232.61",
+      "port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
       "tls": true,
       "flow": ""
     },
@@ -367,6 +358,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.218.140.27:443",
+      "type": "vless",
+      "server": "91.218.140.27",
+      "port": 443,
+      "uuid": "132160b1-214f-41f3-9442-eeeb32250df1",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.111:8443",
       "type": "vless",
       "server": "31.43.179.111",
@@ -500,6 +500,15 @@
       "uuid": "292264e9-1fa3-43a5-a9d5-3f0fb748b6fd",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 45.133.234.113:8443",
+      "type": "vless",
+      "server": "45.133.234.113",
+      "port": 8443,
+      "uuid": "2cb4c8ff-7eac-445a-b922-2d4eddce356d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 185.176.26.2:443",
@@ -1167,20 +1176,20 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 151.236.93.248:443",
-      "type": "vless",
-      "server": "151.236.93.248",
-      "port": 443,
-      "uuid": "5784cae3-d370-4164-8420-92a24097c344",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.224.74.203:47011",
       "type": "vless",
       "server": "91.224.74.203",
       "port": 47011,
       "uuid": "6916b333-7349-4551-b0c4-1c14659ed7ce",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 151.236.93.248:443",
+      "type": "vless",
+      "server": "151.236.93.248",
+      "port": 443,
+      "uuid": "5784cae3-d370-4164-8420-92a24097c344",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -1207,15 +1216,6 @@
       "port": 35728,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.218.140.27:443",
-      "type": "vless",
-      "server": "91.218.140.27",
-      "port": 443,
-      "uuid": "132160b1-214f-41f3-9442-eeeb32250df1",
-      "tls": true,
-      "flow": "xtls-rprx-vision#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%2C%20Astana%20%7C%20%5BBL%5D"
     },
     {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 213.156.137.142:43659",
@@ -1503,15 +1503,14 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 45.133.234.113:8443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 109.248.170.119:13447",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - TROJAN 45.82.14.144:2025",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 178.236.16.98:35728",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 83.222.23.81:38065",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 38.180.39.171:443",
-        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 77.73.232.61:19747",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 212.111.84.187:8443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 194.76.18.189:443",
+        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 77.73.232.61:19747",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.147.92.153:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.29:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 185.176.26.242:443",
@@ -1543,6 +1542,7 @@
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.111:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 83.222.23.242:8443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 212.111.84.82:443",
+        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.218.140.27:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.111:8443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 185.136.12.9:2040",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 194.76.18.109:2082",
@@ -1558,6 +1558,7 @@
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.224.74.54:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.111:2053",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 194.76.18.95:2096",
+        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 45.133.234.113:8443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 185.176.26.2:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 185.176.26.254:8880",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 80.90.182.93:443",
@@ -1632,12 +1633,11 @@
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 194.76.18.1:2087",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 188.94.156.6:20",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 212.111.84.82:8443",
-        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 151.236.93.248:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.224.74.203:47011",
+        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 151.236.93.248:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 94.198.220.183:64674",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 38.107.234.38:57456",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 178.236.16.98:35728",
-        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 91.218.140.27:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 213.156.137.142:43659",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 213.156.137.142:43660",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 213.156.137.67:989",
