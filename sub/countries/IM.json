@@ -8,20 +8,20 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.21:2052",
-      "type": "vless",
-      "server": "185.162.229.21",
-      "port": 2052,
-      "uuid": "42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.231.186:2087",
       "type": "vless",
       "server": "185.162.231.186",
       "port": 2087,
       "uuid": "31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.21:2052",
+      "type": "vless",
+      "server": "185.162.229.21",
+      "port": 2052,
+      "uuid": "42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd",
       "tls": true,
       "flow": ""
     },
@@ -49,15 +49,6 @@
       "server": "185.162.231.213",
       "port": 8880,
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.228.140:80",
-      "type": "vless",
-      "server": "185.162.228.140",
-      "port": 80,
-      "uuid": "f9255507-1b65-433f-bfd8-193b35e068e2",
       "tls": true,
       "flow": ""
     },
@@ -224,6 +215,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.228.140:80",
+      "type": "vless",
+      "server": "185.162.228.140",
+      "port": 80,
+      "uuid": "f9255507-1b65-433f-bfd8-193b35e068e2",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.231.140:80",
       "type": "vless",
       "server": "185.162.231.140",
@@ -299,6 +299,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - SS 185.162.229.21:2052",
+      "type": "ss",
+      "server": "185.162.229.21",
+      "port": 2052,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - SS 185.162.230.138:2096",
       "type": "ss",
       "server": "185.162.230.138",
@@ -320,12 +328,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.21:2052",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.231.186:2087",
+        "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.21:2052",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.228.3:80",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.50:8880",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.231.213:8880",
-        "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.228.140:80",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.238:443",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.231.148:2096",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.228.21:2052",
@@ -344,6 +351,7 @@
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.230.30:8880",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.231.138:2096",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.253:2053",
+        "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.228.140:80",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.231.140:80",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - SS 86.38.4.73:8881",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - TROJAN 185.162.228.14:443",
@@ -353,6 +361,7 @@
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.238:2096",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - VLESS 185.162.229.212:80",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - SS 185.162.229.185:80",
+        "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - SS 185.162.229.21:2052",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - SS 185.162.230.138:2096",
         "\uD83C\uDDEE\uD83C\uDDF2 Isle of Man - SS 185.162.231.138:2096"
       ],
