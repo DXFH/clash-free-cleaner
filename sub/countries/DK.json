@@ -8,20 +8,20 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:443",
-      "type": "vless",
-      "server": "46.29.235.172",
-      "port": 443,
-      "uuid": "1f00422b-0ce2-44da-a526-934fbcef2a9a",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:8443",
       "type": "vless",
       "server": "46.29.235.172",
       "port": 8443,
       "uuid": "285eacec-5433-4bb0-ad34-4fbea6c79ea1",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:443",
+      "type": "vless",
+      "server": "46.29.235.172",
+      "port": 443,
+      "uuid": "1f00422b-0ce2-44da-a526-934fbcef2a9a",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -147,18 +147,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 91.210.57.117:8443",
-      "type": "ss",
-      "server": "91.210.57.117",
-      "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
       "type": "ss",
       "server": "192.36.27.116",
       "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 91.210.57.117:8443",
+      "type": "ss",
+      "server": "91.210.57.117",
+      "port": 8443,
       "cipher": "auto",
       "password": ""
     },
@@ -235,15 +235,6 @@
       "port": 44539,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.51:8443",
-      "type": "vless",
-      "server": "46.29.235.51",
-      "port": 8443,
-      "uuid": "5eda9743-1674-4cde-adee-aae5d2cb363b",
-      "tls": true,
-      "flow": ""
     }
   ],
   "proxy_groups": [
@@ -251,8 +242,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:8443",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.215.69:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.181.214.98:2083",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 89.28.236.192:8443",
@@ -267,8 +258,8 @@
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.197:38742",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 91.210.57.117:8443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 91.210.57.117:8443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 77.37.96.132:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 77.37.96.247:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 46.29.235.31:2053",
@@ -277,8 +268,7 @@
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 140.248.69.255:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 104.22.70.106:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 104.22.71.106:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.181:44539",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.51:8443"
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.181:44539"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
