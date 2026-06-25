@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.1.108:40443",
-      "type": "vless",
-      "server": "201.51.1.108",
-      "port": 40443,
-      "uuid": "c9d13457-0578-4414-a830-f29244a6f711",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.140:80",
       "type": "vless",
       "server": "185.133.35.140",
@@ -24,6 +15,15 @@
       "uuid": "f9255507-1b65-433f-bfd8-193b35e068e2",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.1.108:40443",
+      "type": "vless",
+      "server": "201.51.1.108",
+      "port": 40443,
+      "uuid": "c9d13457-0578-4414-a830-f29244a6f711",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 199.232.15.13:443",
@@ -177,6 +177,24 @@
       "uuid": "33426a94-bf47-426c-a421-6dcc2cca0fe3",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.4.103:443",
+      "type": "vless",
+      "server": "201.51.4.103",
+      "port": 443,
+      "uuid": "33de2596-d95d-412b-a8c2-410be7060ca3",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.5.207:443",
+      "type": "vless",
+      "server": "201.51.5.207",
+      "port": 443,
+      "uuid": "33de2596-d95d-412b-a8c2-410be7060ca3",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.254:8880",
@@ -355,6 +373,15 @@
       "server": "185.133.35.3",
       "port": 8880,
       "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.6.180:443",
+      "type": "vless",
+      "server": "201.51.6.180",
+      "port": 443,
+      "uuid": "ded3638e-ab7f-4ff8-bc60-9fc6666cff22",
       "tls": true,
       "flow": ""
     },
@@ -559,6 +586,14 @@
       "port": 443,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 185.133.35.140:80",
+      "type": "ss",
+      "server": "185.133.35.140",
+      "port": 80,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -566,8 +601,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.1.108:40443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.140:80",
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.1.108:40443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 199.232.15.13:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.115:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 199.232.12.41:443",
@@ -585,6 +620,8 @@
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 95.164.4.88:8443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 199.232.15.225:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 92.223.12.4:80",
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.4.103:443",
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.5.207:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.254:8880",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 216.238.110.198:8443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 94.131.19.19:2053",
@@ -605,6 +642,7 @@
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.2.115:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 77.111.101.80:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 185.133.35.3:8880",
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 201.51.6.180:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 31.97.64.102:3443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - VLESS 46.202.148.138:3443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 20.201.12.45:1998",
@@ -639,7 +677,8 @@
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - HY2 168.75.65.36:60800",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 185.133.35.242:443",
         "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 38.54.57.90:990",
-        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 92.246.129.157:443"
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 92.246.129.157:443",
+        "\uD83C\uDDE7\uD83C\uDDF7 Brazil - SS 185.133.35.140:80"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
