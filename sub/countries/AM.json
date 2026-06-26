@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 185.202.113.123:80",
-      "type": "vless",
-      "server": "185.202.113.123",
-      "port": 80,
-      "uuid": "c5f8bbb1-a4ea-4d2b-9f63-3d5a95e5832d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 77.91.68.70:55983",
       "type": "vless",
       "server": "77.91.68.70",
@@ -296,6 +287,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 185.202.113.123:80",
+      "type": "vless",
+      "server": "185.202.113.123",
+      "port": 80,
+      "uuid": "c5f8bbb1-a4ea-4d2b-9f63-3d5a95e5832d",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 85.90.207.129:443",
       "type": "vless",
       "server": "85.90.207.129",
@@ -367,6 +367,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 146.185.248.22:989",
+      "type": "ss",
+      "server": "146.185.248.22",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.183:54300",
       "type": "ss",
       "server": "85.90.207.183",
@@ -403,14 +411,6 @@
       "type": "ss",
       "server": "2.56.207.150",
       "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 146.185.248.22:989",
-      "type": "ss",
-      "server": "146.185.248.22",
-      "port": 989,
       "cipher": "auto",
       "password": ""
     },
@@ -640,14 +640,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.152:23009",
-      "type": "ss",
-      "server": "85.90.207.152",
-      "port": 23009,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 185.202.113.123:80",
       "type": "ss",
       "server": "185.202.113.123",
@@ -661,7 +653,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 185.202.113.123:80",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 77.91.68.70:55983",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 85.90.207.152:23009",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 188.164.159.178:2053",
@@ -693,6 +684,7 @@
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 77.105.163.187:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 77.105.163.13:8880",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 93.115.240.74:15500",
+        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 185.202.113.123:80",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 85.90.207.129:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 85.90.207.59:55627",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 85.90.207.183:54400",
@@ -701,12 +693,12 @@
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 188.164.158.168:8880",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 85.90.207.130:56551",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.104:18791",
+        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 146.185.248.22:989",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.183:54300",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 93.115.240.88:20000",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.130:16635",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 92.223.2.119:13065",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 2.56.207.150:8443",
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 146.185.248.22:989",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.183:54400",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.130:56551",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 185.202.113.8:2087",
@@ -736,7 +728,6 @@
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 2.56.204.246:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 188.164.158.138:2096",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - HY2 45.129.185.4:443",
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 85.90.207.152:23009",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 185.202.113.123:80"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
