@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.29.53:8443",
-      "type": "vless",
-      "server": "81.90.29.53",
-      "port": 8443,
-      "uuid": "cf038a28-8f85-41fc-9e86-ba99a3fdd0d9",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - TROJAN 130.94.97.33:443",
       "type": "trojan",
       "server": "130.94.97.33",
@@ -124,6 +115,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.29.53:8443",
+      "type": "vless",
+      "server": "81.90.29.53",
+      "port": 8443,
+      "uuid": "cf038a28-8f85-41fc-9e86-ba99a3fdd0d9",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.57.112:443",
       "type": "vless",
       "server": "178.17.57.112",
@@ -188,7 +188,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.29.53:8443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - TROJAN 130.94.97.33:443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.25.240:48815",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.51.134:443",
@@ -201,6 +200,7 @@
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.50.244:443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.25.255:443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.29.137:443",
+        "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 81.90.29.53:8443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.57.112:443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - VLESS 178.17.57.96:443",
         "\uD83C\uDDEE\uD83C\uDDF6 Iraq - SS 81.90.29.126:53672",

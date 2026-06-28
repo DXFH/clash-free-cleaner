@@ -8,9 +8,26 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.187:443",
+      "type": "vless",
+      "server": "45.207.34.187",
+      "port": 443,
+      "uuid": "60300afa-3366-4ae3-959a-7b50438acebb",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - SS 45.64.22.9:443",
       "type": "ss",
       "server": "45.64.22.9",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - SS 45.207.34.187:443",
+      "type": "ss",
+      "server": "45.207.34.187",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -28,7 +45,7 @@
       "type": "trojan",
       "server": "45.64.22.55",
       "port": 443,
-      "password": "F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0",
+      "password": "xSYy8KOpEyOjgaNFCeC3a72DS6wBAcz90pDZRRSXnxquIFZlT5433ClYD38aeA",
       "tls": true
     },
     {
@@ -46,15 +63,6 @@
       "port": 443,
       "password": "14bdba6dede262387ebdebaa706e1c90",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.187:443",
-      "type": "vless",
-      "server": "45.207.34.187",
-      "port": 443,
-      "uuid": "60300afa-3366-4ae3-959a-7b50438acebb",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -62,12 +70,13 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.187:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - SS 45.64.22.9:443",
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - SS 45.207.34.187:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.56:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.55:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.23:443",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.41:443",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.187:443"
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.41:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
