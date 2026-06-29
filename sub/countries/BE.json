@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:8443",
-      "type": "vless",
-      "server": "109.69.218.217",
-      "port": 8443,
-      "uuid": "7d14f1cf-3740-4fbd-a31c-6f7d078f97d7",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 151.101.9.242:443",
       "type": "trojan",
       "server": "151.101.9.242",
@@ -46,6 +37,15 @@
       "server": "9.160.153.13",
       "port": 443,
       "uuid": "3da8ec10-c083-45b4-9c42-2ce3c5128f82",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:8443",
+      "type": "vless",
+      "server": "109.69.218.217",
+      "port": 8443,
+      "uuid": "7d14f1cf-3740-4fbd-a31c-6f7d078f97d7",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -466,6 +466,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 94.126.225.96:443",
+      "type": "trojan",
+      "server": "94.126.225.96",
+      "port": 443,
+      "password": "JaFKnqNcvnBT63t3rquidGsln",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 151.101.10.10:80",
       "type": "trojan",
       "server": "151.101.10.10",
@@ -479,11 +487,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:8443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 151.101.9.242:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 151.101.8.8:80",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 151.101.9.9:80",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 9.160.153.13:443",
+        "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:8443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 188.95.12.110:8080",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 34.22.142.117:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.8.151:80",
@@ -532,6 +540,7 @@
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 192.71.249.78:989",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 192.71.249.108:989",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 192.71.249.71:989",
+        "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 94.126.225.96:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - TROJAN 151.101.10.10:80"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
