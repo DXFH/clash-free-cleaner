@@ -8,20 +8,11 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 152.70.72.249:80",
-      "type": "vless",
-      "server": "152.70.72.249",
-      "port": 80,
-      "uuid": "d8dabd75-ae26-4c27-993e-75a00ff72185",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 138.252.100.85:32351",
       "type": "vless",
       "server": "138.252.100.85",
       "port": 32351,
-      "uuid": "249b3d88-f54d-482c-a42c-232f7aad3f7e",
+      "uuid": "1863c4e7-7b7c-433f-8b0a-88b0f3db2d2c",
       "tls": true,
       "flow": ""
     },
@@ -484,6 +475,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 152.70.72.249:80",
+      "type": "vless",
+      "server": "152.70.72.249",
+      "port": 80,
+      "uuid": "d8dabd75-ae26-4c27-993e-75a00ff72185",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 172.105.57.184:2321",
       "type": "vless",
       "server": "172.105.57.184",
@@ -593,14 +593,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - SS 148.113.3.55:404",
-      "type": "ss",
-      "server": "148.113.3.55",
-      "port": 404,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF3 India - SS 103.111.114.80:28061",
       "type": "ss",
       "server": "103.111.114.80",
@@ -626,11 +618,35 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - SS 43.204.29.0:805",
+      "type": "ss",
+      "server": "43.204.29.0",
+      "port": 805,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 159.65.147.91:443",
+      "type": "trojan",
+      "server": "159.65.147.91",
+      "port": 443,
+      "password": "265f092f-418b-30c9-a479-4800fd44dd19mielink",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.67.160.174:443",
       "type": "trojan",
       "server": "152.67.160.174",
       "port": 443,
       "password": "54080134-2cba-4535-8599-95650bd9aa54",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.67.162.166:443",
+      "type": "trojan",
+      "server": "152.67.162.166",
+      "port": 443,
+      "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
       "tls": true
     },
     {
@@ -642,10 +658,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - SS 43.204.29.0:805",
+      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - SS 148.113.3.55:404",
       "type": "ss",
-      "server": "43.204.29.0",
-      "port": 805,
+      "server": "148.113.3.55",
+      "port": 404,
       "cipher": "auto",
       "password": ""
     },
@@ -696,14 +712,6 @@
       "port": 5601,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 159.65.147.91:443",
-      "type": "trojan",
-      "server": "159.65.147.91",
-      "port": 443,
-      "password": "265f092f-418b-30c9-a479-4800fd44dd19mielink",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 185.67.125.147:443",
@@ -882,14 +890,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.67.162.166:443",
-      "type": "trojan",
-      "server": "152.67.162.166",
-      "port": 443,
-      "password": "e05c749b-7c6b-41b8-9c71-9dcf685edf4a",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 13.200.192.197:443",
       "type": "trojan",
       "server": "13.200.192.197",
@@ -986,7 +986,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 152.70.72.249:80",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 138.252.100.85:32351",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 138.252.100.85:33659",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 138.252.100.85:19643",
@@ -1039,6 +1038,7 @@
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 104.65.83.77:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 187.124.98.130:3443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 172.69.178.43:443",
+        "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 152.70.72.249:80",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 172.105.57.184:2321",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 172.105.57.206:13948",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 172.69.178.43:2053",
@@ -1052,22 +1052,23 @@
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 172.105.54.131:6697",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 169.38.107.52:8389",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 82.180.146.173:30607",
-        "\uD83C\uDDEE\uD83C\uDDF3 India - SS 148.113.3.55:404",
         "\uD83C\uDDEE\uD83C\uDDF3 India - HYSTERIA2 139.59.94.41:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 103.111.114.80:28061",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.67.190.183:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - VLESS 148.135.136.95:58888",
+        "\uD83C\uDDEE\uD83C\uDDF3 India - SS 43.204.29.0:805",
+        "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 159.65.147.91:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.67.160.174:443",
+        "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.67.162.166:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - HYSTERIA2 140.245.27.220:51000",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 64.227.183.64:55305",
-        "\uD83C\uDDEE\uD83C\uDDF3 India - SS 43.204.29.0:805",
+        "\uD83C\uDDEE\uD83C\uDDF3 India - SS 148.113.3.55:404",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 64.227.144.190:50690",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 103.174.86.114:51348",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 134.209.147.198:990",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 3.111.137.132:53223",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 13.201.33.249:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - SS 45.79.121.117:5601",
-        "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 159.65.147.91:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 185.67.125.147:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 185.67.125.177:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 185.67.125.78:443",
@@ -1090,7 +1091,6 @@
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 199.232.105.242:80",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 65.20.90.225:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.70.74.66:443",
-        "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 152.67.162.166:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 13.200.192.197:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 43.205.45.56:443",
         "\uD83C\uDDEE\uD83C\uDDF3 India - TROJAN 20.235.105.146:443",
