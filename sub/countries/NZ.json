@@ -17,15 +17,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.123:443",
-      "type": "vless",
-      "server": "114.129.43.123",
-      "port": 443,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.251:8880",
       "type": "vless",
       "server": "114.129.43.251",
@@ -40,6 +31,15 @@
       "server": "202.37.33.80",
       "port": 443,
       "uuid": "06df48c8-854b-408b-bbc7-265adb870d40",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.123:443",
+      "type": "vless",
+      "server": "114.129.43.123",
+      "port": 443,
+      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
       "tls": true,
       "flow": ""
     },
@@ -114,6 +114,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 103.208.85.4:443",
+      "type": "trojan",
+      "server": "103.208.85.4",
+      "port": 443,
+      "password": "EbsKv_weudqnr7-Zfld6F06M8HzO671%2B9c",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 151.101.165.242:443",
       "type": "trojan",
       "server": "151.101.165.242",
@@ -177,14 +185,6 @@
       "port": 443,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 114.129.43.29:8880",
-      "type": "ss",
-      "server": "114.129.43.29",
-      "port": 8880,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -193,9 +193,9 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.81:443",
-        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.123:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.251:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 202.37.33.80:443",
+        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.123:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.30:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.151:2087",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.151:443",
@@ -204,6 +204,7 @@
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.168:8880",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 202.37.33.80:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.81:443",
+        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 103.208.85.4:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 151.101.165.242:443",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 151.101.166.166:80",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 151.101.233.233:80",
@@ -211,8 +212,7 @@
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - TROJAN 151.101.235.235:80",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - VLESS 114.129.43.238:2096",
         "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 114.129.43.238:2096",
-        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.80:443",
-        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 114.129.43.29:8880"
+        "\uD83C\uDDF3\uD83C\uDDFF New Zealand - SS 202.37.33.80:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
