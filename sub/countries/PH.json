@@ -17,6 +17,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.10.31:8443",
+      "type": "vless",
+      "server": "61.245.10.31",
+      "port": 8443,
+      "uuid": "497631c4-a1a4-0097-a86a-f42873473bb6",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.227:80",
       "type": "vless",
       "server": "61.245.11.227",
@@ -42,15 +51,6 @@
       "uuid": "f091e103-4016-4bcf-84b3-6a52e51bb863",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.10.31:8443",
-      "type": "vless",
-      "server": "61.245.10.31",
-      "port": 8443,
-      "uuid": "497631c4-a1a4-0097-a86a-f42873473bb6",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -59,10 +59,10 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 1.37.77.220:80",
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.10.31:8443",
         "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.227:80",
         "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.151:10939",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.126:443",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.10.31:8443"
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.126:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
