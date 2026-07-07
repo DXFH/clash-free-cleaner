@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 38.54.33.177:28722",
-      "type": "vless",
-      "server": "38.54.33.177",
-      "port": 28722,
-      "uuid": "ec5d6408-23f6-4a78-ad39-7237ff366469",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 116.206.124.228:80",
       "type": "vless",
       "server": "116.206.124.228",
@@ -49,15 +40,6 @@
       "server": "157.254.192.20",
       "port": 443,
       "uuid": "00000000-0000-4000-8000-000000000000",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 124.156.241.190:443",
-      "type": "vless",
-      "server": "124.156.241.190",
-      "port": 443,
-      "uuid": "03d73bc8-01a9-46a7-90b9-3d27065ed328",
       "tls": true,
       "flow": ""
     },
@@ -134,25 +116,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.164.1.152:666",
-      "type": "vless",
-      "server": "43.164.1.152",
-      "port": 666,
-      "uuid": "8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VMESS 8.213.234.2:1080",
-      "type": "vmess",
-      "server": "8.213.234.2",
-      "port": 1080,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 27.131.164.85:47121",
       "type": "ss",
       "server": "27.131.164.85",
@@ -169,17 +132,34 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 45.144.165.11:80",
-      "type": "ss",
-      "server": "45.144.165.11",
-      "port": 80,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 38.54.33.177:28722",
+      "type": "vless",
+      "server": "38.54.33.177",
+      "port": 28722,
+      "uuid": "ec5d6408-23f6-4a78-ad39-7237ff366469",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 116.206.124.228:80",
       "type": "ss",
       "server": "116.206.124.228",
+      "port": 80,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 116.206.124.41:34045",
+      "type": "ss",
+      "server": "116.206.124.41",
+      "port": 34045,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 45.144.165.11:80",
+      "type": "ss",
+      "server": "45.144.165.11",
       "port": 80,
       "cipher": "auto",
       "password": ""
@@ -241,9 +221,27 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 124.156.241.190:443",
+      "type": "vless",
+      "server": "124.156.241.190",
+      "port": 443,
+      "uuid": "03d73bc8-01a9-46a7-90b9-3d27065ed328",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.164.0.59:666",
       "type": "vless",
       "server": "43.164.0.59",
+      "port": 666,
+      "uuid": "8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.164.1.152:666",
+      "type": "vless",
+      "server": "43.164.1.152",
       "port": 666,
       "uuid": "8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19",
       "tls": true,
@@ -255,6 +253,34 @@
       "server": "43.164.1.238",
       "port": 666,
       "uuid": "8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VMESS 8.213.234.2:1080",
+      "type": "vmess",
+      "server": "8.213.234.2",
+      "port": 1080,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 168.222.21.218:443",
+      "type": "vless",
+      "server": "168.222.21.218",
+      "port": 443,
+      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.249.33.117:443",
+      "type": "vless",
+      "server": "43.249.33.117",
+      "port": 443,
+      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
       "tls": true,
       "flow": ""
     },
@@ -289,6 +315,14 @@
       "port": 1080,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 47.87.65.216:443",
+      "type": "ss",
+      "server": "47.87.65.216",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -296,12 +330,10 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 38.54.33.177:28722",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 116.206.124.228:80",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 45.144.165.11:80",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 143.14.11.61:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 157.254.192.20:443",
-        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 124.156.241.190:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 103.40.119.29:39738",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.208.252.102:22222",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 47.81.12.38:443",
@@ -310,12 +342,12 @@
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 47.81.36.248:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 47.81.39.100:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 47.87.65.216:443",
-        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.164.1.152:666",
-        "\uD83C\uDDF9\uD83C\uDDED Thailand - VMESS 8.213.234.2:1080",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 27.131.164.85:47121",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 43.254.132.220:989",
-        "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 45.144.165.11:80",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 38.54.33.177:28722",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 116.206.124.228:80",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 116.206.124.41:34045",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 45.144.165.11:80",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 119.59.98.58:990",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - TROJAN 141.98.18.14:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - TROJAN 43.249.33.117:443",
@@ -323,13 +355,19 @@
         "\uD83C\uDDF9\uD83C\uDDED Thailand - TROJAN 45.91.134.91:2053",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - TROJAN 203.159.92.232:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - TROJAN 15.220.240.255:443",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 124.156.241.190:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.164.0.59:666",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.164.1.152:666",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.164.1.238:666",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - VMESS 8.213.234.2:1080",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - HY2 47.81.8.60:7788",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 168.222.21.218:443",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - VLESS 43.249.33.117:443",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 119.59.127.129:990",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 102.129.229.85:31700",
         "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 38.54.33.47:990",
-        "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 8.213.234.2:1080"
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 8.213.234.2:1080",
+        "\uD83C\uDDF9\uD83C\uDDED Thailand - SS 47.87.65.216:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
