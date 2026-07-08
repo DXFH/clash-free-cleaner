@@ -8,6 +8,16 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 193.36.84.146:6281",
+      "type": "vmess",
+      "server": "193.36.84.146",
+      "port": 6281,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 192.243.124.25:27763",
       "type": "vmess",
       "server": "192.243.124.25",
@@ -188,40 +198,10 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDED Thailand - VMESS 8.213.234.2:1080",
-      "type": "vmess",
-      "server": "8.213.234.2",
-      "port": 1080,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF3\uD83C\uDDF1 The Netherlands - VMESS 51.136.162.7:11439",
-      "type": "vmess",
-      "server": "51.136.162.7",
-      "port": 11439,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - VMESS 45.85.118.88:443",
       "type": "vmess",
       "server": "45.85.118.88",
       "port": 443,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - VMESS 182.151.11.238:19206",
-      "type": "vmess",
-      "server": "182.151.11.238",
-      "port": 19206,
       "uuid": "",
       "alterId": 0,
       "cipher": "auto",
@@ -242,6 +222,26 @@
       "type": "vmess",
       "server": "3.231.25.139",
       "port": 22222,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - VMESS 182.151.11.238:19206",
+      "type": "vmess",
+      "server": "182.151.11.238",
+      "port": 19206,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDF1 The Netherlands - VMESS 51.136.162.7:11439",
+      "type": "vmess",
+      "server": "51.136.162.7",
+      "port": 11439,
       "uuid": "",
       "alterId": 0,
       "cipher": "auto",
@@ -3173,6 +3173,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 193.36.84.146:6281",
         "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 192.243.124.25:27763",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VMESS 48.193.46.7:30833",
         "\uD83C\uDDEB\uD83C\uDDF7 France - VMESS 51.195.91.135:10000",
@@ -3191,12 +3192,11 @@
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VMESS 158.101.229.162:15227",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 51.81.202.62:80",
         "\uD83C\uDDF8\uD83C\uDDEC Singapore - VMESS 143.198.219.182:80",
-        "\uD83C\uDDF9\uD83C\uDDED Thailand - VMESS 8.213.234.2:1080",
-        "\uD83C\uDDF3\uD83C\uDDF1 The Netherlands - VMESS 51.136.162.7:11439",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VMESS 45.85.118.88:443",
-        "\uD83C\uDDE8\uD83C\uDDF3 China - VMESS 182.151.11.238:19206",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 150.136.57.125:41106",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 3.231.25.139:22222",
+        "\uD83C\uDDE8\uD83C\uDDF3 China - VMESS 182.151.11.238:19206",
+        "\uD83C\uDDF3\uD83C\uDDF1 The Netherlands - VMESS 51.136.162.7:11439",
         "\uD83C\uDF0D Unknown - VMESS 104.16.72.41:2096",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VMESS 45.130.125.201:443",
         "\uD83C\uDF0D Unknown - VMESS 104.24.148.184:80",
