@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.30:8880",
-      "type": "vless",
-      "server": "45.135.235.30",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.247:8880",
       "type": "vless",
       "server": "45.135.235.247",
@@ -26,20 +17,11 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.123:443",
+      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.30:8880",
       "type": "vless",
-      "server": "45.135.235.123",
-      "port": 443,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.140:80",
-      "type": "vless",
-      "server": "45.135.235.140",
-      "port": 80,
-      "uuid": "f9255507-1b65-433f-bfd8-193b35e068e2",
+      "server": "45.135.235.30",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": ""
     },
@@ -58,6 +40,15 @@
       "port": 2096,
       "password": "ttfang",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.123:443",
+      "type": "vless",
+      "server": "45.135.235.123",
+      "port": 443,
+      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
+      "tls": true,
+      "flow": ""
     }
   ],
   "proxy_groups": [
@@ -65,12 +56,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.30:8880",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.247:8880",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.123:443",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.140:80",
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.30:8880",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.196:443",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.216:2096"
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.216:2096",
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.123:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
