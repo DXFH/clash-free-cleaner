@@ -25,15 +25,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.131.16.12:443",
-      "type": "vless",
-      "server": "94.131.16.12",
-      "port": 443,
-      "uuid": "63a16ebb-8687-42ac-972a-5914cafad1d5",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.174.209:8443",
       "type": "vless",
       "server": "94.241.174.209",
@@ -41,6 +32,15 @@
       "uuid": "3e16b4a3-bce1-47ee-8b9c-359343ae1876",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.131.16.12:443",
+      "type": "vless",
+      "server": "94.131.16.12",
+      "port": 443,
+      "uuid": "63a16ebb-8687-42ac-972a-5914cafad1d5",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 31.22.116.134:2096",
@@ -234,6 +234,14 @@
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEC\uD83C\uDDF7 Greece - SS 82.47.62.9:443",
+      "type": "ss",
+      "server": "82.47.62.9",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -243,8 +251,8 @@
       "proxies": [
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - TROJAN 185.126.238.84:443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 212.52.16.50:8443",
-        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.131.16.12:443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.241.174.209:8443",
+        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 94.131.16.12:443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 31.22.116.134:2096",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 31.22.116.216:2087",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 46.20.111.246:3035",
@@ -267,7 +275,8 @@
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - TROJAN 91.186.212.131:8443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - TROJAN 91.186.217.16:8443",
         "\uD83C\uDDEC\uD83C\uDDF7 Greece - TROJAN 185.126.238.78:443",
-        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 31.22.116.148:443"
+        "\uD83C\uDDEC\uD83C\uDDF7 Greece - VLESS 31.22.116.148:443",
+        "\uD83C\uDDEC\uD83C\uDDF7 Greece - SS 82.47.62.9:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
