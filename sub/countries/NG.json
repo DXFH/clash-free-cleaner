@@ -1,0 +1,90 @@
+{
+  "name": "FastNodes NG",
+  "port": 7890,
+  "socks_port": 7891,
+  "allow_lan": true,
+  "mode": "Rule",
+  "log_level": "info",
+  "external_controller": "127.0.0.1:9090",
+  "proxies": [
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 167.88.51.241:8443",
+      "type": "vless",
+      "server": "167.88.51.241",
+      "port": 8443,
+      "uuid": "497631c4-a1a4-006c-a86a-f42873473bb6",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.166:990",
+      "type": "ss",
+      "server": "185.255.123.166",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.110:990",
+      "type": "ss",
+      "server": "185.255.123.110",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 167.88.51.241:8443",
+      "type": "ss",
+      "server": "167.88.51.241",
+      "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 102.207.41.160:26974",
+      "type": "ss",
+      "server": "102.207.41.160",
+      "port": 26974,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 102.207.41.160:26974",
+      "type": "vless",
+      "server": "102.207.41.160",
+      "port": 26974,
+      "uuid": "ce5234e2-97b2-4c4b-bafb-6c467123bef3",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.90:989",
+      "type": "ss",
+      "server": "185.255.123.90",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    }
+  ],
+  "proxy_groups": [
+    {
+      "name": "AUTO",
+      "type": "url-test",
+      "proxies": [
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 167.88.51.241:8443",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.166:990",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.110:990",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 167.88.51.241:8443",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 102.207.41.160:26974",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 102.207.41.160:26974",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.90:989"
+      ],
+      "url": "http://cp.cloudflare.com/generate_204",
+      "interval": 300,
+      "tolerance": 50
+    }
+  ],
+  "rules": [
+    "MATCH,AUTO"
+  ]
+}
