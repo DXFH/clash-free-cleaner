@@ -8,20 +8,20 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.29.55.141:443",
-      "type": "vless",
-      "server": "203.29.55.141",
-      "port": 443,
-      "uuid": "9fe6bb76-e51f-4415-9352-4412014633e7",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.30.190.16:443",
       "type": "vless",
       "server": "203.30.190.16",
       "port": 443,
       "uuid": "c07a0f30-c957-45e1-a7ec-7f50b4a9a6cd",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.29.55.141:443",
+      "type": "vless",
+      "server": "203.29.55.141",
+      "port": 443,
+      "uuid": "9fe6bb76-e51f-4415-9352-4412014633e7",
       "tls": true,
       "flow": ""
     },
@@ -53,6 +53,14 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 45.135.235.30:8880",
+      "type": "ss",
+      "server": "45.135.235.30",
+      "port": 8880,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 203.30.190.16:443",
       "type": "ss",
       "server": "203.30.190.16",
@@ -65,14 +73,6 @@
       "type": "ss",
       "server": "203.29.55.141",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 45.135.235.30:8880",
-      "type": "ss",
-      "server": "45.135.235.30",
-      "port": 8880,
       "cipher": "auto",
       "password": ""
     },
@@ -98,14 +98,14 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.29.55.141:443",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.30.190.16:443",
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.29.55.141:443",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.30:8880",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.247:8880",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.123:443",
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 45.135.235.30:8880",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 203.30.190.16:443",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 203.29.55.141:443",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 45.135.235.30:8880",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.196:443",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.216:2096"
       ],
