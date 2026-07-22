@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.35.102:25611",
+      "type": "vless",
+      "server": "45.207.35.102",
+      "port": 25611,
+      "uuid": "c335b8bd-7974-4945-942a-8191c867a908",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 27.109.248.172:443",
       "type": "vless",
       "server": "27.109.248.172",
@@ -37,7 +46,7 @@
       "type": "trojan",
       "server": "45.64.22.55",
       "port": 443,
-      "password": "F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0",
+      "password": "Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS",
       "tls": true
     },
     {
@@ -62,6 +71,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.35.102:25611",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 27.109.248.172:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - SS 45.64.22.9:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.56:443",
