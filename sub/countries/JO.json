@@ -8,12 +8,13 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - SS 91.106.109.73:11201",
-      "type": "ss",
-      "server": "91.106.109.73",
-      "port": 11201,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.67:2096",
+      "type": "vless",
+      "server": "62.72.166.67",
+      "port": 2096,
+      "uuid": "775213ac-3976-439a-8977-3277c0e4735d",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.18:8443",
@@ -23,22 +24,6 @@
       "uuid": "7b84db8b-65cd-4072-9c57-dadae303feec",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.140:443",
-      "type": "trojan",
-      "server": "62.72.166.140",
-      "port": 443,
-      "password": "NISHIKUITAN111",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.57:443",
-      "type": "trojan",
-      "server": "62.72.166.57",
-      "port": 443,
-      "password": "NISHIKUITAN111",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.251:8880",
@@ -122,15 +107,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.67:2096",
-      "type": "vless",
-      "server": "62.72.166.67",
-      "port": 2096,
-      "uuid": "775213ac-3976-439a-8977-3277c0e4735d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.3:8880",
       "type": "vless",
       "server": "62.72.166.3",
@@ -147,6 +123,30 @@
       "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - SS 91.106.109.73:11201",
+      "type": "ss",
+      "server": "91.106.109.73",
+      "port": 11201,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.140:443",
+      "type": "trojan",
+      "server": "62.72.166.140",
+      "port": 443,
+      "password": "NISHIKUITAN111",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.57:443",
+      "type": "trojan",
+      "server": "62.72.166.57",
+      "port": 443,
+      "password": "NISHIKUITAN111",
+      "tls": true
     }
   ],
   "proxy_groups": [
@@ -154,10 +154,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - SS 91.106.109.73:11201",
+        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.67:2096",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.18:8443",
-        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.140:443",
-        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.57:443",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.251:8880",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.238:2096",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.143:8880",
@@ -167,9 +165,11 @@
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 141.9:443",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.138:2096",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.30:8880",
-        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.67:2096",
         "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.3:8880",
-        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.168:8880"
+        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - VLESS 62.72.166.168:8880",
+        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - SS 91.106.109.73:11201",
+        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.140:443",
+        "\uD83C\uDDEF\uD83C\uDDF4 Jordan - TROJAN 62.72.166.57:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
