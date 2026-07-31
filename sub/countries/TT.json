@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.75.114:8443",
-      "type": "vless",
-      "server": "104.22.75.114",
-      "port": 8443,
-      "uuid": "1831cfa2-7a69-46c3-a838-1fd4cffc90fb",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.75.105:80",
       "type": "vless",
       "server": "104.22.75.105",
@@ -30,25 +21,70 @@
       "type": "vless",
       "server": "104.22.75.105",
       "port": 443,
-      "uuid": "ccfe4643-1279-4d8d-a2be-164a3bb037ad",
+      "uuid": "11ea3071-5dec-41a8-bef7-938abacefebe",
       "tls": true,
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - SS 104.22.75.114:8443",
-      "type": "ss",
+      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.75.114:8443",
+      "type": "vless",
       "server": "104.22.75.114",
       "port": 8443,
-      "cipher": "auto",
-      "password": ""
+      "uuid": "1831cfa2-7a69-46c3-a838-1fd4cffc90fb",
+      "tls": true,
+      "flow": ""
     },
     {
-      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - SS 104.22.75.105:80",
-      "type": "ss",
-      "server": "104.22.75.105",
-      "port": 80,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - TROJAN 104.22.59.101:443",
+      "type": "trojan",
+      "server": "104.22.59.101",
+      "port": 443,
+      "password": "Aimer",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - TROJAN 104.22.59.233:443",
+      "type": "trojan",
+      "server": "104.22.59.233",
+      "port": 443,
+      "password": "Aimer",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.101:443",
+      "type": "vless",
+      "server": "104.22.59.101",
+      "port": 443,
+      "uuid": "897a4bec-26b8-11e8-94be-00505695472c",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.149:443",
+      "type": "vless",
+      "server": "104.22.59.149",
+      "port": 443,
+      "uuid": "ab907599-0072-4118-b696-f308401c6059",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.100:443",
+      "type": "vless",
+      "server": "104.22.59.100",
+      "port": 443,
+      "uuid": "e1d98310-db5a-4279-bbf7-760902b4af0b",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.233:443",
+      "type": "vless",
+      "server": "104.22.59.233",
+      "port": 443,
+      "uuid": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+      "tls": true,
+      "flow": ""
     }
   ],
   "proxy_groups": [
@@ -56,11 +92,15 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.75.114:8443",
         "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.75.105:80",
         "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.75.105:443",
-        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - SS 104.22.75.114:8443",
-        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - SS 104.22.75.105:80"
+        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.75.114:8443",
+        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - TROJAN 104.22.59.101:443",
+        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - TROJAN 104.22.59.233:443",
+        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.101:443",
+        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.149:443",
+        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.100:443",
+        "\uD83C\uDDF9\uD83C\uDDF9 Trinidad and Tobago - VLESS 104.22.59.233:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
