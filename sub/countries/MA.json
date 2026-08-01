@@ -1,0 +1,70 @@
+{
+  "name": "FastNodes MA",
+  "port": 7890,
+  "socks_port": 7891,
+  "allow_lan": true,
+  "mode": "Rule",
+  "log_level": "info",
+  "external_controller": "127.0.0.1:9090",
+  "proxies": [
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 154.70.207.97:990",
+      "type": "ss",
+      "server": "154.70.207.97",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.159:443",
+      "type": "ss",
+      "server": "188.214.157.159",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.251:443",
+      "type": "ss",
+      "server": "188.214.157.251",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.30:990",
+      "type": "ss",
+      "server": "188.214.157.30",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.58:990",
+      "type": "ss",
+      "server": "188.214.157.58",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    }
+  ],
+  "proxy_groups": [
+    {
+      "name": "AUTO",
+      "type": "url-test",
+      "proxies": [
+        "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 154.70.207.97:990",
+        "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.159:443",
+        "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.251:443",
+        "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.30:990",
+        "\uD83C\uDDF2\uD83C\uDDE6 Morocco - SS 188.214.157.58:990"
+      ],
+      "url": "http://cp.cloudflare.com/generate_204",
+      "interval": 300,
+      "tolerance": 50
+    }
+  ],
+  "rules": [
+    "MATCH,AUTO"
+  ]
+}
