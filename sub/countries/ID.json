@@ -16,6 +16,15 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 141.11.78.134:8443",
+      "type": "vless",
+      "server": "141.11.78.134",
+      "port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 43.229.254.177:80",
       "type": "vless",
       "server": "43.229.254.177",
@@ -48,15 +57,6 @@
       "server": "130.94.92.81",
       "port": 8443,
       "uuid": "497631c4-a1a4-0040-a86a-f42873473bb6",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.155.11.73:8443",
-      "type": "vless",
-      "server": "202.155.11.73",
-      "port": 8443,
-      "uuid": "4b056394-2f40-11f1-bffe-46c4782ac1a7",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -97,12 +97,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - SS 38.60.171.254:990",
-      "type": "ss",
-      "server": "38.60.171.254",
-      "port": 990,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 141.11.78.77:8080",
+      "type": "vless",
+      "server": "141.11.78.77",
+      "port": 8080,
+      "uuid": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 172.232.248.143:443",
@@ -110,15 +111,6 @@
       "server": "172.232.248.143",
       "port": 443,
       "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.155.11.137:8443",
-      "type": "vless",
-      "server": "202.155.11.137",
-      "port": 8443,
-      "uuid": "f3a1017d-1ebf-11f1-8cae-c3845d39d2de",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -163,16 +155,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VMESS 48.193.46.7:30806",
-      "type": "vmess",
-      "server": "48.193.46.7",
-      "port": 30806,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VMESS 48.193.46.7:30833",
       "type": "vmess",
       "server": "48.193.46.7",
@@ -183,17 +165,27 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 103.226.139.201:443",
-      "type": "trojan",
-      "server": "103.226.139.201",
-      "port": 443,
-      "password": "idc117okt",
+      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VMESS 48.193.46.7:30806",
+      "type": "vmess",
+      "server": "48.193.46.7",
+      "port": 30806,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
       "tls": true
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 103.176.78.153:443",
       "type": "trojan",
       "server": "103.176.78.153",
+      "port": 443,
+      "password": "idc117okt",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 103.226.139.201:443",
+      "type": "trojan",
+      "server": "103.226.139.201",
       "port": 443,
       "password": "idc117okt",
       "tls": true
@@ -238,27 +230,26 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 172.232.250.160:443",
+        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 141.11.78.134:8443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 43.229.254.177:80",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 172.232.248.242:2321",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 172.235.251.52:321",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 130.94.92.81:8443",
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.155.11.73:8443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 218.33.84.142:26518",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 188.119.113.164:2198",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 103.157.27.139:80",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 172.232.237.24:2321",
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - SS 38.60.171.254:990",
+        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 141.11.78.77:8080",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 172.232.248.143:443",
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.155.11.137:8443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 130.94.94.15:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - SS 130.94.92.62:17216",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 41.216.177.41:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - SS 48.193.46.7:30806",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - SS 48.193.46.7:30833",
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VMESS 48.193.46.7:30806",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VMESS 48.193.46.7:30833",
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 103.226.139.201:443",
+        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VMESS 48.193.46.7:30806",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 103.176.78.153:443",
+        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 103.226.139.201:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 43.218.139.54:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 108.137.18.26:8443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 188.119.113.68:443",
