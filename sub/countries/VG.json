@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.221.163.211:443",
+      "type": "vless",
+      "server": "185.221.163.211",
+      "port": 443,
+      "uuid": "bc74bd1a-ec97-41cb-9de6-7cccf65dc042",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.137.147:21454",
       "type": "vless",
       "server": "185.174.137.147",
@@ -96,15 +105,6 @@
       "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.221.163.211:443",
-      "type": "vless",
-      "server": "185.221.163.211",
-      "port": 443,
-      "uuid": "f165affe-ffb4-4f13-a081-f14434e51152",
-      "tls": true,
-      "flow": "xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%20Finland%20%20%5B02%5D%20%20MIFA"
     },
     {
       "name": "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.41:443",
@@ -556,6 +556,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.221.163.211:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.174.137.147:21454",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.238.1.37:58465",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.133.247.114:443",
@@ -566,7 +567,6 @@
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.133.247.232:2053",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.133.247.237:2053",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 45.133.247.14:443",
-        "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.221.163.211:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.41:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.42:443",
         "\uD83C\uDDFB\uD83C\uDDEC British Virgin Islands - VLESS 185.212.129.53:443",
