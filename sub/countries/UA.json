@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 5.102.37.149:57256",
+      "type": "vless",
+      "server": "5.102.37.149",
+      "port": 57256,
+      "uuid": "ea576a0a-a895-4056-a1f5-0e45820fcbcc",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 87.76.154.21:17262",
       "type": "vless",
       "server": "87.76.154.21",
@@ -798,6 +807,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 5.102.37.149:57256",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 87.76.154.21:17262",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 87.76.154.18:16506",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 144.31.131.194:4443",
