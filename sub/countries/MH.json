@@ -17,6 +17,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.196.148:80",
+      "type": "vless",
+      "server": "185.207.196.148",
+      "port": 80,
+      "uuid": "50414e45-4c5f-5a45-5553-1393e74a1b6a",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.197.63:8880",
       "type": "vless",
       "server": "185.207.197.63",
@@ -247,15 +256,6 @@
       "port": 8880,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.196.148:80",
-      "type": "vless",
-      "server": "185.207.196.148",
-      "port": 80,
-      "uuid": "50414e45-4c5f-5a45-5553-1393e74a1b6a",
-      "tls": true,
-      "flow": ""
     }
   ],
   "proxy_groups": [
@@ -264,6 +264,7 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.197.12:80",
+        "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.196.148:80",
         "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.197.63:8880",
         "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.198.213:8880",
         "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.199.29:8880",
@@ -289,8 +290,7 @@
         "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.198.8:443",
         "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.197.8:2096",
         "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - SS 185.207.196.48:443",
-        "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - SS 185.207.199.251:8880",
-        "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - VLESS 185.207.196.148:80"
+        "\uD83C\uDDF2\uD83C\uDDED Marshall Islands - SS 185.207.199.251:8880"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
