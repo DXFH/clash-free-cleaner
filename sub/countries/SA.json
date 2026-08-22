@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 213.165.55.207:443",
+      "type": "vless",
+      "server": "213.165.55.207",
+      "port": 443,
+      "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 81.208.170.142:1500",
       "type": "vless",
       "server": "81.208.170.142",
@@ -214,14 +223,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - SS 91.209.253.251:8880",
-      "type": "ss",
-      "server": "91.209.253.251",
-      "port": 8880,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - SS 38.54.61.25:443",
       "type": "ss",
       "server": "38.54.61.25",
@@ -253,6 +254,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 213.165.55.207:443",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 81.208.170.142:1500",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 199.232.123.12:80",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 156.244.60.186:443",
@@ -276,7 +278,6 @@
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 213.165.54.4:443",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VLESS 213.165.56.29:57247",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - SS 156.244.8.155:5004",
-        "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - SS 91.209.253.251:8880",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - SS 38.54.61.25:443",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - SS 156.244.60.186:443",
         "\uD83C\uDDF8\uD83C\uDDE6 Saudi Arabia - VMESS 158.101.229.162:15227",
