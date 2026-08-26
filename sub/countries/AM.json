@@ -8,18 +8,18 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.164:13443",
+      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.126:13443",
       "type": "vless",
-      "server": "88.218.92.164",
+      "server": "88.218.92.126",
       "port": 13443,
       "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.126:13443",
+      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.164:13443",
       "type": "vless",
-      "server": "88.218.92.126",
+      "server": "88.218.92.164",
       "port": 13443,
       "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
       "tls": true,
@@ -915,15 +915,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 178.160.229.238:443",
-      "type": "vless",
-      "server": "178.160.229.238",
-      "port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.174:2053",
       "type": "trojan",
       "server": "188.164.159.174",
@@ -1008,8 +999,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.164:13443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.126:13443",
+        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.164:13443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 2.56.206.49:8443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 91.195.254.34:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 93.115.240.146:20988",
@@ -1113,7 +1104,6 @@
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.49:2087",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.25:2053",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.220:2083",
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 178.160.229.238:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.174:2053",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - HY2 45.129.185.4:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.95.8:8880",
