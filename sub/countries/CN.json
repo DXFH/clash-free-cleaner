@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 103.118.252.45:13131",
-      "type": "vless",
-      "server": "103.118.252.45",
-      "port": 13131,
-      "uuid": "bc155a59-a4db-45e7-addf-db634b79757b",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 159.75.20.13:40082",
       "type": "vless",
       "server": "159.75.20.13",
@@ -413,6 +404,15 @@
       "port": 50003,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 103.118.252.45:13131",
+      "type": "vless",
+      "server": "103.118.252.45",
+      "port": 13131,
+      "uuid": "bc155a59-a4db-45e7-addf-db634b79757b",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 123.138.202.49:443",
@@ -3137,6 +3137,14 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.220:61001",
+      "type": "trojan",
+      "server": "117.164.185.220",
+      "port": 61001,
+      "password": "623e1900-473d-4b72-8d6b-c3a2e3223e3e",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 36.138.100.57:61002",
       "type": "trojan",
       "server": "36.138.100.57",
@@ -3145,33 +3153,25 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.220:61002",
+      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 36.138.100.57:61001",
       "type": "trojan",
-      "server": "117.164.185.220",
-      "port": 61002,
-      "password": "623e1900-473d-4b72-8d6b-c3a2e3223e3e",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.222:61001",
-      "type": "trojan",
-      "server": "117.164.185.222",
+      "server": "36.138.100.57",
       "port": 61001,
       "password": "623e1900-473d-4b72-8d6b-c3a2e3223e3e",
       "tls": true
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.222:61002",
-      "type": "trojan",
-      "server": "117.164.185.222",
-      "port": 61002,
-      "password": "623e1900-473d-4b72-8d6b-c3a2e3223e3e",
-      "tls": true
+      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - SS 117.164.185.220:61026",
+      "type": "ss",
+      "server": "117.164.185.220",
+      "port": 61026,
+      "cipher": "auto",
+      "password": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 36.138.100.57:61001",
+      "name": "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.222:61001",
       "type": "trojan",
-      "server": "36.138.100.57",
+      "server": "117.164.185.222",
       "port": 61001,
       "password": "623e1900-473d-4b72-8d6b-c3a2e3223e3e",
       "tls": true
@@ -3296,7 +3296,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 103.118.252.45:13131",
         "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 159.75.20.13:40082",
         "\uD83C\uDDE8\uD83C\uDDF3 China - SS 139.199.185.190:55502",
         "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 120.227.1.43:12528",
@@ -3346,6 +3345,7 @@
         "\uD83C\uDDE8\uD83C\uDDF3 China - SS 112.28.141.77:10006",
         "\uD83C\uDDE8\uD83C\uDDF3 China - SS 103.236.66.4:40001",
         "\uD83C\uDDE8\uD83C\uDDF3 China - SS 103.236.66.4:50003",
+        "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 103.118.252.45:13131",
         "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 123.138.202.49:443",
         "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 103.44.255.81:443",
         "\uD83C\uDDE8\uD83C\uDDF3 China - VLESS 115.190.19.83:29185",
@@ -3684,12 +3684,11 @@
         "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 183.236.51.5:10823",
         "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 8.148.194.255:25010",
         "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 183.236.51.9:10822",
+        "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.220:61001",
         "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 36.138.100.57:61002",
-        "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.220:61002",
-        "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.222:61001",
-        "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.222:61002",
-        "\uD83C\uDDE8\uD83C\uDDF3 China - HTTP 124.15.12.24:251",
         "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 36.138.100.57:61001",
+        "\uD83C\uDDE8\uD83C\uDDF3 China - SS 117.164.185.220:61026",
+        "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 117.164.185.222:61001",
         "\uD83C\uDDE8\uD83C\uDDF3 China - HYSTERIA2 167.179.34.31:55443",
         "\uD83C\uDDE8\uD83C\uDDF3 China - HYSTERIA2 167.179.34.13:55443",
         "\uD83C\uDDE8\uD83C\uDDF3 China - TROJAN 112.84.125.208:55108",
