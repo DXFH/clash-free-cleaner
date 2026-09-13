@@ -8,23 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 212.192.15.86:20111",
-      "type": "ss",
-      "server": "212.192.15.86",
-      "port": 20111,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 58.152.211.194:443",
-      "type": "vless",
-      "server": "58.152.211.194",
-      "port": 443,
-      "uuid": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 27.0.232.125:443",
       "type": "vless",
       "server": "27.0.232.125",
@@ -48,6 +31,23 @@
       "server": "220.246.184.228",
       "port": 443,
       "uuid": "a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 212.192.15.86:20111",
+      "type": "ss",
+      "server": "212.192.15.86",
+      "port": 20111,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 58.152.211.194:443",
+      "type": "vless",
+      "server": "58.152.211.194",
+      "port": 443,
+      "uuid": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
       "tls": true,
       "flow": ""
     },
@@ -3236,20 +3236,20 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 103.136.150.237:8388",
-      "type": "ss",
-      "server": "103.136.150.237",
-      "port": 8388,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - TROJAN 8.217.3.125:443",
       "type": "trojan",
       "server": "8.217.3.125",
       "port": 443,
       "password": "humanity",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 103.136.150.237:8388",
+      "type": "ss",
+      "server": "103.136.150.237",
+      "port": 8388,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 216.250.97.82:38388",
@@ -5064,15 +5064,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 212.192.13.172:443",
-      "type": "vless",
-      "server": "212.192.13.172",
-      "port": 443,
-      "uuid": "e962823c-b197-48c9-b89f-4b18dc44e93c",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - TROJAN 37.123.196.250:28895",
       "type": "trojan",
       "server": "37.123.196.250",
@@ -5369,11 +5360,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 212.192.15.86:20111",
-        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 58.152.211.194:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 27.0.232.125:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 203.218.231.156:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 220.246.184.228:443",
+        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 212.192.15.86:20111",
+        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 58.152.211.194:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 193.134.211.201:64136",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 47.239.6.251:13779",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 45.144.137.55:10766",
@@ -5730,8 +5721,8 @@
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 128.1.12.19:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 128.1.12.164:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 84.17.37.55:8389",
-        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 103.136.150.237:8388",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - TROJAN 8.217.3.125:443",
+        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 103.136.150.237:8388",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 216.250.97.82:38388",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 129.226.163.56:8388",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 39.109.117.110:43646",
@@ -5950,7 +5941,6 @@
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SS 202.155.141.87:12345",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 185.206.171.225:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - HYSTERIA2 31.57.248.176:50160",
-        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - HYSTERIA2 202.146.222.174:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - HY2 112.120.54.171:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - HY2 154.12.93.29:23835",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - HY2 82.152.142.68:3341",
@@ -5991,7 +5981,6 @@
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SOCKS5 47.83.123.81:5555",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - SOCKS 8.217.182.75:3060",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - TROJAN 119.246.1.143:443",
-        "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 212.192.13.172:443",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - TROJAN 37.123.196.250:28895",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 18.163.238.51:10126",
         "\uD83C\uDDED\uD83C\uDDF0 Hong Kong - VLESS 18.166.212.25:10127",
