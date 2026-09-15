@@ -1457,13 +1457,12 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 64.130.61.73:443",
-      "type": "vless",
-      "server": "64.130.61.73",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.236.68.0:443",
+      "type": "ss",
+      "server": "52.236.68.0",
       "port": 443,
-      "uuid": "aea9e420-de22-4dcb-93b8-af1f71a3c264",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 40.115.121.217:25579",
@@ -1573,14 +1572,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.139.140:443",
-      "type": "trojan",
-      "server": "54.216.139.140",
-      "port": 443,
-      "password": "FH72359861",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.74.210.220:443",
       "type": "trojan",
       "server": "54.74.210.220",
@@ -1619,6 +1610,14 @@
       "port": 22222,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.139.140:443",
+      "type": "trojan",
+      "server": "54.216.139.140",
+      "port": 443,
+      "password": "FH72359861",
+      "tls": true
     }
   ],
   "proxy_groups": [
@@ -1794,7 +1793,7 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.171.81.189:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.75.255.147:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.249.67.252:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 64.130.61.73:443",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.236.68.0:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 40.115.121.217:25579",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.19.49.176:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 3.250.223.202:443",
@@ -1808,12 +1807,12 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.250.35.116:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.255.242.220:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 99.80.255.145:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.139.140:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.74.210.220:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.197.108:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.210.67.30:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.210.66.171:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.50.233.226:22222"
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.50.233.226:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.216.139.140:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
