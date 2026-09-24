@@ -8,63 +8,19 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.35.102:25611",
-      "type": "vless",
-      "server": "45.207.35.102",
-      "port": 25611,
-      "uuid": "c335b8bd-7974-4945-942a-8191c867a908",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.239:10086",
-      "type": "vless",
-      "server": "45.207.34.239",
-      "port": 10086,
-      "uuid": "11e5e68c-355a-415c-8024-3bf12637e220",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:8443",
-      "type": "vless",
-      "server": "45.202.247.198",
-      "port": 8443,
-      "uuid": "e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:443",
-      "type": "vless",
-      "server": "45.202.247.198",
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.23:443",
+      "type": "trojan",
+      "server": "45.64.22.23",
       "port": 443,
-      "uuid": "e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - SS 45.64.22.9:443",
-      "type": "ss",
-      "server": "45.64.22.9",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
+      "password": "Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.55:443",
       "type": "trojan",
       "server": "45.64.22.55",
       "port": 443,
-      "password": "F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.23:443",
-      "type": "trojan",
-      "server": "45.64.22.23",
-      "port": 443,
-      "password": "Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS",
+      "password": "xSYy8KOpEyOjgaNFCeC3a72DS6wBAcz90pDZRRSXnxquIFZlT5433ClYD38aeA",
       "tls": true
     },
     {
@@ -76,6 +32,24 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.239:10086",
+      "type": "vless",
+      "server": "45.207.34.239",
+      "port": 10086,
+      "uuid": "11e5e68c-355a-415c-8024-3bf12637e220",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.35.102:25611",
+      "type": "vless",
+      "server": "45.207.35.102",
+      "port": 25611,
+      "uuid": "c335b8bd-7974-4945-942a-8191c867a908",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.152:443",
       "type": "vless",
       "server": "45.202.247.152",
@@ -83,6 +57,24 @@
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:443",
+      "type": "vless",
+      "server": "45.202.247.198",
+      "port": 443,
+      "uuid": "e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:8443",
+      "type": "vless",
+      "server": "45.202.247.198",
+      "port": 8443,
+      "uuid": "e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -90,15 +82,14 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.35.102:25611",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.239:10086",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:8443",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:443",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - SS 45.64.22.9:443",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.55:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.23:443",
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.55:443",
         "\uD83C\uDDF2\uD83C\uDDF4 Macao - TROJAN 45.64.22.41:443",
-        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.152:443"
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.34.239:10086",
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.207.35.102:25611",
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.152:443",
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:443",
+        "\uD83C\uDDF2\uD83C\uDDF4 Macao - VLESS 45.202.247.198:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

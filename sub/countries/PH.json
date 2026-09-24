@@ -8,13 +8,36 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 8.212.177.111:443",
-      "type": "vless",
-      "server": "8.212.177.111",
-      "port": 443,
-      "uuid": "38e1c7e8-fdcd-4396-a84c-550b05737308",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 61.245.11.28:9090",
+      "type": "ss",
+      "server": "61.245.11.28",
+      "port": 9090,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 149.104.109.74:21273",
+      "type": "ss",
+      "server": "149.104.109.74",
+      "port": 21273,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 38.54.80.160:16292",
+      "type": "ss",
+      "server": "38.54.80.160",
+      "port": 16292,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 154.90.32.5:5601",
+      "type": "ss",
+      "server": "154.90.32.5",
+      "port": 5601,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.164:443",
@@ -22,6 +45,15 @@
       "server": "61.245.11.164",
       "port": 443,
       "uuid": "0dc1fc26-b8e9-4296-9870-0996de3c2333",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 8.212.177.111:443",
+      "type": "vless",
+      "server": "8.212.177.111",
+      "port": 443,
+      "uuid": "38e1c7e8-fdcd-4396-a84c-550b05737308",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -35,33 +67,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.192:2053",
-      "type": "vless",
-      "server": "61.245.11.192",
-      "port": 2053,
-      "uuid": "0499fd76-df2f-423e-9a1f-dc3700094d94",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 38.54.36.132:80",
-      "type": "vless",
-      "server": "38.54.36.132",
-      "port": 80,
-      "uuid": "3e0b9b66-aad9-4294-a47f-bf1851d36d27",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 38.54.86.241:23253",
-      "type": "vless",
-      "server": "38.54.86.241",
-      "port": 23253,
-      "uuid": "57d1c648-62d9-40ea-a3fe-f6c7cfcdaa38",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.28:9090",
       "type": "vless",
       "server": "61.245.11.28",
@@ -69,46 +74,6 @@
       "uuid": "Channel:telegram:TurboConfigs",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 154.90.32.5:5601",
-      "type": "ss",
-      "server": "154.90.32.5",
-      "port": 5601,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 38.54.80.160:16292",
-      "type": "ss",
-      "server": "38.54.80.160",
-      "port": 16292,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 149.104.109.74:21273",
-      "type": "ss",
-      "server": "149.104.109.74",
-      "port": 21273,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 61.245.11.28:9090",
-      "type": "ss",
-      "server": "61.245.11.28",
-      "port": 9090,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDED Philippines - TROJAN 47.80.107.173:2398",
-      "type": "trojan",
-      "server": "47.80.107.173",
-      "port": 2398,
-      "password": "3632736327",
-      "tls": true
     }
   ],
   "proxy_groups": [
@@ -116,18 +81,14 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 8.212.177.111:443",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.164:443",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.10.8:443",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.192:2053",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 38.54.36.132:80",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 38.54.86.241:23253",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.28:9090",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 154.90.32.5:5601",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 38.54.80.160:16292",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 149.104.109.74:21273",
         "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 61.245.11.28:9090",
-        "\uD83C\uDDF5\uD83C\uDDED Philippines - TROJAN 47.80.107.173:2398"
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 149.104.109.74:21273",
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 38.54.80.160:16292",
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - SS 154.90.32.5:5601",
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.164:443",
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 8.212.177.111:443",
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.10.8:443",
+        "\uD83C\uDDF5\uD83C\uDDED Philippines - VLESS 61.245.11.28:9090"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
