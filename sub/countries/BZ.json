@@ -8,60 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 202.181.177.8:8443",
-      "type": "vless",
-      "server": "202.181.177.8",
-      "port": 8443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.30:8880",
-      "type": "vless",
-      "server": "45.135.235.30",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.123:443",
-      "type": "vless",
-      "server": "45.135.235.123",
-      "port": 443,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.247:8880",
-      "type": "vless",
-      "server": "45.135.235.247",
-      "port": 8880,
-      "uuid": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.29.55.141:443",
-      "type": "vless",
-      "server": "203.29.55.141",
-      "port": 443,
-      "uuid": "9fe6bb76-e51f-4415-9352-4412014633e7",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.30.190.16:443",
-      "type": "vless",
-      "server": "203.30.190.16",
-      "port": 443,
-      "uuid": "c07a0f30-c957-45e1-a7ec-7f50b4a9a6cd",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 202.181.177.8:8443",
       "type": "ss",
       "server": "202.181.177.8",
@@ -84,6 +30,24 @@
       "port": 2096,
       "password": "ttfang",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.7:8443",
+      "type": "vless",
+      "server": "45.135.235.7",
+      "port": 8443,
+      "uuid": "7967bf59-57e3-4cde-9898-527b0fe60022",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 202.181.177.8:8443",
+      "type": "vless",
+      "server": "202.181.177.8",
+      "port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": true,
+      "flow": ""
     }
   ],
   "proxy_groups": [
@@ -91,15 +55,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 202.181.177.8:8443",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.30:8880",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.123:443",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.247:8880",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.29.55.141:443",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 203.30.190.16:443",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - SS 202.181.177.8:8443",
         "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.196:443",
-        "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.216:2096"
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - TROJAN 45.135.235.216:2096",
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 45.135.235.7:8443",
+        "\uD83C\uDDE7\uD83C\uDDFF Belize - VLESS 202.181.177.8:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
