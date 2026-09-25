@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.28:443",
-      "type": "vless",
-      "server": "150.40.126.28",
-      "port": 443,
-      "uuid": "4360f941-b541-43d4-8507-2de3763e0cfd",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.24:443",
       "type": "vless",
       "server": "150.40.126.24",
@@ -26,18 +17,36 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.22:443",
-      "type": "ss",
-      "server": "150.40.126.22",
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.18:443",
+      "type": "vless",
+      "server": "150.40.126.18",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.28:443",
+      "type": "vless",
+      "server": "150.40.126.28",
+      "port": 443,
+      "uuid": "4360f941-b541-43d4-8507-2de3763e0cfd",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 194.71.126.31:989",
       "type": "ss",
       "server": "194.71.126.31",
       "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.22:443",
+      "type": "ss",
+      "server": "150.40.126.22",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -56,16 +65,7 @@
       "port": 14302,
       "uuid": "1dd5f2be-f124-4f35-9239-8abc042829c2",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDE78"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.18:443",
-      "type": "vless",
-      "server": "150.40.126.18",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision# By EbraSha \uD83C\uDFAF"
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.21:443",
@@ -122,13 +122,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 81.18.48.97:2096",
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 185.105.108.92:8443",
       "type": "vless",
-      "server": "81.18.48.97",
-      "port": 2096,
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "server": "185.105.108.92",
+      "port": 8443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 38.180.17.232:443",
@@ -138,6 +138,24 @@
       "uuid": "96eb0aac-b747-4f3c-8c30-d2ff7ec7415c",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 81.18.48.97:2096",
+      "type": "vless",
+      "server": "81.18.48.97",
+      "port": 2096,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 81.18.48.97:2053",
+      "type": "vless",
+      "server": "81.18.48.97",
+      "port": 2053,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.18:443",
@@ -193,21 +211,23 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.28:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.24:443",
-        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.22:443",
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.18:443",
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.28:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 194.71.126.31:989",
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.22:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 152.89.160.115:33992",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 149.33.31.115:14302",
-        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.18:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.21:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 185.48.251.195:448",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 185.48.250.138:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 38.180.101.136:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.22:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 150.40.126.19:443",
-        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 81.18.48.97:2096",
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 185.105.108.92:8443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 38.180.17.232:443",
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 81.18.48.97:2096",
+        "\uD83C\uDDF7\uD83C\uDDF8 Serbia - VLESS 81.18.48.97:2053",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.18:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.19:443",
         "\uD83C\uDDF7\uD83C\uDDF8 Serbia - SS 150.40.126.21:443",

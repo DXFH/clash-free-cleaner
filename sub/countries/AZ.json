@@ -8,14 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
-      "type": "ss",
-      "server": "94.20.154.26",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
       "type": "ss",
       "server": "180.149.44.120",
@@ -44,6 +36,14 @@
       "type": "ss",
       "server": "94.20.154.38",
       "port": 50006,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
+      "type": "ss",
+      "server": "94.20.154.26",
+      "port": 989,
       "cipher": "auto",
       "password": ""
     },
@@ -112,7 +112,7 @@
       "port": 1443,
       "uuid": "713056db-4add-45f1-b533-067d7ea81372",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDDEA"
+      "flow": "xtls-rprx-vision# By EbraSha \uD83D\uDCF6"
     },
     {
       "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 94.20.154.22:443",
@@ -176,11 +176,11 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 185.83.127.82:443",
+      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.44.189:1400",
       "type": "vless",
-      "server": "185.83.127.82",
-      "port": 443,
-      "uuid": "a3ab68bd-e835-5129-b8c5-335a709e8b3f",
+      "server": "180.149.44.189",
+      "port": 1400,
+      "uuid": "6f97389a-b42a-4a05-9890-87646eecce48",
       "tls": true,
       "flow": ""
     }
@@ -190,11 +190,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 109.61.16.89:30938",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.38:50000",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.38:50006",
+        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.44:33992",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.43:43893",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.45:43893",
@@ -210,8 +210,7 @@
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.44.182:443",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.51:35294",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.51:49653",
-        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 185.83.127.82:443",
-        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - HYSTERIA2 94.20.88.13:8443"
+        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.44.189:1400"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
