@@ -8,20 +8,12 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.133:28443",
+      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.130:28443",
       "type": "trojan",
-      "server": "212.90.123.133",
+      "server": "212.90.123.130",
       "port": 28443,
-      "password": "a1b16d10-4f43-4dd9-8c4f-52065b2b0910",
+      "password": "750a29bf-0a40-437f-b120-38de74ae7eaf",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 139.84.247.164:8388",
-      "type": "ss",
-      "server": "139.84.247.164",
-      "port": 8388,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.133.165.160:16233",
@@ -41,12 +33,29 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.130:28443",
+      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:37321",
+      "type": "vless",
+      "server": "192.142.53.38",
+      "port": 37321,
+      "uuid": "4914cac8-d4f7-4ffe-9c58-1117c9cb1887",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.133:28443",
       "type": "trojan",
-      "server": "212.90.123.130",
+      "server": "212.90.123.133",
       "port": 28443,
-      "password": "750a29bf-0a40-437f-b120-38de74ae7eaf",
+      "password": "a1b16d10-4f43-4dd9-8c4f-52065b2b0910",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 139.84.247.164:8388",
+      "type": "ss",
+      "server": "139.84.247.164",
+      "port": 8388,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.177.189.251:443",
@@ -314,15 +323,6 @@
       "server": "34.35.174.85",
       "port": 443,
       "uuid": "4758aee6-6d1a-4306-b460-2398b5af4e35",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:37321",
-      "type": "vless",
-      "server": "192.142.53.38",
-      "port": 37321,
-      "uuid": "4914cac8-d4f7-4ffe-9c58-1117c9cb1887",
       "tls": true,
       "flow": ""
     },
@@ -661,11 +661,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.133:28443",
-        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 139.84.247.164:8388",
+        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.130:28443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.133.165.160:16233",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:16529",
-        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.130:28443",
+        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:37321",
+        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - TROJAN 212.90.123.133:28443",
+        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 139.84.247.164:8388",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.177.189.251:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 20.164.45.116:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 20.164.205.35:443",
@@ -698,7 +699,6 @@
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 102.177.189.29:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 139.84.236.5:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 34.35.174.85:443",
-        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:37321",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 160.123.255.85:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 102.211.56.29:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 102.177.189.1:8880",
