@@ -8,12 +8,29 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.134:989",
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.112:443",
+      "type": "trojan",
+      "server": "45.130.125.112",
+      "port": 443,
+      "password": "humanity",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.133:989",
       "type": "ss",
-      "server": "23.92.127.134",
+      "server": "23.92.127.133",
       "port": 989,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.254.193:443",
+      "type": "vless",
+      "server": "45.130.254.193",
+      "port": 443,
+      "uuid": "7b50da93-0841-4044-af6a-99bb9dcda6fc",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 154.83.159.14:8443",
@@ -80,9 +97,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.133:989",
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.134:989",
       "type": "ss",
-      "server": "23.92.127.133",
+      "server": "23.92.127.134",
       "port": 989,
       "cipher": "auto",
       "password": ""
@@ -624,9 +641,9 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.112:443",
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.126:443",
       "type": "trojan",
-      "server": "45.130.125.112",
+      "server": "45.130.125.126",
       "port": 443,
       "password": "humanity",
       "tls": true
@@ -808,7 +825,7 @@
       "port": 443,
       "uuid": "11e57eeb-ffdf-4983-a9fa-ad352dea7253",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83D\uDCDB"
+      "flow": "xtls-rprx-vision# By EbraSha \u2728"
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.192.2.173:443",
@@ -818,15 +835,6 @@
       "uuid": "1478d83f-3e0b-4d96-99cc-b514495e53c6",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.126:443",
-      "type": "vless",
-      "server": "45.130.125.126",
-      "port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 156.238.18.221:8880",
@@ -4879,6 +4887,24 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.197.64.140:80",
+      "type": "vless",
+      "server": "154.197.64.140",
+      "port": 80,
+      "uuid": "f9255507-1b65-433f-bfd8-193b35e068e2",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.83.2.140:80",
+      "type": "vless",
+      "server": "154.83.2.140",
+      "port": 80,
+      "uuid": "f9255507-1b65-433f-bfd8-193b35e068e2",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.83.2.212:8443",
       "type": "vless",
       "server": "154.83.2.212",
@@ -5248,15 +5274,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.254.193:443",
-      "type": "vless",
-      "server": "45.130.254.193",
-      "port": 443,
-      "uuid": "7b50da93-0841-4044-af6a-99bb9dcda6fc",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.207:443",
       "type": "vless",
       "server": "45.130.125.207",
@@ -5280,6 +5297,15 @@
       "server": "45.130.125.0",
       "port": 443,
       "uuid": "d08d180d-cb07-4d82-b1bd-1e42fa523cd7",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.126:443",
+      "type": "vless",
+      "server": "45.130.125.126",
+      "port": 443,
+      "uuid": "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9",
       "tls": true,
       "flow": ""
     },
@@ -5429,6 +5455,24 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.98:443",
+      "type": "vless",
+      "server": "45.196.201.98",
+      "port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.34:443",
+      "type": "vless",
+      "server": "45.196.201.34",
+      "port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.133:443",
       "type": "vless",
       "server": "45.196.201.133",
@@ -5436,6 +5480,15 @@
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.101:8443",
+      "type": "vless",
+      "server": "45.130.125.101",
+      "port": 8443,
+      "uuid": "f106648e-0644-40bc-974c-6edc966fe18d",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.80.220:443",
@@ -5452,15 +5505,6 @@
       "server": "45.130.125.160",
       "port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.220:8443",
-      "type": "vless",
-      "server": "45.130.125.220",
-      "port": 8443,
-      "uuid": "0d49aa2f-cdf9-4828-aed3-f5e0de590d8d",
       "tls": true,
       "flow": ""
     },
@@ -5645,15 +5689,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.101:8443",
-      "type": "vless",
-      "server": "45.130.125.101",
-      "port": 8443,
-      "uuid": "f106648e-0644-40bc-974c-6edc966fe18d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.192:8443",
       "type": "vless",
       "server": "45.130.125.192",
@@ -5668,6 +5703,15 @@
       "server": "45.130.125.193",
       "port": 8443,
       "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.220:8443",
+      "type": "vless",
+      "server": "45.130.125.220",
+      "port": 8443,
+      "uuid": "0d49aa2f-cdf9-4828-aed3-f5e0de590d8d",
       "tls": true,
       "flow": ""
     },
@@ -8219,15 +8263,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.34:443",
-      "type": "vless",
-      "server": "45.196.201.34",
-      "port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.35:443",
       "type": "vless",
       "server": "45.196.201.35",
@@ -8822,15 +8857,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.98:443",
-      "type": "vless",
-      "server": "45.196.201.98",
-      "port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.99:443",
       "type": "vless",
       "server": "45.196.201.99",
@@ -9299,13 +9325,13 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.95.96.249:443",
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.94:443",
       "type": "vless",
-      "server": "45.95.96.249",
+      "server": "45.196.201.94",
       "port": 443,
-      "uuid": "74380c1c-0933-4938-bb45-3d208dc3bcad",
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": "xtls-rprx-vision#REALITY|SC\uD83C\uDDF8\uD83C\uDDE8 | 45.196.201.94-443 | 122.96ms"
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 154.197.121.253:443",
@@ -9322,6 +9348,15 @@
       "port": 443,
       "password": "humanity",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.95.96.249:443",
+      "type": "vless",
+      "server": "45.95.96.249",
+      "port": 443,
+      "uuid": "74380c1c-0933-4938-bb45-3d208dc3bcad",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.160:2096",
@@ -9490,7 +9525,9 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.134:989",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.112:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.133:989",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.254.193:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 154.83.159.14:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 45.197.134.56:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 45.198.108.152:443",
@@ -9499,7 +9536,7 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 45.158.199.33:4",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 154.223.16.212:989",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 154.223.20.79:989",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.133:989",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 23.92.127.134:989",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 156.231.104.24:18014",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 156.231.104.17:18007",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 156.251.179.238:443",
@@ -9567,7 +9604,7 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.194.53.231:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.205.0.93:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.0:443",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.112:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.126:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.160:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.190:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.69:443",
@@ -9590,7 +9627,6 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.192.2.115:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.91.157.184:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.192.2.173:443",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.126:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 156.238.18.221:8880",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.96.210:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.195.111.108:443",
@@ -10041,6 +10077,8 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.219.5.68:2083",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.219.5.92:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.205.0.77:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.197.64.140:80",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.83.2.140:80",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.83.2.212:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.194.12.29:8880",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.197.75.168:8880",
@@ -10082,10 +10120,10 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 155.212.240.147:2087",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 156.243.83.167:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.160:443",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.254.193:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.207:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.95.96.236:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.0:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.126:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.194:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.83.159.14:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.108.152:443",
@@ -10105,10 +10143,12 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.76:2053",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.76:2086",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.160:2053",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.98:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.34:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.133:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.101:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.80.220:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.160:2052",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.220:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.197.64.20:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.197.88.253:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.211.8.190:2083",
@@ -10129,9 +10169,9 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.73:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.192.224.253:2096",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.194.53.208:443",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.101:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.192:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.193:8443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.220:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.239:2083",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.219.5.101:2053",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 154.193.55.183:443",
@@ -10415,7 +10455,6 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.31:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.32:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.33:443",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.34:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.35:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.36:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.37:443",
@@ -10482,7 +10521,6 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.95:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.96:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.97:443",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.98:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.99:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.105.191:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.80.100:443",
@@ -10535,9 +10573,10 @@
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.87.83:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.198.87.99:8443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.206.5.122:443",
-        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.95.96.249:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.196.201.94:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 154.197.121.253:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - TROJAN 45.130.125.32:443",
+        "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.95.96.249:443",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VLESS 45.130.125.160:2096",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 156.238.18.221:8880",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - SS 45.198.96.210:443",
