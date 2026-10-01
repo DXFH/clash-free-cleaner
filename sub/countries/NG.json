@@ -8,22 +8,36 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 167.88.51.241:8443",
-      "type": "vless",
-      "server": "167.88.51.241",
-      "port": 8443,
-      "uuid": "497631c4-a1a4-006c-a86a-f42873473bb6",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.90:989",
+      "type": "ss",
+      "server": "185.255.123.90",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
     },
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 185.255.123.232:443",
-      "type": "vless",
-      "server": "185.255.123.232",
-      "port": 443,
-      "uuid": "a54cfb1f-6bd8-7f0f-d6b8-2ee70180952a",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.166:990",
+      "type": "ss",
+      "server": "185.255.123.166",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.110:990",
+      "type": "ss",
+      "server": "185.255.123.110",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.92:990",
+      "type": "ss",
+      "server": "185.255.123.92",
+      "port": 990,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - TROJAN 103.97.91.17:443",
@@ -34,12 +48,13 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.90:989",
-      "type": "ss",
-      "server": "185.255.123.90",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 167.88.51.241:8443",
+      "type": "vless",
+      "server": "167.88.51.241",
+      "port": 8443,
+      "uuid": "497631c4-a1a4-006c-a86a-f42873473bb6",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 102.165.23.4:47121",
@@ -55,10 +70,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 167.88.51.241:8443",
-        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 185.255.123.232:443",
-        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - TROJAN 103.97.91.17:443",
         "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.90:989",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.166:990",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.110:990",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 185.255.123.92:990",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - TROJAN 103.97.91.17:443",
+        "\uD83C\uDDF3\uD83C\uDDEC Nigeria - VLESS 167.88.51.241:8443",
         "\uD83C\uDDF3\uD83C\uDDEC Nigeria - SS 102.165.23.4:47121"
       ],
       "url": "http://cp.cloudflare.com/generate_204",

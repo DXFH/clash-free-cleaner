@@ -8,6 +8,14 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 144.31.130.65:9443",
+      "type": "ss",
+      "server": "144.31.130.65",
+      "port": 9443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 37.235.49.152:989",
       "type": "ss",
       "server": "37.235.49.152",
@@ -24,11 +32,51 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.152:10889",
+      "type": "trojan",
+      "server": "167.17.185.152",
+      "port": 10889,
+      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.169:10889",
+      "type": "trojan",
+      "server": "167.17.185.169",
+      "port": 10889,
+      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.172:10889",
+      "type": "trojan",
+      "server": "167.17.185.172",
+      "port": 10889,
+      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.228:10889",
+      "type": "trojan",
+      "server": "167.17.185.228",
+      "port": 10889,
+      "password": "cTv.9PDdCt-wybBrG1qlxI5UJuaEj",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 37.235.49.118:443",
       "type": "trojan",
       "server": "37.235.49.118",
       "port": 443,
       "password": "p%3DXuu4jK_lJ9rOKw5%2B7BsW798DZ-01cv4S",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 37.235.49.209:28099",
+      "type": "trojan",
+      "server": "37.235.49.209",
+      "port": 28099,
+      "password": "qmBSKnAl6LYi9=z23Rs.Z",
       "tls": true
     },
     {
@@ -50,20 +98,20 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 89.127.233.204:443",
+      "type": "vless",
+      "server": "89.127.233.204",
+      "port": 443,
+      "uuid": "7eb234e9-d47e-4dfe-bff3-a0d41a0c4e1d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 144.31.128.84:24531",
       "type": "vless",
       "server": "144.31.128.84",
       "port": 24531,
       "uuid": "9a3d5f36-fa72-4ced-94d3-7f6f046ec085",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448",
-      "type": "vless",
-      "server": "82.22.53.30",
-      "port": 448,
-      "uuid": "f82944fe-9863-494a-9a2d-0f3120a774c6",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -84,6 +132,15 @@
       "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448",
+      "type": "vless",
+      "server": "82.22.53.30",
+      "port": 448,
+      "uuid": "f82944fe-9863-494a-9a2d-0f3120a774c6",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -91,15 +148,24 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - HYSTERIA2 194.247.182.201:8080",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - HYSTERIA2 194.247.182.201:8443",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 144.31.130.65:9443",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 37.235.49.152:989",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 37.235.49.168:989",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.152:10889",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.169:10889",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.172:10889",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 167.17.185.228:10889",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 37.235.49.118:443",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 37.235.49.209:28099",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 151.236.24.67:8443",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 185.247.226.138:443",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 89.127.233.204:443",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 144.31.128.84:24531",
-        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 151.243.181.99:443",
-        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 195.246.230.125:443"
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 195.246.230.125:443",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
