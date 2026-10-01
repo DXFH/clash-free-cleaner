@@ -8,6 +8,14 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
+      "type": "trojan",
+      "server": "185.225.68.232",
+      "port": 443,
+      "password": "humanity",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - SS 192.71.211.161:989",
       "type": "ss",
       "server": "192.71.211.161",
@@ -29,14 +37,6 @@
       "server": "46.29.142.57",
       "port": 4443,
       "password": "C0ldyfh-vpnjantit.com",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
-      "type": "trojan",
-      "server": "185.225.68.232",
-      "port": 443,
-      "password": "humanity",
       "tls": true
     },
     {
@@ -63,15 +63,6 @@
       "server": "88.209.249.84",
       "port": 38282,
       "uuid": "7627df5b-8101-4230-dd73-47266d588ccd",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 38.180.225.247:2053",
-      "type": "vless",
-      "server": "38.180.225.247",
-      "port": 2053,
-      "uuid": "97532b08-357e-4140-a6f0-8e07f2ed3327",
       "tls": true,
       "flow": ""
     },
@@ -278,14 +269,6 @@
       "uuid": "b8e74de0-42c6-4b84-8889-bf348f32730c",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDED\uD83C\uDDFA Hungary - SS 152.233.41.30:16923",
-      "type": "ss",
-      "server": "152.233.41.30",
-      "port": 16923,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -293,14 +276,13 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - SS 192.71.211.161:989",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - SS 194.71.130.160:989",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 46.29.142.57:4443",
-        "\uD83C\uDDED\uD83C\uDDFA Hungary - TROJAN 185.225.68.232:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 37.221.210.113:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 217.13.104.154:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 88.209.249.84:38282",
-        "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 38.180.225.247:2053",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 95.164.10.50:443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 217.13.105.19:1443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 152.233.41.30:16923",
@@ -323,8 +305,7 @@
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 38.180.108.50:48905",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 152.233.41.10:9443",
         "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 152.233.41.13:16923",
-        "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 152.233.41.31:16923",
-        "\uD83C\uDDED\uD83C\uDDFA Hungary - SS 152.233.41.30:16923"
+        "\uD83C\uDDED\uD83C\uDDFA Hungary - VLESS 152.233.41.31:16923"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

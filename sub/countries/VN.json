@@ -8,11 +8,27 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
       "type": "trojan",
-      "server": "103.81.85.238",
+      "server": "103.173.255.21",
       "port": 443,
-      "password": "52171d41-9367-429f-baa6-43660a6c84e4",
+      "password": "5623be5f-c9da-4511-81a9-b4b39b16edae",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:38000",
+      "type": "trojan",
+      "server": "103.173.155.72",
+      "port": 38000,
+      "password": "6711c6cf-847a-4177-b059-55f519b09de4",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
+      "type": "trojan",
+      "server": "103.173.155.72",
+      "port": 28443,
+      "password": "6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4",
       "tls": true
     },
     {
@@ -22,6 +38,14 @@
       "port": 443,
       "password": "8078dd51-d4d9-4024-89df-50e358a00a54",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:989",
+      "type": "ss",
+      "server": "103.163.218.2",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.143.209.134:51348",
@@ -296,14 +320,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:989",
-      "type": "ss",
-      "server": "103.163.218.2",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.238.213.96:989",
       "type": "ss",
       "server": "103.238.213.96",
@@ -318,6 +334,14 @@
       "port": 52327,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
+      "type": "trojan",
+      "server": "103.81.85.238",
+      "port": 443,
+      "password": "52171d41-9367-429f-baa6-43660a6c84e4",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:28000",
@@ -360,14 +384,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
-      "type": "trojan",
-      "server": "103.173.255.21",
-      "port": 443,
-      "password": "5623be5f-c9da-4511-81a9-b4b39b16edae",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:443",
       "type": "trojan",
       "server": "103.173.255.234",
@@ -397,22 +413,6 @@
       "server": "103.173.255.234",
       "port": 28443,
       "password": "6248895b-4255-4f07-9479-d198bc1eb8db",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:38000",
-      "type": "trojan",
-      "server": "103.173.155.72",
-      "port": 38000,
-      "password": "6711c6cf-847a-4177-b059-55f519b09de4",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
-      "type": "trojan",
-      "server": "103.173.155.72",
-      "port": 28443,
-      "password": "6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4",
       "tls": true
     },
     {
@@ -583,15 +583,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.77.215.136:16934",
-      "type": "vless",
-      "server": "103.77.215.136",
-      "port": 16934,
-      "uuid": "689c6e4f-8974-4fdb-8a35-cf2959277448",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 38.54.31.230:990",
       "type": "ss",
       "server": "38.54.31.230",
@@ -631,8 +622,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:38000",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.195.236.24:443",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:989",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.143.209.134:51348",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 160.19.78.75:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:990",
@@ -667,21 +661,18 @@
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.25:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.186.155.30:38388",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 221.132.29.208:38388",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.163.218.2:989",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.238.213.96:989",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 103.15.91.171:52327",
+        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.81.85.238:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:28000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:28000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:28000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:28000",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.127:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.21:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.228:28443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.66.192:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.255.234:28443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:38000",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.173.155.72:28443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 160.30.21.105:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 38.60.252.118:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - TROJAN 103.179.173.232:17751",
@@ -701,7 +692,6 @@
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 171.244.142.193:8080",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 161.248.31.198:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 163.61.74.121:443",
-        "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.77.215.136:16934",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - SS 38.54.31.230:990",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 2.27.26.109:443",
         "\uD83C\uDDFB\uD83C\uDDF3 Vietnam - VLESS 103.245.237.124:58202",

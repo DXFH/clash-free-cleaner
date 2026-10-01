@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.245.198:443",
-      "type": "vless",
-      "server": "212.147.245.198",
-      "port": 443,
-      "uuid": "042d2d08-2973-5d10-97ad-3b75f16bbe54",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 89.125.114.9:443",
       "type": "vless",
       "server": "89.125.114.9",
@@ -26,11 +17,55 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 103.71.22.234:8443",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.245.198:443",
       "type": "vless",
-      "server": "103.71.22.234",
+      "server": "212.147.245.198",
+      "port": 443,
+      "uuid": "042d2d08-2973-5d10-97ad-3b75f16bbe54",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.53.116:80",
+      "type": "vless",
+      "server": "2.29.53.116",
+      "port": 80,
+      "uuid": "4bf0ee3a-d9d9-446b-b458-1c8c3f89aed7",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.193.102:9090",
+      "type": "vless",
+      "server": "65.109.193.102",
+      "port": 9090,
+      "uuid": "5e03bdbb-cb39-4c6e-8ee5-eb549b5e7a70",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.140.147.74:8880",
+      "type": "vless",
+      "server": "45.140.147.74",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 37.143.129.230:989",
+      "type": "ss",
+      "server": "37.143.129.230",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.230:8443",
+      "type": "vless",
+      "server": "31.76.80.230",
       "port": 8443,
-      "uuid": "9e3132b8-b595-444a-833a-2de44789f9d7",
+      "uuid": "d544c858-b1ba-45b2-8868-8197daf2a6ee",
       "tls": true,
       "flow": ""
     },
@@ -42,6 +77,15 @@
       "uuid": "8df2e661-6f46-471b-9133-7fc13a0daa35",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 179.254.109.54:443",
+      "type": "vless",
+      "server": "179.254.109.54",
+      "port": 443,
+      "uuid": "d0f0a880-0df1-0005-bdf1-5669fb9483ce",
+      "tls": true,
+      "flow": "xtls-rprx-vision#\uD83C\uDDFA\uD83C\uDDE6[openproxylist.com] vless-UA"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.27.215:43000",
@@ -349,14 +393,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 37.143.129.230:989",
-      "type": "ss",
-      "server": "37.143.129.230",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 92.118.233.103:2096",
       "type": "ss",
       "server": "92.118.233.103",
@@ -377,14 +413,6 @@
       "type": "ss",
       "server": "92.118.233.241",
       "port": 2096,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.250.181.128:16106",
-      "type": "ss",
-      "server": "185.250.181.128",
-      "port": 16106,
       "cipher": "auto",
       "password": ""
     },
@@ -465,6 +493,14 @@
       "type": "ss",
       "server": "65.109.0.223",
       "port": 44823,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 179.254.109.54:443",
+      "type": "ss",
+      "server": "179.254.109.54",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -648,7 +684,7 @@
       "port": 13868,
       "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83D\uDCC0"
+      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDDE0"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 35.228.61.63:443",
@@ -838,15 +874,6 @@
       "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.212.110:443",
-      "type": "vless",
-      "server": "144.31.212.110",
-      "port": 443,
-      "uuid": "223460d4-8f96-4652-9057-295bdedc3216",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.17.189:443",
@@ -1101,24 +1128,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 91.108.241.39:443",
-      "type": "vless",
-      "server": "91.108.241.39",
-      "port": 443,
-      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.53.116:80",
-      "type": "vless",
-      "server": "2.29.53.116",
-      "port": 80,
-      "uuid": "4bf0ee3a-d9d9-446b-b458-1c8c3f89aed7",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 150.241.71.35:443",
       "type": "vless",
       "server": "150.241.71.35",
@@ -1143,7 +1152,7 @@
       "port": 443,
       "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83D\uDCF1"
+      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDD16"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 62.238.39.20:8999",
@@ -1198,15 +1207,6 @@
       "uuid": "5ba7b2fe-8738-4dd9-b2f4-c3450b6f32fe",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 84.22.150.39:7443",
-      "type": "vless",
-      "server": "84.22.150.39",
-      "port": 7443,
-      "uuid": "5cc814de-2bbb-4409-ad8c-ee841ca7bad1",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 213.108.23.184:443",
@@ -1312,6 +1312,15 @@
       "type": "vless",
       "server": "65.109.178.171",
       "port": 9090,
+      "uuid": "7b760357-d569-4d02-9de6-7b1c0bfae1b8",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.178.171:9094",
+      "type": "vless",
+      "server": "65.109.178.171",
+      "port": 9094,
       "uuid": "7b760357-d569-4d02-9de6-7b1c0bfae1b8",
       "tls": true,
       "flow": ""
@@ -1449,7 +1458,7 @@
       "port": 443,
       "uuid": "8c22ef07-c9c7-4b0e-9d22-8247aff14f51",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDE78"
+      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDDE0"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.217.247.245:443",
@@ -1574,6 +1583,15 @@
       "server": "65.108.94.241",
       "port": 1617,
       "uuid": "999ede55-0aaa-4b54-9dad-c2abe0188940",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 103.71.22.234:8443",
+      "type": "vless",
+      "server": "103.71.22.234",
+      "port": 8443,
+      "uuid": "9e3132b8-b595-444a-833a-2de44789f9d7",
       "tls": true,
       "flow": ""
     },
@@ -2100,6 +2118,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.187.18:49092",
+      "type": "vless",
+      "server": "65.109.187.18",
+      "port": 49092,
+      "uuid": "b7e7ed42-5b9d-462d-8e54-5a4bd46f6822",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.193.233:37308",
       "type": "vless",
       "server": "65.109.193.233",
@@ -2253,15 +2280,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.250.181.128:34045",
-      "type": "vless",
-      "server": "185.250.181.128",
-      "port": 34045,
-      "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 38.244.136.163:34045",
       "type": "vless",
       "server": "38.244.136.163",
@@ -2406,15 +2424,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.140.147.74:8880",
-      "type": "vless",
-      "server": "45.140.147.74",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.218.147:8880",
       "type": "vless",
       "server": "65.109.218.147",
@@ -2475,7 +2484,7 @@
       "port": 5432,
       "uuid": "e84e0918-68ca-4fcc-a1d1-b566fd9ac7ee",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDDEA"
+      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDE96"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 193.23.201.65:5432",
@@ -2484,16 +2493,7 @@
       "port": 5432,
       "uuid": "e84e0918-68ca-4fcc-a1d1-b566fd9ac7ee",
       "tls": true,
-      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDE90"
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.199.151:8000",
-      "type": "vless",
-      "server": "65.109.199.151",
-      "port": 8000,
-      "uuid": "ea8932f2-e630-4bd6-8cdd-57e55d77089c",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": "xtls-rprx-vision# By EbraSha \uD83E\uDD87"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.77.203.216:7443",
@@ -2667,15 +2667,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.193.102:9090",
-      "type": "vless",
-      "server": "65.109.193.102",
-      "port": 9090,
-      "uuid": "5e03bdbb-cb39-4c6e-8ee5-eb549b5e7a70",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.3.81:443",
       "type": "vless",
       "server": "2.26.3.81",
@@ -2721,162 +2712,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.230:8443",
-      "type": "vless",
-      "server": "31.76.80.230",
-      "port": 8443,
-      "uuid": "d544c858-b1ba-45b2-8868-8197daf2a6ee",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.29.53.116:1080",
-      "type": "ss",
-      "server": "2.29.53.116",
-      "port": 1080,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.251.9:80",
-      "type": "vless",
-      "server": "65.109.251.9",
-      "port": 80,
-      "uuid": "002d2e68-8995-4d4d-8b02-224cf73c18f5",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.193.206:443",
-      "type": "vless",
-      "server": "37.27.193.206",
-      "port": 443,
-      "uuid": "576b2dd6-f31a-4cc9-acea-54882247d507",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.45:443",
-      "type": "vless",
-      "server": "95.216.165.45",
-      "port": 443,
-      "uuid": "22199ed8-5f22-4906-9917-67e3609d8776",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 103.71.22.26:443",
-      "type": "ss",
-      "server": "103.71.22.26",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.217.247.248:443",
-      "type": "vless",
-      "server": "217.217.247.248",
-      "port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.161.1:443",
-      "type": "vless",
-      "server": "95.216.161.1",
-      "port": 443,
-      "uuid": "22199ed8-5f22-4906-9917-67e3609d8776",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:31772",
-      "type": "vless",
-      "server": "95.217.137.22",
-      "port": 31772,
-      "uuid": "fa48198a-f51d-4a53-fbd3-bcfd4d1b48e1",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 77.42.34.2:20888",
-      "type": "vless",
-      "server": "77.42.34.2",
-      "port": 20888,
-      "uuid": "bd70f457-3ec8-4c93-9e5d-b2299b98cd80",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 213.176.65.115:8501",
-      "type": "vless",
-      "server": "213.176.65.115",
-      "port": 8501,
-      "uuid": "b272917b-d154-423d-cdbe-9627f6099472",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.218.179:2083",
-      "type": "vless",
-      "server": "65.109.218.179",
-      "port": 2083,
-      "uuid": "e39ea9ab-a0ee-4ca9-cc5d-32cda0258cbc",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.154.119:37265",
       "type": "vless",
       "server": "95.216.154.119",
       "port": 37265,
       "uuid": "eyJhZGQiOiI4LjIxOC4xNTAuMjkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IjguMjE4LjE1MC4yOSIsImlkIjoiMmMzNzBiMDMtYzMyMi00ZGRjLTgxZjEtNjdhYzg0ZThkMDliIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMzE1OTUiLCJwcyI6Itqp2KfZhtin2YQg2YXYpyBAdnBubWFzaSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=vmess",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 177.3.214.196:4443",
-      "type": "vless",
-      "server": "177.3.214.196",
-      "port": 4443,
-      "uuid": "4cf9c712-11c4-47d8-aa31-a1693a1aa4e5",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.183.164:22222",
-      "type": "vless",
-      "server": "95.216.183.164",
-      "port": 22222,
-      "uuid": "7dd31513-1779-4e6b-aa77-18011edeab47",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.21.144.96:50125",
-      "type": "vless",
-      "server": "65.21.144.96",
-      "port": 50125,
-      "uuid": "7973db56-b133-491d-fcdf-b78f47f36a93",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.65:443",
-      "type": "vless",
-      "server": "95.216.165.65",
-      "port": 443,
-      "uuid": "22199ed8-5f22-4906-9917-67e3609d8776",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:59917",
-      "type": "vless",
-      "server": "95.217.137.22",
-      "port": 59917,
-      "uuid": "eyJhZGQiOiJnaC1uZXR3b3JrLmF1dG9zIiwiYWlkIjoiMCIsImhvc3QiOiJibWkuaXIiLCJpZCI6IjQ2MTcxOTRkLWQ2ZDMtNDcwOS04ZGMwLWQyMjRiYjU2ZjQ0ZSIsIm5ldCI6InRjcCIsInBhdGgiOiIvU2VsbFZwblYycmF5X2JvdCIsInBvcnQiOiI0MDM3NyIsInBzIjoi2K3Yp9mw2Kzbmt264KOuIEBzb3NjdyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=vless",
       "tls": true,
       "flow": ""
     },
@@ -2890,6 +2730,42 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.21.144.96:50125",
+      "type": "vless",
+      "server": "65.21.144.96",
+      "port": 50125,
+      "uuid": "7973db56-b133-491d-fcdf-b78f47f36a93",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:59917",
+      "type": "vless",
+      "server": "95.217.137.22",
+      "port": 59917,
+      "uuid": "eyJhZGQiOiJnaC1uZXR3b3JrLmF1dG9zIiwiYWlkIjoiMCIsImhvc3QiOiJibWkuaXIiLCJpZCI6IjQ2MTcxOTRkLWQ2ZDMtNDcwOS04ZGMwLWQyMjRiYjU2ZjQ0ZSIsIm5ldCI6InRjcCIsInBhdGgiOiIvU2VsbFZwblYycmF5X2JvdCIsInBvcnQiOiI0MDM3NyIsInBzIjoi2K3Yp9mw2Kzbmt264KOuIEBzb3NjdyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=vless",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 77.42.34.2:20888",
+      "type": "vless",
+      "server": "77.42.34.2",
+      "port": 20888,
+      "uuid": "bd70f457-3ec8-4c93-9e5d-b2299b98cd80",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:31772",
+      "type": "vless",
+      "server": "95.217.137.22",
+      "port": 31772,
+      "uuid": "fa48198a-f51d-4a53-fbd3-bcfd4d1b48e1",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.192.110:55953",
       "type": "vless",
       "server": "65.109.192.110",
@@ -2897,6 +2773,15 @@
       "uuid": "b5ee8f67-0f25-467b-aca4-01001f00d802",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.217.247.248:443",
+      "type": "vless",
+      "server": "217.217.247.248",
+      "port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.243.42:443",
@@ -2908,19 +2793,29 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 37.27.193.206:443",
-      "type": "ss",
-      "server": "37.27.193.206",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 213.176.65.115:8501",
+      "type": "vless",
+      "server": "213.176.65.115",
+      "port": 8501,
+      "uuid": "b272917b-d154-423d-cdbe-9627f6099472",
+      "tls": true,
+      "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.176.5:443",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.183.164:22222",
       "type": "vless",
-      "server": "65.109.176.5",
-      "port": 443,
-      "uuid": "1d2e5805-69c0-4948-861c-57e4f778624e",
+      "server": "95.216.183.164",
+      "port": 22222,
+      "uuid": "7dd31513-1779-4e6b-aa77-18011edeab47",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.218.179:2083",
+      "type": "vless",
+      "server": "65.109.218.179",
+      "port": 2083,
+      "uuid": "e39ea9ab-a0ee-4ca9-cc5d-32cda0258cbc",
       "tls": true,
       "flow": ""
     },
@@ -2968,6 +2863,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 5.61.91.206:443",
+      "type": "vless",
+      "server": "5.61.91.206",
+      "port": 443,
+      "uuid": "bd99da97-265e-0021-82cc-4ec009fe9ce2",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.144.52.23:443",
       "type": "vless",
       "server": "45.144.52.23",
@@ -2994,11 +2898,11 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 193.233.23.121:40611",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.131.172:48867",
       "type": "vless",
-      "server": "193.233.23.121",
-      "port": 40611,
-      "uuid": "f5a25ee5-ff24-41b0-80e8-ccafdc866614",
+      "server": "65.109.131.172",
+      "port": 48867,
+      "uuid": "df448a60-935d-428a-e444-6ec54c90124c",
       "tls": true,
       "flow": ""
     },
@@ -3021,22 +2925,13 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.204.232:2053",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.3.88:443",
       "type": "vless",
-      "server": "65.109.204.232",
-      "port": 2053,
-      "uuid": "d44033bd-e8a3-4ab3-815f-24bffcf545bc",
+      "server": "2.26.3.88",
+      "port": 443,
+      "uuid": "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35",
       "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.239.32:47752",
-      "type": "vless",
-      "server": "95.217.239.32",
-      "port": 47752,
-      "uuid": "bf3c1433-56e6-41cf-b1cf-04ff934330a3",
-      "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.121.82.66:443",
@@ -3048,11 +2943,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.192.65:9093",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.62.220.103:27802",
       "type": "vless",
-      "server": "65.109.192.65",
-      "port": 9093,
-      "uuid": "Telegram%3ANap_v2ray",
+      "server": "46.62.220.103",
+      "port": 27802,
+      "uuid": "a42343e4-c498-42b7-8361-c03a36e7a5fb",
       "tls": true,
       "flow": ""
     },
@@ -3075,11 +2970,29 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.69:443",
+      "type": "vless",
+      "server": "31.76.80.69",
+      "port": 443,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 157.180.123.25:443",
       "type": "vless",
       "server": "157.180.123.25",
       "port": 443,
       "uuid": "638c1918-f6f0-4ecc-85e6-a3ac50ed9c02",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 135.181.193.91:445",
+      "type": "vless",
+      "server": "135.181.193.91",
+      "port": 445,
+      "uuid": "630321be-cc27-4d13-f16d-cc1a9ab9be3b",
       "tls": true,
       "flow": ""
     },
@@ -3108,14 +3021,23 @@
       "port": 5432,
       "uuid": "592ead02-6836-4987-a5c3-c75cea64948f",
       "tls": true,
-      "flow": "xtls-rprx-vision#@Vip_Security join us - 893"
+      "flow": "xtls-rprx-vision#@Vip_Security join us - 928"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.160.17:20419",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 177.3.214.196:4443",
       "type": "vless",
-      "server": "95.217.160.17",
-      "port": 20419,
-      "uuid": "3a494370-efa2-4b79-b01f-549a0ffe9904",
+      "server": "177.3.214.196",
+      "port": 4443,
+      "uuid": "4cf9c712-11c4-47d8-aa31-a1693a1aa4e5",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.58.148.202:443",
+      "type": "vless",
+      "server": "87.58.148.202",
+      "port": 443,
+      "uuid": "479083dc-946b-4c1a-98ca-b9aaa6857e66",
       "tls": true,
       "flow": ""
     },
@@ -3147,9 +3069,36 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.234.0:443",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.65:443",
       "type": "vless",
-      "server": "212.147.234.0",
+      "server": "95.216.165.65",
+      "port": 443,
+      "uuid": "22199ed8-5f22-4906-9917-67e3609d8776",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.45:443",
+      "type": "vless",
+      "server": "95.216.165.45",
+      "port": 443,
+      "uuid": "22199ed8-5f22-4906-9917-67e3609d8776",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.161.1:443",
+      "type": "vless",
+      "server": "95.216.161.1",
+      "port": 443,
+      "uuid": "22199ed8-5f22-4906-9917-67e3609d8776",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.10.99:443",
+      "type": "vless",
+      "server": "2.29.10.99",
       "port": 443,
       "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
       "tls": true,
@@ -3200,14 +3149,6 @@
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 35.228.61.63:443",
       "type": "ss",
       "server": "35.228.61.63",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 89.125.114.9:443",
-      "type": "ss",
-      "server": "89.125.114.9",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -3366,15 +3307,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.177.44.252:443",
-      "type": "vless",
-      "server": "217.177.44.252",
-      "port": 443,
-      "uuid": "17540a16-a0dd-5694-7e1e-14e281ccc032",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.226.100:443",
       "type": "vless",
       "server": "31.76.226.100",
@@ -3434,6 +3366,15 @@
       "server": "84.22.150.239",
       "port": 444,
       "uuid": "4054ad5f-e7db-4cad-bb5c-91108323c169",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 84.22.150.39:7443",
+      "type": "vless",
+      "server": "84.22.150.39",
+      "port": 7443,
+      "uuid": "5cc814de-2bbb-4409-ad8c-ee841ca7bad1",
       "tls": true,
       "flow": ""
     },
@@ -3524,15 +3465,6 @@
       "server": "2.27.175.71",
       "port": 443,
       "uuid": "0dca2cfe-98eb-4f9d-9a47-cf87510c558b",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.62.220.103:27802",
-      "type": "vless",
-      "server": "46.62.220.103",
-      "port": 27802,
-      "uuid": "a42343e4-c498-42b7-8361-c03a36e7a5fb",
       "tls": true,
       "flow": ""
     },
@@ -3717,6 +3649,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 179.254.109.194:443",
+      "type": "vless",
+      "server": "179.254.109.194",
+      "port": 443,
+      "uuid": "09f2257c-5013-463a-a468-e5a8d11d0709",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.228.232.215:443",
       "type": "vless",
       "server": "185.228.232.215",
@@ -3780,15 +3721,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.3.88:443",
-      "type": "vless",
-      "server": "2.26.3.88",
-      "port": 443,
-      "uuid": "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.123.221:42062",
       "type": "vless",
       "server": "2.27.123.221",
@@ -3825,20 +3757,20 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.10.99:443",
-      "type": "vless",
-      "server": "2.29.10.99",
-      "port": 443,
-      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.232.172:43312",
       "type": "vless",
       "server": "212.147.232.172",
       "port": 43312,
       "uuid": "8124ddbb-bf22-49d9-945d-2e72c554deb2",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.234.0:443",
+      "type": "vless",
+      "server": "212.147.234.0",
+      "port": 443,
+      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -3879,15 +3811,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.69:443",
-      "type": "vless",
-      "server": "31.76.80.69",
-      "port": 443,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.77.199.182:443",
       "type": "vless",
       "server": "31.77.199.182",
@@ -3920,6 +3843,15 @@
       "server": "37.143.129.244",
       "port": 443,
       "uuid": "0e6de971-69e8-4536-b06d-8b6eae57021b",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.193.206:443",
+      "type": "vless",
+      "server": "37.27.193.206",
+      "port": 443,
+      "uuid": "4c910f7d-a04a-434d-9f33-974dd21446a8",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -3976,15 +3908,6 @@
       "uuid": "6a8ee307-a1fb-4801-92e2-86253ecdd88d",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 5.61.91.206:443",
-      "type": "vless",
-      "server": "5.61.91.206",
-      "port": 443,
-      "uuid": "bd99da97-265e-0021-82cc-4ec009fe9ce2",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 5.61.91.221:443",
@@ -4293,15 +4216,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 135.181.193.91:445",
-      "type": "vless",
-      "server": "135.181.193.91",
-      "port": 445,
-      "uuid": "630321be-cc27-4d13-f16d-cc1a9ab9be3b",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 148.135.185.21:8445",
       "type": "vless",
       "server": "148.135.185.21",
@@ -4334,15 +4248,6 @@
       "server": "65.108.58.248",
       "port": 443,
       "uuid": "b0107817-029c-432c-ad4d-bd1e9e1c3471",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.58.148.202:443",
-      "type": "vless",
-      "server": "87.58.148.202",
-      "port": 443,
-      "uuid": "479083dc-946b-4c1a-98ca-b9aaa6857e66",
       "tls": true,
       "flow": ""
     },
@@ -4509,22 +4414,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.221.182:46000",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.184.41:44046",
       "type": "vless",
-      "server": "65.109.221.182",
-      "port": 46000,
-      "uuid": "b8773ac0-5d39-455d-a05b-a5f14d194049",
+      "server": "65.109.184.41",
+      "port": 44046,
+      "uuid": "Telegram-%40Cooonfig-%40Cooonfig",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.233.18:443",
-      "type": "vless",
-      "server": "95.217.233.18",
-      "port": 443,
-      "uuid": "Warpi-Free-Vpn-In-GooglePlay",
-      "tls": true,
-      "flow": "#@vpnclashfa - 3062"
     },
     {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.226.177:443",
@@ -4552,11 +4448,11 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.184.41:44046",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.221.182:46000",
       "type": "vless",
-      "server": "65.109.184.41",
-      "port": 44046,
-      "uuid": "Telegram-%40Cooonfig-%40Cooonfig",
+      "server": "65.109.221.182",
+      "port": 46000,
+      "uuid": "b8773ac0-5d39-455d-a05b-a5f14d194049",
       "tls": true,
       "flow": ""
     },
@@ -4569,18 +4465,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.238.140:443",
-      "type": "ss",
-      "server": "65.109.238.140",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.27.13.61:2096",
       "type": "ss",
       "server": "2.27.13.61",
       "port": 2096,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 144.31.90.226:443",
+      "type": "ss",
+      "server": "144.31.90.226",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -4604,22 +4500,6 @@
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 62.238.32.25:443",
       "type": "ss",
       "server": "62.238.32.25",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.27.15:2053",
-      "type": "ss",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 149.33.36.32:443",
-      "type": "ss",
-      "server": "149.33.36.32",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -4649,14 +4529,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.85.251.116:59631",
-      "type": "ss",
-      "server": "95.85.251.116",
-      "port": 59631,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.199.174:443",
       "type": "ss",
       "server": "65.109.199.174",
@@ -4673,9 +4545,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.111.208.18:443",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.208.235:443",
       "type": "ss",
-      "server": "95.111.208.18",
+      "server": "65.109.208.235",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -4693,6 +4565,14 @@
       "type": "ss",
       "server": "144.31.27.215",
       "port": 43000,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.29.53.116:80",
+      "type": "ss",
+      "server": "2.29.53.116",
+      "port": 80,
       "cipher": "auto",
       "password": ""
     },
@@ -4729,25 +4609,33 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.249.114:80",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 89.125.114.9:443",
       "type": "ss",
-      "server": "65.109.249.114",
-      "port": 80,
+      "server": "89.125.114.9",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 31.76.80.69:2083",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.178.91:9443",
       "type": "ss",
-      "server": "31.76.80.69",
-      "port": 2083,
+      "server": "65.109.178.91",
+      "port": 9443,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 103.245.229.32:443",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 194.77.71.152:443",
       "type": "ss",
-      "server": "103.245.229.32",
+      "server": "194.77.71.152",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 103.71.22.26:443",
+      "type": "ss",
+      "server": "103.71.22.26",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -4761,26 +4649,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.217.233.18:443",
-      "type": "ss",
-      "server": "95.217.233.18",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 85.192.48.142:443",
-      "type": "ss",
-      "server": "85.192.48.142",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.108.58.248:443",
       "type": "ss",
       "server": "65.108.58.248",
       "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.27.33.174:7443",
+      "type": "ss",
+      "server": "2.27.33.174",
+      "port": 7443,
       "cipher": "auto",
       "password": ""
     },
@@ -4801,33 +4681,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 144.31.150.4:52006",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.188.30.29:443",
       "type": "ss",
-      "server": "144.31.150.4",
-      "port": 52006,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 138.124.17.179:443",
-      "type": "ss",
-      "server": "138.124.17.179",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.42.163.5:8443",
-      "type": "ss",
-      "server": "185.42.163.5",
-      "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 31.76.245.63:443",
-      "type": "ss",
-      "server": "31.76.245.63",
+      "server": "185.188.30.29",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -4837,6 +4693,30 @@
       "type": "ss",
       "server": "185.246.191.243",
       "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.188.113:21430",
+      "type": "ss",
+      "server": "65.109.188.113",
+      "port": 21430,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.188.113:49969",
+      "type": "ss",
+      "server": "65.109.188.113",
+      "port": 49969,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 77.42.28.120:2087",
+      "type": "ss",
+      "server": "77.42.28.120",
+      "port": 2087,
       "cipher": "auto",
       "password": ""
     },
@@ -4865,17 +4745,17 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 45.149.147.97:443",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.27.15:2053",
       "type": "ss",
-      "server": "45.149.147.97",
-      "port": 443,
+      "server": "95.216.27.15",
+      "port": 2053,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 132.243.223.88:443",
+      "name": "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 45.149.147.97:443",
       "type": "ss",
-      "server": "132.243.223.88",
+      "server": "45.149.147.97",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -4886,10 +4766,15 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.245.198:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 89.125.114.9:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 103.71.22.234:8443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.245.198:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.53.116:80",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.193.102:9090",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.140.147.74:8880",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 37.143.129.230:989",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.230:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.28.164:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 179.254.109.54:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.27.215:43000",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - HYSTERIA2 31.76.80.69:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - HYSTERIA2 78.17.187.184:443",
@@ -4932,11 +4817,9 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 135.181.114.242:8478",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 77.83.247.207:18285",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.5.254:50007",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 37.143.129.230:989",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 92.118.233.103:2096",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 92.118.233.194:2096",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 92.118.233.241:2096",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.250.181.128:16106",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.217.178.173:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 87.58.159.20:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 213.176.65.115:8501",
@@ -4947,6 +4830,7 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 37.27.15.167:2089",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.217.183.108:2087",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.0.223:44823",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 179.254.109.54:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 31.76.80.230:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 212.87.222.42:34045",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 46.62.168.70:23737",
@@ -4990,7 +4874,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.27.15:2053",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.199.233:4050",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.77.199.147:4443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.212.110:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.17.189:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.193.18.183:8446",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.144.186.49:38231",
@@ -5019,8 +4902,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.20.137.118:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.193.233:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.53.234:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 91.108.241.39:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.53.116:80",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 150.241.71.35:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.151.107:80",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 138.124.112.196:443",
@@ -5030,7 +4911,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.176.251:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 157.180.80.139:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.102.25:47010",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 84.22.150.39:7443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 213.108.23.184:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 157.180.82.171:2087",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 91.149.254.149:443",
@@ -5043,6 +4923,7 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 103.71.22.160:42988",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.249.114:80",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.178.171:9090",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.178.171:9094",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.48.140:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.186.15:53773",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.203.70:59752",
@@ -5072,6 +4953,7 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.21.149.150:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.62.139.178:1111",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.108.94.241:1617",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 103.71.22.234:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 103.71.22.26:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.15.127.184:2053",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.15.127.184:2087",
@@ -5130,6 +5012,7 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.5.58:8080",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.33.174:7443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 193.124.224.3:8880",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.187.18:49092",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.193.233:37308",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.188.144:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 85.192.49.151:443",
@@ -5147,7 +5030,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.100.86.155:10443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.46.138:20422",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.200.190.159:34045",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.250.181.128:34045",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 38.244.136.163:34045",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 38.244.136.53:34045",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.21.187.251:34045",
@@ -5164,7 +5046,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 157.180.29.19:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.249.41:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.249.94:8880",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.140.147.74:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.218.147:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.134.58:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.203.70:443",
@@ -5173,7 +5054,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.143.129.161:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 193.23.201.133:5432",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 193.23.201.65:5432",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.199.151:8000",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.77.203.216:7443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.207.127:33810",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.254.247:80",
@@ -5193,35 +5073,23 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.79.138.71:448",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.120.107.246:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.160.158:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.193.102:9090",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.3.81:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.218.12:5050",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.58.159.20:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 77.42.34.2:30558",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 150.241.71.245:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.230:8443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.29.53.116:1080",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.251.9:80",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.193.206:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.45:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 103.71.22.26:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.217.247.248:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.161.1:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:31772",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 77.42.34.2:20888",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 213.176.65.115:8501",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.218.179:2083",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.154.119:37265",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 177.3.214.196:4443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.183.164:22222",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.21.144.96:50125",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.65:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:59917",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.241.111:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.21.144.96:50125",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:59917",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 77.42.34.2:20888",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.137.22:31772",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.192.110:55953",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.217.247.248:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.243.42:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 37.27.193.206:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.176.5:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 213.176.65.115:8501",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.183.164:22222",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.218.179:2083",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - HYSTERIA2 46.62.152.236:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - HY2 77.221.158.52:7373",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - HY2 65.21.158.249:2083",
@@ -5233,34 +5101,40 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.171.80:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.178.142:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.215.50:13049",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 5.61.91.206:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.144.52.23:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 195.133.2.45:26048",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.215.118:1080",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 193.233.23.121:40611",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.131.172:48867",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.246.191.243:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 64.188.80.82:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.204.232:2053",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.239.32:47752",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.3.88:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.121.82.66:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.192.65:9093",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.62.220.103:27802",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.111.208.18:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.160.17:2052",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.69:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 157.180.123.25:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 135.181.193.91:445",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 135.181.193.91:444",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.185.150:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.156.247:5432",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.160.17:20419",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 177.3.214.196:4443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.58.148.202:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.231.154:8880",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.62.128.207:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.131.172:48880",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.234.0:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.65:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.165.45:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.216.161.1:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.10.99:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 78.17.112.103:13868",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - HYSTERIA2 144.31.212.253:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.204.63:36799",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.21.105.184:52824",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.21.181.244:58991",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 212.147.245.198:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 35.228.61.63:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 89.125.114.9:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.188.30.152:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 103.71.22.133:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 109.107.155.76:2053",
@@ -5278,7 +5152,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.104.128.27:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.104.128.45:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.104.128.68:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.177.44.252:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.226.100:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.243.1.164:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 62.238.101.161:443",
@@ -5286,6 +5159,7 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.12.58:2053",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 84.22.149.236:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 84.22.150.239:444",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 84.22.150.39:7443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 85.192.49.182:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.121.82.237:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.129.198:443",
@@ -5296,7 +5170,6 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.226.100:9443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.7.182:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.175.71:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.62.220.103:27802",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 109.61.17.127:21105",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 13.143.129.2:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 132.243.223.88:443",
@@ -5317,6 +5190,7 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 150.241.86.150:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 153.76.194.118:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 178.17.53.248:8443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 179.254.109.194:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.228.232.215:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 185.228.232.216:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 192.124.181.44:44333",
@@ -5324,29 +5198,27 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 196.196.206.37:2053",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 196.196.206.38:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.3.164:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.3.88:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.123.221:42062",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.168.11:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.175.122:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.27.203.203:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.29.10.99:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.232.172:43312",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.147.234.0:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 212.193.18.183:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.144.188.131:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 217.217.247.250:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.245.13:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.76.80.69:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 31.77.199.182:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 34.88.172.173:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 34.88.172.76:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.143.129.244:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.193.206:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 38.244.137.198:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.144.52.122:2083",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.144.53.165:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 45.144.53.81:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 46.62.135.67:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 5.181.21.152:24170",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 5.61.91.206:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 5.61.91.221:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 62.238.103.54:2083",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 62.60.229.124:8443",
@@ -5381,12 +5253,10 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 91.103.140.69:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 93.152.207.130:8443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 93.152.207.254:45884",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 135.181.193.91:445",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 148.135.185.21:8445",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 2.26.9.243:3454",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 37.27.254.146:2087",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.108.58.248:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 87.58.148.202:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.237.195:10210",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.85.251.116:59631",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 153.52.117.170:2096",
@@ -5405,52 +5275,49 @@
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.108.231.185:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.145.54:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.206.161:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.221.182:46000",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 95.217.233.18:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.184.41:44046",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 144.31.226.177:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 93.152.207.248:34242",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 38.244.137.202:45380",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.184.41:44046",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - VLESS 65.109.221.182:46000",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 142.228.52.45:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.238.140:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.27.13.61:2096",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 144.31.90.226:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.29.10.99:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.216.71.225:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 62.238.32.25:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.27.15:2053",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 149.33.36.32:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.161.1:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.165.45:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.165.65:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.85.251.116:59631",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.199.174:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.253.202:80",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.111.208.18:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.208.235:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 87.58.148.202:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 144.31.27.215:43000",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.29.53.116:80",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.181.138:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 138.124.112.196:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.176.251:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 213.108.23.184:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.249.114:80",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 31.76.80.69:2083",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 103.245.229.32:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 89.125.114.9:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.178.91:9443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 194.77.71.152:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 103.71.22.26:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.184.41:44046",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.217.233.18:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 85.192.48.142:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.108.58.248:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 2.27.33.174:7443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 153.52.117.170:2096",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.221.182:46000",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 144.31.150.4:52006",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 138.124.17.179:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.42.163.5:8443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 31.76.245.63:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.188.30.29:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 185.246.191.243:443",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.188.113:21430",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 65.109.188.113:49969",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 77.42.28.120:2087",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.217.24.119:2087",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 152.233.54.104:443",
         "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 193.23.201.65:5432",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 45.149.147.97:443",
-        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 132.243.223.88:443"
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 95.216.27.15:2053",
+        "\uD83C\uDDEB\uD83C\uDDEE Finland - SS 45.149.147.97:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
