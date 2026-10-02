@@ -8,12 +8,38 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - SS 172.64.196.148:443",
+      "type": "ss",
+      "server": "172.64.196.148",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - TROJAN 188.240.213.45:20071",
       "type": "trojan",
       "server": "188.240.213.45",
       "port": 20071,
       "password": "4467ae8518abf1ef321618c0bfb5549ccc",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
+      "type": "vless",
+      "server": "217.177.44.252",
+      "port": 443,
+      "uuid": "17540a16-a0dd-5694-7e1e-14e281ccc032",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 185.9.25.99:25174",
+      "type": "vless",
+      "server": "185.9.25.99",
+      "port": 25174,
+      "uuid": "1b9427d9-a318-4c3d-bf88-c8b849295897",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 193.36.95.236:443",
@@ -34,11 +60,20 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 213.155.13.59:529",
       "type": "vless",
-      "server": "217.177.44.252",
-      "port": 443,
-      "uuid": "17540a16-a0dd-5694-7e1e-14e281ccc032",
+      "server": "213.155.13.59",
+      "port": 529,
+      "uuid": "d3f088a5-58d6-4dc6-adab-54d74e339c62",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 185.5.75.151:8443",
+      "type": "vless",
+      "server": "185.5.75.151",
+      "port": 8443,
+      "uuid": "fce1e5b0-d154-4278-a291-5c79f5b1bb24",
       "tls": true,
       "flow": ""
     },
@@ -56,10 +91,14 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - SS 172.64.196.148:443",
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - TROJAN 188.240.213.45:20071",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 185.9.25.99:25174",
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 193.36.95.236:443",
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 193.36.95.237:443",
-        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 217.177.44.252:443",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 213.155.13.59:529",
+        "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - VLESS 185.5.75.151:8443",
         "\uD83C\uDDF0\uD83C\uDDEC Kyrgyzstan - SS 217.177.44.252:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",

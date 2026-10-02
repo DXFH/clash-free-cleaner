@@ -24,20 +24,21 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 82.22.53.30:448",
-      "type": "ss",
-      "server": "82.22.53.30",
-      "port": 448,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 37.235.49.118:443",
       "type": "trojan",
       "server": "37.235.49.118",
       "port": 443,
       "password": "p%3DXuu4jK_lJ9rOKw5%2B7BsW798DZ-01cv4S",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 185.247.226.138:443",
+      "type": "vless",
+      "server": "185.247.226.138",
+      "port": 443,
+      "uuid": "36af4874-d6a3-4f7c-82a7-1cb724961b52",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 151.236.24.67:8443",
@@ -49,20 +50,29 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 185.247.226.138:443",
-      "type": "vless",
-      "server": "185.247.226.138",
-      "port": 443,
-      "uuid": "5c5a466e-f2e0-4211-8963-742afac24948",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 144.31.128.84:24531",
       "type": "vless",
       "server": "144.31.128.84",
       "port": 24531,
       "uuid": "9a3d5f36-fa72-4ced-94d3-7f6f046ec085",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 185.146.234.242:443",
+      "type": "vless",
+      "server": "185.146.234.242",
+      "port": 443,
+      "uuid": "b1c31d36-c6b5-414b-88d2-9e24e7bfcca3",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448",
+      "type": "vless",
+      "server": "82.22.53.30",
+      "port": 448,
+      "uuid": "f82944fe-9863-494a-9a2d-0f3120a774c6",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -83,15 +93,6 @@
       "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448",
-      "type": "vless",
-      "server": "82.22.53.30",
-      "port": 448,
-      "uuid": "f82944fe-9863-494a-9a2d-0f3120a774c6",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -101,14 +102,14 @@
       "proxies": [
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 37.235.49.152:989",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 37.235.49.168:989",
-        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - SS 82.22.53.30:448",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - TROJAN 37.235.49.118:443",
-        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 151.236.24.67:8443",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 185.247.226.138:443",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 151.236.24.67:8443",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 144.31.128.84:24531",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 185.146.234.242:443",
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448",
         "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 151.243.181.99:443",
-        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 195.246.230.125:443",
-        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 82.22.53.30:448"
+        "\uD83C\uDDEE\uD83C\uDDF8 Iceland - VLESS 195.246.230.125:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
