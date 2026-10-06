@@ -8,22 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 157.137.235.147:62145",
-      "type": "ss",
-      "server": "157.137.235.147",
-      "port": 62145,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 181.119.30.20:990",
-      "type": "ss",
-      "server": "181.119.30.20",
-      "port": 990,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 190.120.231.45:989",
       "type": "ss",
       "server": "190.120.231.45",
@@ -1198,7 +1182,7 @@
       "port": 62145,
       "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
       "tls": true,
-      "flow": "# By EbraSha \uD83C\uDF03"
+      "flow": "# By EbraSha \uD83E\uDD16"
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.216.1:62145",
@@ -1846,7 +1830,7 @@
       "port": 62145,
       "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
       "tls": true,
-      "flow": "# By EbraSha \uD83E\uDD85"
+      "flow": "# By EbraSha \uD83D\uDCC0"
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.230.163:62145",
@@ -2032,6 +2016,15 @@
       "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.122:62145",
       "type": "vless",
       "server": "157.137.235.122",
+      "port": 62145,
+      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.147:62145",
+      "type": "vless",
+      "server": "157.137.235.147",
       "port": 62145,
       "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
       "tls": true,
@@ -2497,13 +2490,12 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.147:62145",
-      "type": "vless",
+      "name": "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 157.137.235.147:62145",
+      "type": "ss",
       "server": "157.137.235.147",
       "port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "tls": true,
-      "flow": ""
+      "cipher": "auto",
+      "password": ""
     }
   ],
   "proxy_groups": [
@@ -2511,8 +2503,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 157.137.235.147:62145",
-        "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 181.119.30.20:990",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 190.120.231.45:989",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 131.255.4.219:989",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 149.130.160.234:62145",
@@ -2737,6 +2727,7 @@
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.234.223:62145",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.234.36:62145",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.122:62145",
+        "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.147:62145",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.154:62145",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.198:62145",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.225:62145",
@@ -2788,7 +2779,7 @@
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 158.247.126.244:62145",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 158.247.126.67:62145",
         "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 158.247.126.78:62145",
-        "\uD83C\uDDE8\uD83C\uDDF4 Colombia - VLESS 157.137.235.147:62145"
+        "\uD83C\uDDE8\uD83C\uDDF4 Colombia - SS 157.137.235.147:62145"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
