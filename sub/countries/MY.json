@@ -8,21 +8,13 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 216.173.67.59:443",
+      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 166.88.35.245:80",
       "type": "vless",
-      "server": "216.173.67.59",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "server": "166.88.35.245",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - TROJAN 47.250.84.25:443",
-      "type": "trojan",
-      "server": "47.250.84.25",
-      "port": 443,
-      "password": "5931134d1cde66bf83a54acdfebe7ab2",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 223.25.246.4:8389",
@@ -49,6 +41,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - TROJAN 47.250.84.25:443",
+      "type": "trojan",
+      "server": "47.250.84.25",
+      "port": 443,
+      "password": "5931134d1cde66bf83a54acdfebe7ab2",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - TROJAN 38.60.168.129:443",
       "type": "trojan",
       "server": "38.60.168.129",
@@ -66,13 +66,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 43.217.83.128:22012",
+      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 216.173.67.59:443",
       "type": "vless",
-      "server": "43.217.83.128",
-      "port": 22012,
-      "uuid": "a292d697-5249-417f-aa8a-b853fa6ff35c",
+      "server": "216.173.67.59",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 155.254.60.222:80",
@@ -87,15 +87,6 @@
       "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 166.88.35.199:80",
       "type": "vless",
       "server": "166.88.35.199",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 166.88.35.245:80",
-      "type": "vless",
-      "server": "166.88.35.245",
       "port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "tls": true,
@@ -125,6 +116,15 @@
       "server": "45.194.27.124",
       "port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 210.186.12.244:443",
+      "type": "vless",
+      "server": "210.186.12.244",
+      "port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls": true,
       "flow": ""
     },
@@ -219,15 +219,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 210.186.12.244:443",
-      "type": "vless",
-      "server": "210.186.12.244",
-      "port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 210.186.12.244:443",
       "type": "ss",
       "server": "210.186.12.244",
@@ -265,20 +256,20 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 216.173.67.59:443",
-        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - TROJAN 47.250.84.25:443",
+        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 166.88.35.245:80",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 223.25.246.4:8389",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 202.59.10.102:989",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 47.250.212.59:2053",
+        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - TROJAN 47.250.84.25:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - TROJAN 38.60.168.129:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 47.250.195.135:20393",
-        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 43.217.83.128:22012",
+        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 216.173.67.59:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 155.254.60.222:80",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 166.88.35.199:80",
-        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 166.88.35.245:80",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 45.195.69.230:80",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 56.69.159.191:53271",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 45.194.27.124:80",
+        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 210.186.12.244:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 142.111.143.223:13779",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 149.33.30.176:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 47.254.207.127:443",
@@ -289,7 +280,6 @@
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 216.173.67.159:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 47.250.132.147:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 45.89.107.223:443",
-        "\uD83C\uDDF2\uD83C\uDDFE Malaysia - VLESS 210.186.12.244:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 210.186.12.244:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 216.173.67.59:443",
         "\uD83C\uDDF2\uD83C\uDDFE Malaysia - SS 155.254.60.222:80",
