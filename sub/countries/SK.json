@@ -16,6 +16,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 5.252.33.175:9873",
+      "type": "vless",
+      "server": "5.252.33.175",
+      "port": 9873,
+      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 5.252.33.175:9882",
       "type": "vless",
       "server": "5.252.33.175",
@@ -142,18 +151,33 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 80.243.228.73:2085",
-      "type": "vless",
-      "server": "80.243.228.73",
-      "port": 2085,
-      "uuid": "41fe1f2f-f981-44a5-939f-9b59d15ca955",
-      "tls": true,
-      "flow": ""
+      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 5.252.33.175:9873",
+      "type": "ss",
+      "server": "5.252.33.175",
+      "port": 9873,
+      "cipher": "auto",
+      "password": ""
     },
     {
-      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.73:2085",
+      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 5.252.33.175:9882",
       "type": "ss",
-      "server": "80.243.228.73",
+      "server": "5.252.33.175",
+      "port": 9882,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.61:2085",
+      "type": "ss",
+      "server": "80.243.228.61",
+      "port": 2085,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.25:2085",
+      "type": "ss",
+      "server": "80.243.228.25",
       "port": 2085,
       "cipher": "auto",
       "password": ""
@@ -165,14 +189,6 @@
       "port": 2085,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.61:2085",
-      "type": "ss",
-      "server": "80.243.228.61",
-      "port": 2085,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -181,6 +197,7 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 188.123.123.133:989",
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 5.252.33.175:9873",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 5.252.33.175:9882",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 80.243.228.61:2085",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 80.243.228.25:2085",
@@ -197,10 +214,11 @@
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 89.46.42.141:2053",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 89.46.42.92:2053",
         "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 91.242.163.179:2053",
-        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - VLESS 80.243.228.73:2085",
-        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.73:2085",
-        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.84:2085",
-        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.61:2085"
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 5.252.33.175:9873",
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 5.252.33.175:9882",
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.61:2085",
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.25:2085",
+        "\uD83C\uDDF8\uD83C\uDDF0 Slovakia - SS 80.243.228.84:2085"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
