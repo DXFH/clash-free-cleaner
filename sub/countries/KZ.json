@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 206.223.249.90:33891",
+      "type": "vless",
+      "server": "206.223.249.90",
+      "port": 33891,
+      "uuid": "9977ba41-b6aa-4033-9492-2f6abfcade31",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 89.218.15.90:10002",
       "type": "ss",
       "server": "89.218.15.90",
@@ -102,29 +111,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 199.189.254.16:443",
-      "type": "vless",
-      "server": "199.189.254.16",
-      "port": 443,
-      "uuid": "5b5e4cbf-2366-499a-8327-0cd9918c687d",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 178.236.17.86:443",
       "type": "vless",
       "server": "178.236.17.86",
       "port": 443,
       "uuid": "6fdfdb73-51b0-4a14-89a5-c9355a0e0397",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 206.223.249.90:33891",
-      "type": "vless",
-      "server": "206.223.249.90",
-      "port": 33891,
-      "uuid": "9977ba41-b6aa-4033-9492-2f6abfcade31",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -201,6 +192,16 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VMESS 38.107.234.57:80",
+      "type": "vmess",
+      "server": "38.107.234.57",
+      "port": 80,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VMESS 195.245.221.246:443",
       "type": "vmess",
       "server": "195.245.221.246",
@@ -227,16 +228,6 @@
       "uuid": "e464526a-e3de-4db9-8821-4e146507976f",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VMESS 38.107.234.57:80",
-      "type": "vmess",
-      "server": "38.107.234.57",
-      "port": 80,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 5.180.40.32:443",
@@ -575,6 +566,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 206.223.249.90:33891",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - HYSTERIA2 194.238.40.185:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 89.218.15.90:10002",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 213.156.137.142:43659",
@@ -587,9 +579,7 @@
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.111:2096",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 83.222.23.81:38065",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 185.136.12.28:8443",
-        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 199.189.254.16:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 178.236.17.86:443",
-        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 206.223.249.90:33891",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 178.236.16.98:35728",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.170:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 109.248.170.119:13447",
@@ -598,10 +588,10 @@
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 94.247.131.10:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 194.76.18.126:2087",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 89.218.15.90:10002",
+        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VMESS 38.107.234.57:80",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VMESS 195.245.221.246:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 31.43.179.8:8443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 5.180.46.9:8880",
-        "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VMESS 38.107.234.57:80",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - VLESS 5.180.40.32:443",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 188.94.156.6:20",
         "\uD83C\uDDF0\uD83C\uDDFF Kazakhstan - SS 109.61.39.28:990",
