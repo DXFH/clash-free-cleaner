@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 46.243.183.2:443",
-      "type": "vless",
-      "server": "46.243.183.2",
-      "port": 443,
-      "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - TROJAN 178.172.227.178:500",
       "type": "trojan",
       "server": "178.172.227.178",
@@ -30,6 +21,15 @@
       "server": "189.74.124.83",
       "port": 443,
       "uuid": "5b5e4cbf-2366-499a-8327-0cd9918c687d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 46.243.183.2:443",
+      "type": "vless",
+      "server": "46.243.183.2",
+      "port": 443,
+      "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -206,9 +206,9 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 46.243.183.2:443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - TROJAN 178.172.227.178:500",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 189.74.124.83:443",
+        "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 46.243.183.2:443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 95.130.84.36:8443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 144.31.129.2:443",
         "\uD83C\uDDE7\uD83C\uDDFE Belarus - VLESS 185.66.68.72:443",
