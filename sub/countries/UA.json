@@ -8,18 +8,18 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
       "type": "ss",
-      "server": "185.164.175.81",
-      "port": 19999,
+      "server": "5.188.6.8",
+      "port": 989,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
       "type": "ss",
-      "server": "195.28.182.217",
-      "port": 51348,
+      "server": "185.164.175.81",
+      "port": 19999,
       "cipher": "auto",
       "password": ""
     },
@@ -83,6 +83,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
+      "type": "vless",
+      "server": "173.242.63.235",
+      "port": 8443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 95.164.47.60:443",
       "type": "vless",
       "server": "95.164.47.60",
@@ -133,6 +142,14 @@
       "uuid": "ItsLegendaryking",
       "tls": true,
       "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 91.196.163.140:14430",
+      "type": "ss",
+      "server": "91.196.163.140",
+      "port": 14430,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 130.0.233.100:8443",
@@ -212,15 +229,6 @@
       "server": "141.105.130.102",
       "port": 443,
       "uuid": "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
-      "type": "vless",
-      "server": "173.242.63.235",
-      "port": 8443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
       "tls": true,
       "flow": ""
     },
@@ -317,14 +325,6 @@
       "port": 8443,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 91.196.163.140:14430",
-      "type": "ss",
-      "server": "91.196.163.140",
-      "port": 14430,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -332,8 +332,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 95.164.47.60:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 92.112.126.90:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 37.19.218.197:8389",
@@ -341,6 +341,7 @@
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 2.59.223.72:667",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 31.41.221.121:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.196.163.140:14430",
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 95.164.47.60:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 193.41.5.243:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 178.95.176.16:1080",
@@ -348,6 +349,7 @@
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.231.182.187:21341",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.231.182.187:20977",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 141.105.130.162:443",
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 91.196.163.140:14430",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 130.0.233.100:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 185.235.219.138:9000",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 193.238.153.15:443",
@@ -357,7 +359,6 @@
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.218.122.10:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.236.248.20:20071",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 141.105.130.102:443",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 185.115.36.248:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 185.115.36.248:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 213.111.148.137:443",
@@ -368,8 +369,7 @@
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - TROJAN 46.202.30.27:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - TROJAN 95.164.9.196:2053",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 130.0.233.100:8443",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 91.218.122.10:8443",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 91.196.163.140:14430"
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 91.218.122.10:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
