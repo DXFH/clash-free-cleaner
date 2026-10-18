@@ -8,9 +8,9 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
+      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
       "type": "ss",
-      "server": "94.20.154.26",
+      "server": "180.149.44.120",
       "port": 989,
       "cipher": "auto",
       "password": ""
@@ -28,6 +28,14 @@
       "type": "ss",
       "server": "94.20.154.38",
       "port": 50006,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
+      "type": "ss",
+      "server": "94.20.154.26",
+      "port": 989,
       "cipher": "auto",
       "password": ""
     },
@@ -72,6 +80,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.44.70:4655",
+      "type": "vless",
+      "server": "180.149.44.70",
+      "port": 4655,
+      "uuid": "2668fdee-331d-4770-8244-d2a4efbf6ef8",
+      "tls": true,
+      "flow": "# By EbraSha \u26A1"
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.51:35294",
       "type": "ss",
       "server": "62.212.239.51",
@@ -84,14 +101,6 @@
       "type": "ss",
       "server": "62.212.239.51",
       "port": 49653,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
-      "type": "ss",
-      "server": "180.149.44.120",
-      "port": 989,
       "cipher": "auto",
       "password": ""
     },
@@ -137,17 +146,18 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
+        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.38:50000",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.38:50006",
+        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.44:33992",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.43:43893",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.45:43893",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.53:43893",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.67:43893",
+        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.44.70:4655",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.51:35294",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.51:49653",
-        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.45.23:51263",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.45.30:2026",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 94.20.58.252:1443",
