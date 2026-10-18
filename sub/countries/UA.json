@@ -8,18 +8,18 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
-      "type": "ss",
-      "server": "5.188.6.8",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
       "type": "ss",
       "server": "185.164.175.81",
       "port": 19999,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
+      "type": "ss",
+      "server": "5.188.6.8",
+      "port": 989,
       "cipher": "auto",
       "password": ""
     },
@@ -29,15 +29,6 @@
       "server": "91.196.163.140",
       "port": 14430,
       "uuid": "e86a3662-9b31-4d59-bc80-9e8644749b95",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
-      "type": "vless",
-      "server": "173.242.63.235",
-      "port": 8443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
       "tls": true,
       "flow": ""
     },
@@ -90,14 +81,6 @@
       "uuid": "bbed94d9-1120-4b54-8a9c-72d81e411fb8",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
-      "type": "ss",
-      "server": "195.28.182.217",
-      "port": 51348,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 178.95.176.16:1080",
@@ -216,6 +199,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
+      "type": "vless",
+      "server": "173.242.63.235",
+      "port": 8443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 185.115.36.248:8443",
       "type": "vless",
       "server": "185.115.36.248",
@@ -315,17 +307,15 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 185.164.175.81:19999",
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 5.188.6.8:989",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.196.163.140:14430",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 92.112.126.90:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 37.19.218.197:8389",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 156.146.50.102:50695",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - TROJAN 46.202.30.216:2096",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 46.202.30.254:8880",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 144.31.131.192:443",
-        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 195.28.182.217:51348",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - HYSTERIA2 193.41.5.243:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - SS 178.95.176.16:1080",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.231.182.187:21341",
@@ -340,6 +330,7 @@
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.218.122.10:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 91.236.248.20:20071",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 141.105.130.102:443",
+        "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 173.242.63.235:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 185.115.36.248:8443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 185.115.36.248:443",
         "\uD83C\uDDFA\uD83C\uDDE6 Ukraine - VLESS 213.111.148.137:443",
