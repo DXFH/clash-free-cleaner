@@ -8,6 +8,23 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.133.165.160:16233",
+      "type": "ss",
+      "server": "102.133.165.160",
+      "port": 16233,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:16529",
+      "type": "vless",
+      "server": "192.142.53.38",
+      "port": 16529,
+      "uuid": "d2d42f0d-5090-4901-bb7d-8ce85cfb8142",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 139.84.247.164:8388",
       "type": "ss",
       "server": "139.84.247.164",
@@ -96,14 +113,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.133.165.160:16233",
-      "type": "ss",
-      "server": "102.133.165.160",
-      "port": 16233,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.37.156.224:443",
       "type": "ss",
       "server": "102.37.156.224",
@@ -128,15 +137,6 @@
       "uuid": "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:16529",
-      "type": "vless",
-      "server": "192.142.53.38",
-      "port": 16529,
-      "uuid": "d2d42f0d-5090-4901-bb7d-8ce85cfb8142",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:37321",
@@ -506,6 +506,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.133.165.160:16233",
+        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:16529",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 139.84.247.164:8388",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.133.227.3:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 20.164.205.35:443",
@@ -517,11 +519,9 @@
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 4.168.234.5:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 4.168.234.190:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 20.164.220.189:443",
-        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.133.165.160:16233",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.37.156.224:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 31.43.191.39:443",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 31.43.191.99:443",
-        "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:16529",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - VLESS 192.142.53.38:37321",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.165.47.134:47121",
         "\uD83C\uDDFF\uD83C\uDDE6 South Africa - SS 102.165.20.38:8389",

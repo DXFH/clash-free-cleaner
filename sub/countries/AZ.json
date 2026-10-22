@@ -8,14 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
-      "type": "ss",
-      "server": "180.149.44.120",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.45:43893",
       "type": "ss",
       "server": "62.212.239.45",
@@ -80,6 +72,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 109.61.16.59:40161",
+      "type": "vless",
+      "server": "109.61.16.59",
+      "port": 40161,
+      "uuid": "0bcc520b-c5af-40a3-b1cb-009ea5f36e83",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.44.70:4655",
       "type": "vless",
       "server": "180.149.44.70",
@@ -105,6 +106,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
+      "type": "ss",
+      "server": "180.149.44.120",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 94.20.57.39:443",
       "type": "vless",
       "server": "94.20.57.39",
@@ -119,7 +128,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.45:43893",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.44:33992",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.38:50006",
@@ -128,9 +136,11 @@
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.43:43893",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.67:43893",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 94.20.154.26:989",
+        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 109.61.16.59:40161",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 180.149.44.70:4655",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.51:35294",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 62.212.239.51:49653",
+        "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - SS 180.149.44.120:989",
         "\uD83C\uDDE6\uD83C\uDDFF Azerbaijan - VLESS 94.20.57.39:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
