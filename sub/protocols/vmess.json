@@ -8,10 +8,10 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 168.138.43.75:80",
+      "name": "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 31.76.11.83:22366",
       "type": "vmess",
-      "server": "168.138.43.75",
-      "port": 80,
+      "server": "31.76.11.83",
+      "port": 22366,
       "uuid": "",
       "alterId": 0,
       "cipher": "auto",
@@ -38,9 +38,29 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VMESS 64.176.2.21:8388",
+      "type": "vmess",
+      "server": "64.176.2.21",
+      "port": 8388,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDF8\uD83C\uDDEC Singapore - VMESS 143.198.219.182:80",
       "type": "vmess",
       "server": "143.198.219.182",
+      "port": 80,
+      "uuid": "",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 168.138.43.75:80",
+      "type": "vmess",
+      "server": "168.138.43.75",
       "port": 80,
       "uuid": "",
       "alterId": 0,
@@ -3036,16 +3056,6 @@
       "alterId": 0,
       "cipher": "auto",
       "tls": true
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 31.76.11.83:22366",
-      "type": "vmess",
-      "server": "31.76.11.83",
-      "port": 22366,
-      "uuid": "",
-      "alterId": 0,
-      "cipher": "auto",
-      "tls": true
     }
   ],
   "proxy_groups": [
@@ -3053,10 +3063,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 168.138.43.75:80",
+        "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 31.76.11.83:22366",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VMESS 158.160.180.165:24212",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 198.98.53.130:443",
+        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VMESS 64.176.2.21:8388",
         "\uD83C\uDDF8\uD83C\uDDEC Singapore - VMESS 143.198.219.182:80",
+        "\uD83C\uDDEF\uD83C\uDDF5 Japan - VMESS 168.138.43.75:80",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 150.136.57.125:41106",
         "\uD83C\uDDF3\uD83C\uDDF1 The Netherlands - VMESS 51.136.162.7:11439",
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 51.81.202.62:80",
@@ -3355,8 +3367,7 @@
         "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 167.68.11.29:8880",
         "\uD83C\uDDF8\uD83C\uDDE8 Seychelles - VMESS 154.83.2.254:8880",
         "\uD83C\uDDEA\uD83C\uDDF8 Spain - VMESS 185.251.80.254:8880",
-        "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 184.174.80.63:8880",
-        "\uD83C\uDDE9\uD83C\uDDEA Germany - VMESS 31.76.11.83:22366"
+        "\uD83C\uDDFA\uD83C\uDDF8 United States - VMESS 184.174.80.63:8880"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
