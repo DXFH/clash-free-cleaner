@@ -8,14 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 192.71.249.78:989",
-      "type": "ss",
-      "server": "192.71.249.78",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:443",
       "type": "vless",
       "server": "109.69.218.217",
@@ -156,13 +148,12 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.162:443",
-      "type": "vless",
-      "server": "109.69.218.162",
-      "port": 443,
-      "uuid": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 192.71.249.78:989",
+      "type": "ss",
+      "server": "192.71.249.78",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 113.30.152.2:443",
@@ -170,6 +161,15 @@
       "server": "113.30.152.2",
       "port": 443,
       "uuid": "2b781b4a-5942-48e0-a7f3-5a07b7b488c1",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.162:443",
+      "type": "vless",
+      "server": "109.69.218.162",
+      "port": 443,
+      "uuid": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -258,7 +258,6 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 192.71.249.78:989",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.168:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 188.95.55.115:40093",
@@ -276,8 +275,9 @@
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 37.120.218.253:40093",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.10.133:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 140.248.65.255:443",
-        "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.162:443",
+        "\uD83C\uDDE7\uD83C\uDDEA Belgium - SS 192.71.249.78:989",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 113.30.152.2:443",
+        "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.162:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 141.98.233.6:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 151.101.10.79:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 194.71.227.213:443",
