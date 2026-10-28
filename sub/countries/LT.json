@@ -8,11 +8,11 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - TROJAN 86.38.214.205:443",
+      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - TROJAN 212.24.103.3:443",
       "type": "trojan",
-      "server": "86.38.214.205",
+      "server": "212.24.103.3",
       "port": 443,
-      "password": "humanity",
+      "password": "4f9ca636-5195-406a-b48c-0388689dd9a7",
       "tls": true
     },
     {
@@ -23,23 +23,6 @@
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - TROJAN 212.24.103.3:443",
-      "type": "trojan",
-      "server": "212.24.103.3",
-      "port": 443,
-      "password": "4f9ca636-5195-406a-b48c-0388689dd9a7",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 93.115.24.135:443",
-      "type": "vless",
-      "server": "93.115.24.135",
-      "port": 443,
-      "uuid": "ab80fc7f-0a2b-4dd6-8e9c-f497001e7c73",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 45.87.175.178:8080",
@@ -117,6 +100,15 @@
       "port": 9068,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 93.115.24.135:443",
+      "type": "vless",
+      "server": "93.115.24.135",
+      "port": 443,
+      "uuid": "ab80fc7f-0a2b-4dd6-8e9c-f497001e7c73",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9002",
@@ -1139,6 +1131,39 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 88.216.69.30:8880",
+      "type": "vless",
+      "server": "88.216.69.30",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9078",
+      "type": "ss",
+      "server": "195.238.126.20",
+      "port": 9078,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9012",
+      "type": "ss",
+      "server": "195.238.126.20",
+      "port": 9012,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9001",
+      "type": "ss",
+      "server": "195.238.126.20",
+      "port": 9001,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 80.208.229.172:443",
       "type": "ss",
       "server": "80.208.229.172",
@@ -1487,15 +1512,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 89.117.112.40:8880",
-      "type": "vless",
-      "server": "89.117.112.40",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 86.38.214.55:443",
       "type": "vless",
       "server": "86.38.214.55",
@@ -1518,6 +1534,15 @@
       "server": "89.116.250.36",
       "port": 8080,
       "uuid": "50414e45-4c5f-5a45-5553-f42c641ffe6e",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 89.117.112.40:8880",
+      "type": "vless",
+      "server": "89.117.112.40",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": true,
       "flow": ""
     },
@@ -1623,10 +1648,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - TROJAN 86.38.214.205:443",
-        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 88.216.69.253:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - TROJAN 212.24.103.3:443",
-        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 93.115.24.135:443",
+        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 88.216.69.253:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 45.87.175.178:8080",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 45.87.175.199:8080",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - TROJAN 88.216.69.253:443",
@@ -1636,6 +1659,7 @@
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 84.32.109.20:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 5.199.170.105:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9068",
+        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 93.115.24.135:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9002",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9011",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9086",
@@ -1756,6 +1780,10 @@
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 84.32.9.52:8880",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 84.32.9.37:8880",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 84.32.9.55:8880",
+        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 88.216.69.30:8880",
+        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9078",
+        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9012",
+        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 195.238.126.20:9001",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 80.208.229.172:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 84.32.51.241:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 84.32.51.253:443",
@@ -1795,10 +1823,10 @@
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 88.216.62.196:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 94.176.234.161:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 5.199.173.116:443",
-        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 89.117.112.40:8880",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 86.38.214.55:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 45.87.175.187:8080",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 89.116.250.36:8080",
+        "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - VLESS 89.117.112.40:8880",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 86.38.214.26:443",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 89.116.250.36:8080",
         "\uD83C\uDDF1\uD83C\uDDF9 Lithuania - SS 88.216.69.253:443",
