@@ -8,6 +8,14 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 86.107.50.183:20111",
+      "type": "ss",
+      "server": "86.107.50.183",
+      "port": 20111,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 2.56.206.160:443",
       "type": "vless",
       "server": "2.56.206.160",
@@ -26,15 +34,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 2.56.204.183:443",
-      "type": "vless",
-      "server": "2.56.204.183",
-      "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 77.91.68.70:55983",
       "type": "vless",
       "server": "77.91.68.70",
@@ -44,11 +43,11 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 194.36.37.59:10004",
+      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 2.56.204.183:443",
       "type": "vless",
-      "server": "194.36.37.59",
-      "port": 10004,
-      "uuid": "f7376394-cd54-11f1-bb6a-bff6d0326f6a",
+      "server": "2.56.204.183",
+      "port": 443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "tls": true,
       "flow": ""
     },
@@ -358,6 +357,15 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 194.36.36.152:443",
+      "type": "vless",
+      "server": "194.36.36.152",
+      "port": 443,
+      "uuid": "4b1be712-774c-4b65-8491-a3339e124a70",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 2.56.204.246:443",
       "type": "trojan",
       "server": "2.56.204.246",
@@ -435,14 +443,6 @@
       "port": 55983,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 194.36.37.59:10004",
-      "type": "ss",
-      "server": "194.36.37.59",
-      "port": 10004,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -450,11 +450,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 86.107.50.183:20111",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 2.56.206.160:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 185.202.113.108:443",
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 2.56.204.183:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 77.91.68.70:55983",
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 194.36.37.59:10004",
+        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 2.56.204.183:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.107:2096",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.138:2083",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 188.164.159.171:443",
@@ -492,6 +492,7 @@
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.95.8:8880",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 88.218.95.8:8880",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 146.185.248.22:989",
+        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 194.36.36.152:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - TROJAN 2.56.204.246:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 132.243.186.2:8444",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 188.164.159.61:2096",
@@ -500,8 +501,7 @@
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 194.36.37.214:443",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.92.41:24694",
         "\uD83C\uDDE6\uD83C\uDDF2 Armenia - VLESS 88.218.95.88:443",
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 77.91.68.70:55983",
-        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 194.36.37.59:10004"
+        "\uD83C\uDDE6\uD83C\uDDF2 Armenia - SS 77.91.68.70:55983"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
