@@ -8,21 +8,13 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 41.216.177.41:443",
-      "type": "trojan",
-      "server": "41.216.177.41",
-      "port": 443,
-      "password": "274c1b23-2bfe-40ac-943c-ebc1aa044b22",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 103.150.192.28:443",
+      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.10.40.89:8443",
       "type": "vless",
-      "server": "103.150.192.28",
-      "port": 443,
-      "uuid": "7d9dbe01-f192-436e-b6d5-533fc3c998e0",
+      "server": "202.10.40.89",
+      "port": 8443,
+      "uuid": "5a380395-9c91-4174-8330-475d1235ed61",
       "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 172.232.250.227:443",
@@ -79,15 +71,6 @@
       "server": "103.172.197.2",
       "port": 29172,
       "uuid": "3977434d-6a9b-4858-8ced-80326ba5e367",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.10.40.89:8443",
-      "type": "vless",
-      "server": "202.10.40.89",
-      "port": 8443,
-      "uuid": "5a380395-9c91-4174-8330-475d1235ed61",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -183,8 +166,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 41.216.177.41:443",
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 103.150.192.28:443",
+        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.10.40.89:8443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 172.232.250.227:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - SS 92.112.126.90:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - SS 103.160.63.199:31348",
@@ -192,7 +174,6 @@
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 103.176.78.153:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 130.94.94.15:443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 103.172.197.2:29172",
-        "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 202.10.40.89:8443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 103.172.197.3:16006",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - TROJAN 108.137.18.26:8443",
         "\uD83C\uDDEE\uD83C\uDDE9 Indonesia - VLESS 147.139.189.225:443",
