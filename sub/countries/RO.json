@@ -8,6 +8,22 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 154.46.31.106:443",
+      "type": "ss",
+      "server": "154.46.31.106",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 194.14.217.115:989",
+      "type": "ss",
+      "server": "194.14.217.115",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 205.237.110.254:443",
       "type": "vless",
       "server": "205.237.110.254",
@@ -15,14 +31,6 @@
       "uuid": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 154.46.31.106:443",
-      "type": "ss",
-      "server": "154.46.31.106",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 194.68.44.42:64546",
@@ -74,15 +82,6 @@
       "server": "89.125.166.87",
       "port": 443,
       "uuid": "c3eb1b3a-4d14-45b8-861b-b16b6cc6f23a",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 46.28.67.55:443",
-      "type": "vless",
-      "server": "46.28.67.55",
-      "port": 443,
-      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -161,6 +160,15 @@
       "port": 2053,
       "password": "Go5e2nKM8U",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 46.28.67.55:443",
+      "type": "vless",
+      "server": "46.28.67.55",
+      "port": 443,
+      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 45.85.119.0:2053",
@@ -1013,14 +1021,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 194.14.217.115:989",
-      "type": "ss",
-      "server": "194.14.217.115",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 103.126.51.58:995",
       "type": "vless",
       "server": "103.126.51.58",
@@ -1301,6 +1301,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 88.80.135.80:443",
+      "type": "vless",
+      "server": "88.80.135.80",
+      "port": 443,
+      "uuid": "c2a96312-2f83-40e2-8178-e65c3789ba05",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 38.180.35.145:443",
       "type": "trojan",
       "server": "38.180.35.145",
@@ -1389,20 +1398,20 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 205.237.110.254:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 154.46.31.106:443",
+        "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 194.14.217.115:989",
+        "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 205.237.110.254:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 194.68.44.42:64546",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 195.74.93.254:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 103.126.50.203:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 109.104.106.149:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 89.125.166.18:8000",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 89.125.166.87:443",
-        "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 46.28.67.55:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 103.244.145.138:443",
+        "\uD83C\uDDF7\uD83C\uDDF4 Romania - HYSTERIA2 205.237.109.163:8443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - HYSTERIA2 205.237.109.162:8443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - HYSTERIA2 85.204.107.178:8080",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - HYSTERIA2 85.204.107.181:8080",
-        "\uD83C\uDDF7\uD83C\uDDF4 Romania - HYSTERIA2 205.237.109.163:8443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - HYSTERIA2 162.249.125.133:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 45.85.119.0:2087",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 45.85.118.88:443",
@@ -1412,6 +1421,7 @@
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 45.85.119.120:2083",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 45.85.119.179:8443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 45.85.119.29:2053",
+        "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 46.28.67.55:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 45.85.119.0:2053",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 45.12.30.81:8443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 45.85.119.179:2087",
@@ -1524,7 +1534,6 @@
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 45.85.118.81:2087",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 45.85.118.88:2087",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 45.85.119.1:2087",
-        "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 194.14.217.115:989",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 103.126.51.58:995",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 45.85.119.44:2083",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - SS 162.249.126.70:8443",
@@ -1557,6 +1566,7 @@
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 37.46.196.82:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 37.46.196.85:8443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 46.28.67.118:443",
+        "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 88.80.135.80:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - TROJAN 38.180.35.145:443",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 205.237.109.215:448",
         "\uD83C\uDDF7\uD83C\uDDF4 Romania - VLESS 103.76.131.89:443",
