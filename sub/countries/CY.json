@@ -8,6 +8,32 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 213.169.137.221:989",
+      "type": "ss",
+      "server": "213.169.137.221",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.12.143.191:20329",
+      "type": "vless",
+      "server": "45.12.143.191",
+      "port": 20329,
+      "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.88.183.156:12794",
+      "type": "vless",
+      "server": "45.88.183.156",
+      "port": 12794,
+      "uuid": "08704c01-7edb-454a-98a2-328ccb9936fa",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 5.253.42.164:40443",
       "type": "vless",
       "server": "5.253.42.164",
@@ -15,14 +41,6 @@
       "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 213.169.137.221:989",
-      "type": "ss",
-      "server": "213.169.137.221",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - TROJAN 45.82.253.234:28443",
@@ -33,11 +51,11 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.12.143.191:20329",
+      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.82.245.173:80",
       "type": "vless",
-      "server": "45.12.143.191",
-      "port": 20329,
-      "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
+      "server": "45.82.245.173",
+      "port": 80,
+      "uuid": "1dbfb57c-164e-47c5-9355-8e0c429e7b99",
       "tls": true,
       "flow": ""
     },
@@ -168,15 +186,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.82.245.173:80",
-      "type": "vless",
-      "server": "45.82.245.173",
-      "port": 80,
-      "uuid": "1dbfb57c-164e-47c5-9355-8e0c429e7b99",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 213.169.137.214:989",
       "type": "ss",
       "server": "213.169.137.214",
@@ -227,15 +236,6 @@
       "port": 40443,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.88.183.156:12794",
-      "type": "vless",
-      "server": "45.88.183.156",
-      "port": 12794,
-      "uuid": "08704c01-7edb-454a-98a2-328ccb9936fa",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 171.22.114.248:27394",
@@ -1236,10 +1236,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 5.253.42.164:40443",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 213.169.137.221:989",
-        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - TROJAN 45.82.253.234:28443",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.12.143.191:20329",
+        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.88.183.156:12794",
+        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 5.253.42.164:40443",
+        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - TROJAN 45.82.253.234:28443",
+        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.82.245.173:80",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 5.253.28.84:8443",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 5.253.30.99:40443",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 171.22.129.3:2053",
@@ -1254,14 +1256,12 @@
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.82.251.114:8880",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 5.253.28.240:2443",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.15.167.13:443",
-        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.82.245.173:80",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 213.169.137.214:989",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.82.251.180:8880",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 171.22.114.248:27394",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.82.251.141:8880",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.128.54.17:443",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 5.253.30.99:40443",
-        "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VLESS 45.88.183.156:12794",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - SS 171.22.114.248:27394",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - HYSTERIA2 194.76.147.34:443",
         "\uD83C\uDDE8\uD83C\uDDFE Cyprus - VMESS 195.85.59.95:2082",
