@@ -8,15 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 77.91.69.169:19226",
-      "type": "vless",
-      "server": "77.91.69.169",
-      "port": 19226,
-      "uuid": "f0b144bd-4c44-440d-b630-d79ec82cad3a",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - TROJAN 64.176.163.182:443",
       "type": "trojan",
       "server": "64.176.163.182",
@@ -25,11 +16,11 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 185.95.231.156:443",
+      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 77.91.69.169:19226",
       "type": "vless",
-      "server": "185.95.231.156",
-      "port": 443,
-      "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
+      "server": "77.91.69.169",
+      "port": 19226,
+      "uuid": "f0b144bd-4c44-440d-b630-d79ec82cad3a",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
@@ -58,6 +49,15 @@
       "port": 19226,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 185.95.231.156:443",
+      "type": "vless",
+      "server": "185.95.231.156",
+      "port": 443,
+      "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 212.199.61.55:8389",
@@ -256,12 +256,12 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 77.91.69.169:19226",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - TROJAN 64.176.163.182:443",
-        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 185.95.231.156:443",
+        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 77.91.69.169:19226",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 212.179.49.187:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 83.143.106.4:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 77.91.69.169:19226",
+        "\uD83C\uDDEE\uD83C\uDDF1 Israel - VLESS 185.95.231.156:443",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 212.199.61.55:8389",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 31.133.100.49:50004",
         "\uD83C\uDDEE\uD83C\uDDF1 Israel - SS 83.229.73.120:50003",
