@@ -8,12 +8,12 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 190.103.179.23:989",
-      "type": "ss",
-      "server": "190.103.179.23",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - TROJAN 216.238.80.100:443",
+      "type": "trojan",
+      "server": "216.238.80.100",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 89.223.88.33:11201",
@@ -22,14 +22,6 @@
       "port": 11201,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - TROJAN 216.238.80.100:443",
-      "type": "trojan",
-      "server": "216.238.80.100",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - TROJAN 131.196.254.151:443",
@@ -64,6 +56,15 @@
       "port": 8388,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 131.196.253.141:443",
+      "type": "vless",
+      "server": "131.196.253.141",
+      "port": 443,
+      "uuid": "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 147.78.1.27:990",
@@ -134,6 +135,14 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 190.103.179.23:989",
+      "type": "ss",
+      "server": "190.103.179.23",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 140.248.180.30:443",
       "type": "vless",
       "server": "140.248.180.30",
@@ -165,15 +174,6 @@
       "server": "131.196.252.97",
       "port": 443,
       "uuid": "b1c31d36-c6b5-414b-88d2-9e24e7bfcca3",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 131.196.253.141:443",
-      "type": "vless",
-      "server": "131.196.253.141",
-      "port": 443,
-      "uuid": "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b",
       "tls": true,
       "flow": ""
     },
@@ -218,9 +218,8 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 190.103.179.23:989",
-        "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 89.223.88.33:11201",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - TROJAN 216.238.80.100:443",
+        "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 89.223.88.33:11201",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - TROJAN 131.196.254.151:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 45.164.20.114:10226",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 149.104.90.21:19167",
@@ -229,6 +228,7 @@
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - HY2 140.84.168.166:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - HY2 23.156.104.95:3041",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - HY2 23.156.104.95:3043",
+        "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 131.196.253.141:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 147.78.1.27:990",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 147.78.1.230:990",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 147.78.1.230:989",
@@ -237,11 +237,11 @@
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 216.238.92.231:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 140.248.176.74:80",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 140.248.183.178:80",
+        "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 190.103.179.23:989",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 140.248.180.30:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - SS 216.238.92.231:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 131.196.252.66:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 131.196.252.97:443",
-        "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 131.196.253.141:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 216.238.79.164:443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 45.134.9.133:8443",
         "\uD83C\uDDF2\uD83C\uDDFD Mexico - VLESS 130.94.101.27:19167",
