@@ -8,14 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
-      "type": "trojan",
-      "server": "34.253.231.7",
-      "port": 22222,
-      "password": "telegram-id-directvpn",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.67.209:22222",
       "type": "trojan",
       "server": "3.253.67.209",
@@ -24,12 +16,28 @@
       "tls": true
     },
     {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.231.225.39:443",
+      "type": "ss",
+      "server": "4.231.225.39",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 146.70.48.53:50168",
       "type": "ss",
       "server": "146.70.48.53",
       "port": 50168,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
+      "type": "trojan",
+      "server": "54.78.157.126",
+      "port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.138.233.48:443",
@@ -287,22 +295,6 @@
       "port": 443,
       "cipher": "auto",
       "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.106.233:443",
-      "type": "trojan",
-      "server": "3.253.106.233",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.77.118:443",
-      "type": "trojan",
-      "server": "34.242.77.118",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": true
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 45.141.234.196:51472",
@@ -629,6 +621,22 @@
       "port": 443,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.106.233:443",
+      "type": "trojan",
+      "server": "3.253.106.233",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.77.118:443",
+      "type": "trojan",
+      "server": "34.242.77.118",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": true
     }
   ],
   "proxy_groups": [
@@ -636,9 +644,10 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.67.209:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.231.225.39:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 146.70.48.53:50168",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.138.233.48:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 74.234.59.81:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.184.151:443",
@@ -671,8 +680,6 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 74.234.78.179:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 168.63.68.5:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 34.242.133.144:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.106.233:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.77.118:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 45.141.234.196:51472",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 34.252.80.15:27775",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 54.216.127.183:27775",
@@ -711,7 +718,9 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.210.67.30:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.210.66.171:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.50.233.226:22222",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 185.18.221.188:443"
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 185.18.221.188:443",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.106.233:443",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.242.77.118:443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
