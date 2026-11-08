@@ -8,11 +8,19 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.67.209:22222",
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
       "type": "trojan",
-      "server": "3.253.67.209",
+      "server": "54.78.157.126",
       "port": 22222,
       "password": "telegram-id-privatevpns",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
+      "type": "trojan",
+      "server": "34.253.231.7",
+      "port": 22222,
+      "password": "telegram-id-directvpn",
       "tls": true
     },
     {
@@ -20,14 +28,6 @@
       "type": "ss",
       "server": "146.70.48.53",
       "port": 50168,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 83.141.92.138:1080",
-      "type": "ss",
-      "server": "83.141.92.138",
-      "port": 1080,
       "cipher": "auto",
       "password": ""
     },
@@ -72,14 +72,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.234.97.18:443",
-      "type": "ss",
-      "server": "20.234.97.18",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.238.35.153:443",
       "type": "ss",
       "server": "20.238.35.153",
@@ -116,6 +108,14 @@
       "type": "ss",
       "server": "4.210.68.244",
       "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 83.141.92.138:1080",
+      "type": "ss",
+      "server": "83.141.92.138",
+      "port": 1080,
       "cipher": "auto",
       "password": ""
     },
@@ -217,6 +217,14 @@
       "port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.234.97.18:443",
+      "type": "ss",
+      "server": "20.234.97.18",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.223.233.241:443",
@@ -629,20 +637,20 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 3.253.67.209:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 54.78.157.126:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 34.253.231.7:22222",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 146.70.48.53:50168",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 83.141.92.138:1080",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.206.186:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 52.138.233.48:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 74.234.59.81:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.184.151:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.223.236.165:443",
-        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.234.97.18:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.238.35.153:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.166.51.228:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.238.125.195:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.223.172.81:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 4.210.68.244:443",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 83.141.92.138:1080",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 13.79.22.98:33759",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.123.1.55:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.166.59.119:443",
@@ -655,6 +663,7 @@
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.107.193.38:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - VLESS 83.141.74.243:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - TROJAN 52.19.49.176:22222",
+        "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.234.97.18:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 20.223.233.241:443",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 3.249.52.148:50007",
         "\uD83C\uDDEE\uD83C\uDDEA Ireland - SS 40.115.121.217:25579",
