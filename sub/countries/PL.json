@@ -8,34 +8,27 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5000",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.4.73.21:443",
+      "type": "vless",
+      "server": "201.4.73.21",
+      "port": 443,
+      "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:2375",
       "type": "ss",
       "server": "51.77.53.200",
-      "port": 5000,
+      "port": 2375,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9079",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5003",
       "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9079,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9038",
-      "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9038,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9027",
-      "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9027,
+      "server": "51.77.53.200",
+      "port": 5003,
       "cipher": "auto",
       "password": ""
     },
@@ -48,10 +41,66 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9043",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9027",
       "type": "ss",
       "server": "217.30.10.68",
-      "port": 9043,
+      "port": 9027,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9031",
+      "type": "ss",
+      "server": "217.30.10.68",
+      "port": 9031,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8882",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 8882,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8009",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 8009,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9057",
+      "type": "ss",
+      "server": "217.30.10.68",
+      "port": 9057,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9000",
+      "type": "ss",
+      "server": "217.30.10.68",
+      "port": 9000,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9001",
+      "type": "ss",
+      "server": "217.30.10.68",
+      "port": 9001,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8008",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 8008,
       "cipher": "auto",
       "password": ""
     },
@@ -64,84 +113,34 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:2376",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 2376,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9097",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9053",
       "type": "ss",
       "server": "217.30.10.68",
-      "port": 9097,
+      "port": 9053,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.174:8445",
-      "type": "vless",
-      "server": "2.26.224.174",
-      "port": 8445,
-      "uuid": "a4e5f910-23f4-470f-82a7-ed9d7be71dec",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:4444",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 4444,
+      "cipher": "auto",
+      "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9011",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8118",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 8118,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9070",
       "type": "ss",
       "server": "217.30.10.68",
-      "port": 9011,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 51.83.186.142:80",
-      "type": "trojan",
-      "server": "51.83.186.142",
-      "port": 80,
-      "password": "555034c8-6420-45d0-893c-905c02342150",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.4.73.21:443",
-      "type": "vless",
-      "server": "201.4.73.21",
-      "port": 443,
-      "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:9102",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 9102,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:2375",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 2375,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8090",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 8090,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9026",
-      "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9026,
+      "port": 9070,
       "cipher": "auto",
       "password": ""
     },
@@ -150,6 +149,46 @@
       "type": "ss",
       "server": "51.77.53.200",
       "port": 5500,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8119",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 8119,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8888",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 8888,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:6697",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 6697,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9044",
+      "type": "ss",
+      "server": "217.30.10.70",
+      "port": 9044,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9079",
+      "type": "ss",
+      "server": "217.30.10.68",
+      "port": 9079,
       "cipher": "auto",
       "password": ""
     },
@@ -163,9 +202,9 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.104:2083",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.105:2083",
       "type": "vless",
-      "server": "201.58.189.104",
+      "server": "201.58.189.105",
       "port": 2083,
       "uuid": "d7ddade6-b7a0-4cab-a910-d5d5c378d98a",
       "tls": true,
@@ -356,6 +395,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 188.137.178.174:8443",
+      "type": "vless",
+      "server": "188.137.178.174",
+      "port": 8443,
+      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 185.32.6.47:443",
       "type": "vless",
       "server": "185.32.6.47",
@@ -437,15 +485,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.105:2083",
-      "type": "vless",
-      "server": "201.58.189.105",
-      "port": 2083,
-      "uuid": "d7ddade6-b7a0-4cab-a910-d5d5c378d98a",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 83.168.111.58:443",
       "type": "vless",
       "server": "83.168.111.58",
@@ -500,19 +539,27 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 188.137.178.174:8443",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 80.47.11.123:443",
       "type": "vless",
-      "server": "188.137.178.174",
-      "port": 8443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "server": "80.47.11.123",
+      "port": 443,
+      "uuid": "fa081e9f-7574-4e18-8928-31aa5ac923c7",
       "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8080",
       "type": "ss",
       "server": "51.77.53.200",
       "port": 8080,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:2376",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 2376,
       "cipher": "auto",
       "password": ""
     },
@@ -525,15 +572,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 82.40.62.112:443",
-      "type": "vless",
-      "server": "82.40.62.112",
-      "port": 443,
-      "uuid": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.174:8443",
       "type": "vless",
       "server": "2.26.224.174",
@@ -543,12 +581,47 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9045",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 177.1.192.72:443",
+      "type": "vless",
+      "server": "177.1.192.72",
+      "port": 443,
+      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.104:2083",
+      "type": "vless",
+      "server": "201.58.189.104",
+      "port": 2083,
+      "uuid": "d7ddade6-b7a0-4cab-a910-d5d5c378d98a",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 20.215.66.17:2083",
       "type": "ss",
-      "server": "217.30.10.70",
-      "port": 9045,
+      "server": "20.215.66.17",
+      "port": 2083,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 222.167.245.16:443",
+      "type": "ss",
+      "server": "222.167.245.16",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.174:8445",
+      "type": "vless",
+      "server": "2.26.224.174",
+      "port": 8445,
+      "uuid": "a4e5f910-23f4-470f-82a7-ed9d7be71dec",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 177.1.192.74:443",
@@ -560,18 +633,10 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.138.209.122:8389",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 178.255.45.189:43893",
       "type": "ss",
-      "server": "217.138.209.122",
-      "port": 8389,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 45.198.0.88:443",
-      "type": "ss",
-      "server": "45.198.0.88",
-      "port": 443,
+      "server": "178.255.45.189",
+      "port": 43893,
       "cipher": "auto",
       "password": ""
     },
@@ -584,10 +649,42 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.138.209.122:8389",
+      "type": "ss",
+      "server": "217.138.209.122",
+      "port": 8389,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 194.15.196.66:5004",
       "type": "ss",
       "server": "194.15.196.66",
       "port": 5004,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 45.198.0.88:443",
+      "type": "ss",
+      "server": "45.198.0.88",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.64:9015",
+      "type": "ss",
+      "server": "217.30.10.64",
+      "port": 9015,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 82.118.21.21:50004",
+      "type": "ss",
+      "server": "82.118.21.21",
+      "port": 50004,
       "cipher": "auto",
       "password": ""
     },
@@ -599,48 +696,6 @@
       "uuid": "f333ac5d-1e0b-4947-a123-7bb605803ad8",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.64:9015",
-      "type": "ss",
-      "server": "217.30.10.64",
-      "port": 9015,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.7.25.100:24446",
-      "type": "vless",
-      "server": "201.7.25.100",
-      "port": 24446,
-      "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 177.1.192.72:443",
-      "type": "vless",
-      "server": "177.1.192.72",
-      "port": 443,
-      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 82.118.21.21:50004",
-      "type": "ss",
-      "server": "82.118.21.21",
-      "port": 50004,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 178.255.45.189:43893",
-      "type": "ss",
-      "server": "178.255.45.189",
-      "port": 43893,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 103.167.234.75:8443",
@@ -695,14 +750,6 @@
       "type": "ss",
       "server": "217.30.10.70",
       "port": 9050,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9044",
-      "type": "ss",
-      "server": "217.30.10.70",
-      "port": 9044,
       "cipher": "auto",
       "password": ""
     },
@@ -987,34 +1034,18 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8090",
+      "type": "ss",
+      "server": "51.77.53.200",
+      "port": 8090,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:6679",
       "type": "ss",
       "server": "51.77.53.200",
       "port": 6679,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:6697",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 6697,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8008",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 8008,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8009",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 8009,
       "cipher": "auto",
       "password": ""
     },
@@ -1035,18 +1066,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5001",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5000",
       "type": "ss",
       "server": "51.77.53.200",
-      "port": 5001,
+      "port": 5000,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8888",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5001",
       "type": "ss",
       "server": "51.77.53.200",
-      "port": 8888,
+      "port": 5001,
       "cipher": "auto",
       "password": ""
     },
@@ -1059,22 +1090,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8118",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 8118,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8119",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 8119,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:9101",
       "type": "ss",
       "server": "51.77.53.200",
@@ -1083,10 +1098,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5003",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:9102",
       "type": "ss",
       "server": "51.77.53.200",
-      "port": 5003,
+      "port": 9102,
       "cipher": "auto",
       "password": ""
     },
@@ -1095,22 +1110,6 @@
       "type": "ss",
       "server": "51.77.53.200",
       "port": 8881,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8882",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 8882,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:4444",
-      "type": "ss",
-      "server": "51.77.53.200",
-      "port": 4444,
       "cipher": "auto",
       "password": ""
     },
@@ -1143,6 +1142,14 @@
       "type": "trojan",
       "server": "51.83.186.142",
       "port": 443,
+      "password": "555034c8-6420-45d0-893c-905c02342150",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 51.83.186.142:80",
+      "type": "trojan",
+      "server": "51.83.186.142",
+      "port": 80,
       "password": "555034c8-6420-45d0-893c-905c02342150",
       "tls": true
     },
@@ -1645,92 +1652,77 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9006",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9038",
       "type": "ss",
       "server": "217.30.10.68",
-      "port": 9006,
+      "port": 9038,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 5.188.108.10:989",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9043",
       "type": "ss",
-      "server": "5.188.108.10",
-      "port": 989,
+      "server": "217.30.10.68",
+      "port": 9043,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9018",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9097",
       "type": "ss",
       "server": "217.30.10.68",
-      "port": 9018,
+      "port": 9097,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9053",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9011",
       "type": "ss",
       "server": "217.30.10.68",
-      "port": 9053,
+      "port": 9011,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9045",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9026",
       "type": "ss",
       "server": "217.30.10.68",
+      "port": 9026,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.38.131.73:8443",
+      "type": "ss",
+      "server": "51.38.131.73",
+      "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9045",
+      "type": "ss",
+      "server": "217.30.10.70",
       "port": 9045,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9014",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9040",
       "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9014,
+      "server": "217.30.10.70",
+      "port": 9040,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9001",
-      "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9001,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9007",
-      "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9007,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9031",
-      "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9031,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 20.215.66.17:2083",
-      "type": "ss",
-      "server": "20.215.66.17",
-      "port": 2083,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 222.167.245.16:443",
-      "type": "ss",
-      "server": "222.167.245.16",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 195.3.223.124:443",
+      "type": "vless",
+      "server": "195.3.223.124",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
+      "uuid": "fa081e9f-7574-4e18-8928-31aa5ac923c7",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 128.204.223.70:50401",
@@ -2727,6 +2719,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.7.25.100:24446",
+      "type": "vless",
+      "server": "201.7.25.100",
+      "port": 24446,
+      "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 212.127.78.105:9443",
       "type": "vless",
       "server": "212.127.78.105",
@@ -2790,22 +2791,22 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 45.198.0.133:443",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 74.248.139.169:443",
       "type": "vless",
-      "server": "45.198.0.133",
+      "server": "74.248.139.169",
       "port": 443,
-      "uuid": "7a5cbb56-228f-4a38-b640-5d5803b5dbb5",
+      "uuid": "89182351-0416-45b9-b596-88fb476ea1ac",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.10.90.113:443",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 193.111.117.16:443",
       "type": "vless",
-      "server": "201.10.90.113",
+      "server": "193.111.117.16",
       "port": 443,
-      "uuid": "610ac982-04eb-34c0-80b1-5dd3c2ca131e",
+      "uuid": "87ed57d3-6449-43eb-b600-31f89f2d967c",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 89.125.234.79:443",
@@ -2817,14 +2818,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 95.164.9.196:2053",
-      "type": "trojan",
-      "server": "95.164.9.196",
-      "port": 2053,
-      "password": "09191dbf-e7f7-4e7d-b405-c4785ea992bf",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 54.38.136.47:80",
       "type": "vless",
       "server": "54.38.136.47",
@@ -2834,6 +2827,14 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 95.164.9.196:2053",
+      "type": "trojan",
+      "server": "95.164.9.196",
+      "port": 2053,
+      "password": "09191dbf-e7f7-4e7d-b405-c4785ea992bf",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 144.31.4.193:444",
       "type": "vless",
       "server": "144.31.4.193",
@@ -2841,15 +2842,6 @@
       "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 185.16.38.132:443",
-      "type": "vless",
-      "server": "185.16.38.132",
-      "port": 443,
-      "uuid": "8007dda2-aed2-4514-8299-6e3edbdb015b",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 82.40.62.193:8466",
@@ -2934,14 +2926,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 82.40.62.112:443",
-      "type": "ss",
-      "server": "82.40.62.112",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 177.1.192.72:443",
       "type": "ss",
       "server": "177.1.192.72",
@@ -2998,6 +2982,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.4.73.21:443",
+      "type": "ss",
+      "server": "201.4.73.21",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 64.176.68.18:443",
       "type": "ss",
       "server": "64.176.68.18",
@@ -3022,9 +3014,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 185.16.38.132:443",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 144.31.0.100:443",
       "type": "ss",
-      "server": "185.16.38.132",
+      "server": "144.31.0.100",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -3054,10 +3046,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 80.47.13.182:443",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 188.137.178.174:8443",
       "type": "ss",
-      "server": "80.47.13.182",
-      "port": 443,
+      "server": "188.137.178.174",
+      "port": 8443,
       "cipher": "auto",
       "password": ""
     },
@@ -3078,10 +3070,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.224.174:8443",
+      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.224.174:8445",
       "type": "ss",
       "server": "2.26.224.174",
-      "port": 8443,
+      "port": 8445,
       "cipher": "auto",
       "password": ""
     },
@@ -3098,14 +3090,6 @@
       "type": "ss",
       "server": "201.7.25.126",
       "port": 24446,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.6.1:2087",
-      "type": "ss",
-      "server": "2.26.6.1",
-      "port": 2087,
       "cipher": "auto",
       "password": ""
     },
@@ -3267,26 +3251,31 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5000",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9079",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9038",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9027",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9073",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9043",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9093",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:2376",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9097",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.174:8445",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9011",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 51.83.186.142:80",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.4.73.21:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:9102",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:2375",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8090",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9026",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5003",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9073",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9027",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9031",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8882",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8009",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9057",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9000",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9001",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8008",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9093",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9053",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:4444",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8118",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9070",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5500",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8119",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8888",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:6697",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9044",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9079",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.6.1:2087",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.104:2083",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.105:2083",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 194.61.121.93:7538",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9059",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9084",
@@ -3308,6 +3297,7 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 193.34.213.38:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 45.198.0.88:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 80.47.13.182:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 188.137.178.174:8443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 185.32.6.47:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 83.168.71.216:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 95.85.227.142:8443",
@@ -3317,7 +3307,6 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 144.31.5.3:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 144.31.5.64:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 150.251.113.34:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.105:2083",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 83.168.111.58:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 191.101.184.15:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 94.183.209.58:443",
@@ -3326,30 +3315,32 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 94.183.209.59:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HYSTERIA2 45.192.12.93:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HYSTERIA2 31.76.22.210:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 188.137.178.174:8443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 80.47.11.123:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8080",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:2376",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8091",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 82.40.62.112:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.174:8443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9045",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 177.1.192.74:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.138.209.122:8389",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 45.198.0.88:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 84.17.55.133:33992",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 194.15.196.66:5004",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 150.251.112.45:2066",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.64:9015",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.7.25.100:24446",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 177.1.192.72:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 82.118.21.21:50004",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 178.255.45.189:43893",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HYSTERIA2 213.21.232.4:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.58.189.104:2083",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 20.215.66.17:2083",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 222.167.245.16:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.174:8445",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 177.1.192.74:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 178.255.45.189:43893",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 84.17.55.133:33992",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.138.209.122:8389",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 194.15.196.66:5004",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 45.198.0.88:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.64:9015",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 82.118.21.21:50004",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HYSTERIA2 217.60.33.215:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HYSTERIA2 78.17.128.153:35076",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HY2 188.68.234.53:24662",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HY2 89.213.182.8:10522",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HY2 31.186.85.171:12378",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - HY2 128.204.223.43:1957",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 150.251.112.45:2066",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 103.167.234.75:8443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 89.223.93.176:41348",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9020",
@@ -3357,7 +3348,6 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.18:9019",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9006",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9050",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9044",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9014",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9043",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.18:9003",
@@ -3393,26 +3383,21 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.10.91.31:1080",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:7306",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8000",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8090",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:6679",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:6697",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8008",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8009",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:3306",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:3389",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5000",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5001",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8888",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 92.118.205.211:5600",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8118",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8119",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:9101",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:5003",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:9102",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8881",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:8882",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:4444",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.77.53.200:6379",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 57.128.251.195:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 70.34.252.255:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 51.83.186.142:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 51.83.186.142:80",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 202.78.163.237:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 64.176.65.85:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 64.176.74.241:443",
@@ -3469,17 +3454,15 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 45.194.66.193:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 45.194.66.202:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 77.239.114.176:19105",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9006",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 5.188.108.10:989",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9018",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9053",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9045",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9014",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9001",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9007",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9031",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 20.215.66.17:2083",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 222.167.245.16:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9038",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9043",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9097",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9011",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.68:9026",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 51.38.131.73:8443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9045",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 217.30.10.70:9040",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 195.3.223.124:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 128.204.223.70:50401",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 146.59.116.19:17000",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 45.144.48.63:57456",
@@ -3591,6 +3574,7 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 185.223.57.16:33743",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.25:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.10.90.13:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.7.25.100:24446",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 212.127.78.105:9443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 94.183.209.243:8443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 2.26.224.93:443",
@@ -3598,13 +3582,12 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 45.194.66.224:61374",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 144.31.171.143:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 82.40.62.46:80",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 45.198.0.133:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 201.10.90.113:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 74.248.139.169:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 193.111.117.16:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 89.125.234.79:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 95.164.9.196:2053",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 54.38.136.47:80",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - TROJAN 95.164.9.196:2053",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 144.31.4.193:444",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 185.16.38.132:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 82.40.62.193:8466",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - VLESS 91.224.75.253:35737",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.58.139.66:443",
@@ -3615,7 +3598,6 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 144.31.4.193:444",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 45.148.119.127:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 77.83.246.202:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 82.40.62.112:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 177.1.192.72:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 177.1.192.74:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.225.89:8443",
@@ -3623,20 +3605,20 @@
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 144.31.1.201:8090",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 213.21.232.224:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 213.21.232.26:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.4.73.21:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 64.176.68.18:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.224.233:8443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.7.25.208:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 185.16.38.132:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 144.31.0.100:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.7.25.100:24446",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 82.40.62.193:8466",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 91.224.75.253:35737",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 80.47.13.182:443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 188.137.178.174:8443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 185.32.6.47:443",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 83.168.71.216:443",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.224.174:8443",
+        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.224.174:8445",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.10.90.24:2027",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 201.7.25.126:24446",
-        "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 2.26.6.1:2087",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 178.95.170.115:2087",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 178.95.170.98:2087",
         "\uD83C\uDDF5\uD83C\uDDF1 Poland - SS 80.47.12.94:443",
