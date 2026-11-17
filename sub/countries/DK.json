@@ -8,22 +8,6 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
-      "type": "ss",
-      "server": "192.36.27.116",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
-      "type": "ss",
-      "server": "192.36.27.94",
-      "port": 989,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.181.210.205:443",
       "type": "vless",
       "server": "193.181.210.205",
@@ -33,18 +17,18 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.211:43963",
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
       "type": "ss",
-      "server": "193.29.107.211",
-      "port": 43963,
+      "server": "192.36.27.79",
+      "port": 989,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.211:43963",
       "type": "ss",
-      "server": "193.29.107.179",
-      "port": 40282,
+      "server": "193.29.107.211",
+      "port": 43963,
       "cipher": "auto",
       "password": ""
     },
@@ -57,10 +41,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
       "type": "ss",
-      "server": "192.36.27.79",
-      "port": 989,
+      "server": "193.29.107.179",
+      "port": 40282,
       "cipher": "auto",
       "password": ""
     },
@@ -132,6 +116,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.181.210.205:443",
+      "type": "ss",
+      "server": "193.181.210.205",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.208.169:8443",
       "type": "vless",
       "server": "193.180.208.169",
@@ -184,15 +176,6 @@
       "uuid": "285eacec-5433-4bb0-ad34-4fbea6c79ea1",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 92.113.145.102:443",
-      "type": "vless",
-      "server": "92.113.145.102",
-      "port": 443,
-      "uuid": "2ce990bc-fe98-44c0-9327-a4b15ce0c6ea",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     }
   ],
   "proxy_groups": [
@@ -200,13 +183,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.181.210.205:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.211:43963",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.197:38742",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.211:43963",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.197:38742",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SOCKS5 89.188.76.72:1080",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 141.227.172.132:17001",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 45.148.31.0:15855",
@@ -216,13 +197,13 @@
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 199.232.40.117:80",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 45.148.31.0:15855",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.181:44539",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.181.210.205:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.208.169:8443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.209.136:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 45.148.30.11:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 5.249.255.116:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 140.248.69.254:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:8443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 92.113.145.102:443"
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 46.29.235.172:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,

@@ -16,15 +16,6 @@
       "tls": true
     },
     {
-      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 147.224.233.249:63690",
-      "type": "vless",
-      "server": "147.224.233.249",
-      "port": 63690,
-      "uuid": "47637b04-945c-481e-b221-03c32d10c52d",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 37.235.52.112:989",
       "type": "ss",
       "server": "37.235.52.112",
@@ -176,6 +167,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 147.224.233.249:63690",
+      "type": "vless",
+      "server": "147.224.233.249",
+      "port": 63690,
+      "uuid": "47637b04-945c-481e-b221-03c32d10c52d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.82:8443",
       "type": "vless",
       "server": "45.194.10.82",
@@ -245,14 +245,6 @@
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 147.224.233.249:63690",
-      "type": "ss",
-      "server": "147.224.233.249",
-      "port": 63690,
-      "cipher": "auto",
-      "password": ""
     }
   ],
   "proxy_groups": [
@@ -261,7 +253,6 @@
       "type": "url-test",
       "proxies": [
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - TROJAN 64.176.7.205:443",
-        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 147.224.233.249:63690",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 37.235.52.112:989",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 154.205.153.107:990",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.134:8443",
@@ -279,6 +270,7 @@
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.5:8443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.68:8443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.83:8443",
+        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 147.224.233.249:63690",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.82:8443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - TROJAN 130.94.104.210:443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 64.176.15.110:2053",
@@ -286,8 +278,7 @@
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 34.176.98.128:443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.145:8443",
         "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.217:8443",
-        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.67:8443",
-        "\uD83C\uDDE8\uD83C\uDDF1 Chile - SS 147.224.233.249:63690"
+        "\uD83C\uDDE8\uD83C\uDDF1 Chile - VLESS 45.194.10.67:8443"
       ],
       "url": "http://cp.cloudflare.com/generate_204",
       "interval": 300,
