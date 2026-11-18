@@ -8,6 +8,14 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
+      "type": "ss",
+      "server": "192.36.27.94",
+      "port": 989,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.181.210.205:443",
       "type": "vless",
       "server": "193.181.210.205",
@@ -116,12 +124,38 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.181.210.205:443",
-      "type": "ss",
-      "server": "193.181.210.205",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 217.78.237.118:8446",
+      "type": "trojan",
+      "server": "217.78.237.118",
+      "port": 8446,
+      "password": "jCpBEnDOnqJ7J36rdoJ_cYvrKK5ErK9H",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 217.78.237.118:8447",
+      "type": "trojan",
+      "server": "217.78.237.118",
+      "port": 8447,
+      "password": "jCpBEnDOnqJ7J36rdoJ_cYvrKK5ErK9H",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 217.78.237.118:8443",
+      "type": "vless",
+      "server": "217.78.237.118",
+      "port": 8443,
+      "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 217.78.237.118:9443",
+      "type": "vless",
+      "server": "217.78.237.118",
+      "port": 9443,
+      "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.208.169:8443",
@@ -183,6 +217,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.181.210.205:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.211:43963",
@@ -197,7 +232,10 @@
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 199.232.40.117:80",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 45.148.31.0:15855",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.181:44539",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.181.210.205:443",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 217.78.237.118:8446",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - TROJAN 217.78.237.118:8447",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 217.78.237.118:8443",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 217.78.237.118:9443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.208.169:8443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.209.136:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 45.148.30.11:443",
