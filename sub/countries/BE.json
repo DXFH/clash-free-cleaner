@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.210:443",
+      "type": "vless",
+      "server": "109.69.218.210",
+      "port": 443,
+      "uuid": "2958cf6c-018e-491a-943b-46b4cd38b8ee",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:443",
       "type": "vless",
       "server": "109.69.218.217",
@@ -268,6 +277,7 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
+        "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.210:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.217:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.172:443",
         "\uD83C\uDDE7\uD83C\uDDEA Belgium - VLESS 109.69.218.168:443",
