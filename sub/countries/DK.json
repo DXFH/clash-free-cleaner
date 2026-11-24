@@ -8,18 +8,9 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 87.58.159.20:443",
-      "type": "vless",
-      "server": "87.58.159.20",
-      "port": 443,
-      "uuid": "2471e7da-5dcd-5da4-983a-3ef758abb17c",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
       "type": "ss",
-      "server": "192.36.27.116",
+      "server": "192.36.27.94",
       "port": 989,
       "cipher": "auto",
       "password": ""
@@ -33,14 +24,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
-      "type": "ss",
-      "server": "193.29.107.179",
-      "port": 40282,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 135.136.33.134:8443",
       "type": "vless",
       "server": "135.136.33.134",
@@ -48,6 +31,23 @@
       "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 87.58.159.20:443",
+      "type": "vless",
+      "server": "87.58.159.20",
+      "port": 443,
+      "uuid": "awlix_ir",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
+      "type": "ss",
+      "server": "193.29.107.179",
+      "port": 40282,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
@@ -158,9 +158,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
+      "name": "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
       "type": "ss",
-      "server": "192.36.27.94",
+      "server": "192.36.27.116",
       "port": 989,
       "cipher": "auto",
       "password": ""
@@ -285,11 +285,11 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 87.58.159.20:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 45.153.48.114:443",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 135.136.33.134:8443",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 87.58.159.20:443",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.179:40282",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.79:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.211:43963",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.197:38742",
@@ -304,7 +304,7 @@
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.181.210.205:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 45.148.31.0:15855",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 193.29.107.181:44539",
-        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.94:989",
+        "\uD83C\uDDE9\uD83C\uDDF0 Denmark - SS 192.36.27.116:989",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.208.169:8443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 193.180.209.136:443",
         "\uD83C\uDDE9\uD83C\uDDF0 Denmark - VLESS 45.148.30.11:443",
