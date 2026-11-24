@@ -8,6 +8,15 @@
   "external_controller": "127.0.0.1:9090",
   "proxies": [
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.132.179.90:443",
+      "type": "vless",
+      "server": "45.132.179.90",
+      "port": 443,
+      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 48.103.133.47:8443",
       "type": "vless",
       "server": "48.103.133.47",
@@ -17,21 +26,48 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.238.135:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 45.88.148.237:28443",
+      "type": "trojan",
+      "server": "45.88.148.237",
+      "port": 28443,
+      "password": "a1b16d10-4f43-4dd9-8c4f-52065b2b0910",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 201.51.12.98:443",
       "type": "vless",
-      "server": "72.56.238.135",
+      "server": "201.51.12.98",
       "port": 443,
-      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
       "tls": true,
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9037",
-      "type": "ss",
-      "server": "45.89.52.66",
-      "port": 9037,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.231.205.99:8880",
+      "type": "vless",
+      "server": "185.231.205.99",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.181.171.2:443",
+      "type": "vless",
+      "server": "5.181.171.2",
+      "port": 443,
+      "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.91.54.162:43000",
+      "type": "vless",
+      "server": "45.91.54.162",
+      "port": 43000,
+      "uuid": "4a923161-156f-4914-8cac-762fb2433bfb",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.234.108:8443",
@@ -43,85 +79,27 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.221.153.52:444",
-      "type": "ss",
-      "server": "185.221.153.52",
-      "port": 444,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 45.88.148.237:28443",
-      "type": "trojan",
-      "server": "45.88.148.237",
-      "port": 28443,
-      "password": "a1b16d10-4f43-4dd9-8c4f-52065b2b0910",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9042",
-      "type": "ss",
-      "server": "45.89.52.66",
-      "port": 9042,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.132.179.90:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.26.228.10:443",
       "type": "vless",
-      "server": "45.132.179.90",
-      "port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.181.171.2:443",
-      "type": "vless",
-      "server": "5.181.171.2",
-      "port": 443,
-      "uuid": "a87bf8a2-17a4-3054-b51e-876b5f1d0f24",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.172.67.43:443",
-      "type": "ss",
-      "server": "31.172.67.43",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 45.88.148.234:28443",
-      "type": "trojan",
-      "server": "45.88.148.234",
-      "port": 28443,
-      "password": "750a29bf-0a40-437f-b120-38de74ae7eaf",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.41.11.152:443",
-      "type": "vless",
-      "server": "212.41.11.152",
+      "server": "94.26.228.10",
       "port": 443,
       "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 130.49.189.158:43558",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 90.156.203.62:5112",
       "type": "ss",
-      "server": "130.49.189.158",
-      "port": 43558,
+      "server": "90.156.203.62",
+      "port": 5112,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.207.183.63:15720",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 48.103.218.77:18443",
       "type": "ss",
-      "server": "91.207.183.63",
-      "port": 15720,
+      "server": "48.103.218.77",
+      "port": 18443,
       "cipher": "auto",
       "password": ""
     },
@@ -135,64 +113,20 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 201.51.12.98:443",
-      "type": "vless",
-      "server": "201.51.12.98",
-      "port": 443,
-      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 179.253.173.85:443",
-      "type": "vless",
-      "server": "179.253.173.85",
-      "port": 443,
-      "uuid": "2015b70a-aa1d-46cb-94f3-58ffa7a336cd",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.171.133.209:443",
-      "type": "vless",
-      "server": "104.171.133.209",
-      "port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 90.156.203.62:5112",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9041",
       "type": "ss",
-      "server": "90.156.203.62",
-      "port": 5112,
+      "server": "45.89.52.66",
+      "port": 9041,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 201.24.116.192:443",
-      "type": "vless",
-      "server": "201.24.116.192",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 194.156.99.39:443",
+      "type": "trojan",
+      "server": "194.156.99.39",
       "port": 443,
-      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 146.185.198.44:444",
-      "type": "ss",
-      "server": "146.185.198.44",
-      "port": 444,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 90.156.228.141:46717",
-      "type": "ss",
-      "server": "90.156.228.141",
-      "port": 46717,
-      "cipher": "auto",
-      "password": ""
+      "password": "xxoo",
+      "tls": true
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 91.132.190.161:443",
@@ -204,14 +138,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 48.103.218.77:18443",
-      "type": "ss",
-      "server": "48.103.218.77",
-      "port": 18443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.98.176.60:443",
       "type": "vless",
       "server": "176.98.176.60",
@@ -219,6 +145,14 @@
       "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
       "tls": true,
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 130.49.189.158:43558",
+      "type": "ss",
+      "server": "130.49.189.158",
+      "port": 43558,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.8.1.4:443",
@@ -502,6 +436,15 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 201.24.116.192:443",
+      "type": "vless",
+      "server": "201.24.116.192",
+      "port": 443,
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 2.59.41.70:8443",
       "type": "vless",
       "server": "2.59.41.70",
@@ -568,15 +511,6 @@
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 144.48.11.146:43000",
       "type": "vless",
       "server": "144.48.11.146",
-      "port": 43000,
-      "uuid": "4a923161-156f-4914-8cac-762fb2433bfb",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.91.54.162:43000",
-      "type": "vless",
-      "server": "45.91.54.162",
       "port": 43000,
       "uuid": "4a923161-156f-4914-8cac-762fb2433bfb",
       "tls": true,
@@ -1177,6 +1111,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.171.133.209:443",
+      "type": "vless",
+      "server": "104.171.133.209",
+      "port": 443,
+      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.133.73.65:443",
       "type": "vless",
       "server": "195.133.73.65",
@@ -1492,13 +1435,13 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.46.6:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.238.135:443",
       "type": "vless",
-      "server": "188.225.46.6",
+      "server": "72.56.238.135",
       "port": 443,
-      "uuid": "a077dc9a-712f-48ea-b75c-d94af64011ec",
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.78.178:443",
@@ -1528,11 +1471,11 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.240.72:8443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.78:443",
       "type": "vless",
-      "server": "78.159.240.72",
-      "port": 8443,
-      "uuid": "37af0181-5598-4aad-a040-d926bcb65757",
+      "server": "185.86.145.78",
+      "port": 443,
+      "uuid": "88e79aa6-f431-4453-8dcc-652a0c747198",
       "tls": true,
       "flow": ""
     },
@@ -1554,153 +1497,100 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.38.83:443",
-      "type": "vless",
-      "server": "72.56.38.83",
-      "port": 443,
-      "uuid": "Fluffy_VPN-zKZUa4Ie",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.78:443",
-      "type": "vless",
-      "server": "185.86.145.78",
-      "port": 443,
-      "uuid": "88e79aa6-f431-4453-8dcc-652a0c747198",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 81.200.158.26:443",
-      "type": "vless",
-      "server": "81.200.158.26",
-      "port": 443,
-      "uuid": "572463d3-dab5-4dcb-8459-2b51735186e0",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.139.245.200:443",
-      "type": "vless",
-      "server": "94.139.245.200",
-      "port": 443,
-      "uuid": "8e370a16-7771-420f-bbc0-a53926322f91",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.209.106:443",
-      "type": "vless",
-      "server": "95.163.209.106",
-      "port": 443,
-      "uuid": "b21645a3-ec0f-4007-94c5-f8a1fd7ae708",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 147.45.108.45:443",
-      "type": "vless",
-      "server": "147.45.108.45",
-      "port": 443,
-      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 168.113.254.217:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 37.235.247.81:8443",
       "type": "ss",
-      "server": "168.113.254.217",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.140.159:8443",
-      "type": "ss",
-      "server": "193.160.140.159",
+      "server": "37.235.247.81",
       "port": 8443,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 153.80.22.106:443",
-      "type": "ss",
-      "server": "153.80.22.106",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.151.71.176:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 48.103.218.68:8080",
       "type": "vless",
-      "server": "45.151.71.176",
-      "port": 443,
-      "uuid": "bcf07b50-9da7-44dc-a955-43302f12e1e5",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.84.1.207:443",
-      "type": "vless",
-      "server": "45.84.1.207",
-      "port": 443,
-      "uuid": "c50eae6b-18de-4bdc-a22f-9edda40a57ed",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.147.80:9441",
-      "type": "vless",
-      "server": "185.86.147.80",
-      "port": 9441,
-      "uuid": "e8b7b937-85d9-43f3-bb7a-7d98478756d7",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 77.232.40.206:443",
-      "type": "vless",
-      "server": "77.232.40.206",
-      "port": 443,
-      "uuid": "c50eae6b-18de-4bdc-a22f-9edda40a57ed",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.32.175:443",
-      "type": "vless",
-      "server": "188.225.32.175",
-      "port": 443,
-      "uuid": "488f41fb-b1e6-4b21-9206-837d016167cb",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 194.156.101.227:44367",
-      "type": "vless",
-      "server": "194.156.101.227",
-      "port": 44367,
-      "uuid": "aa456b46-2f1b-4a8f-96d0-e8c3bca5b634",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.236.117:443",
-      "type": "vless",
-      "server": "95.129.236.117",
-      "port": 443,
-      "uuid": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
+      "server": "48.103.218.68",
+      "port": 8080,
+      "uuid": "FastKey_272260",
       "tls": true,
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.32.33.126:18443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.46.6:443",
+      "type": "vless",
+      "server": "188.225.46.6",
+      "port": 443,
+      "uuid": "a077dc9a-712f-48ea-b75c-d94af64011ec",
+      "tls": true,
+      "flow": "xtls-rprx-vision-udp443"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 79.174.12.251:8407",
+      "type": "vless",
+      "server": "79.174.12.251",
+      "port": 8407,
+      "uuid": "9d249510-b47e-4b3e-a2d7-b188065a259f",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.46.6:443",
       "type": "ss",
-      "server": "176.32.33.126",
-      "port": 18443,
+      "server": "188.225.46.6",
+      "port": 443,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.223.0:443",
+      "type": "vless",
+      "server": "195.209.223.0",
+      "port": 443,
+      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+      "tls": true,
+      "flow": "xtls-rprx-vision#\uD83C\uDD94ar14n24b%20\uD83D\uDD12%20VL-TCP-%20\u2754%20XX%20155ms"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.213.91:443",
+      "type": "vless",
+      "server": "195.209.213.91",
+      "port": 443,
+      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 80.66.78.73:443",
+      "type": "vless",
+      "server": "80.66.78.73",
+      "port": 443,
+      "uuid": "6e98b5d4-0c33-4704-8c14-7c0dbeadde1c",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 88.218.170.118:443",
+      "type": "vless",
+      "server": "88.218.170.118",
+      "port": 443,
+      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+      "tls": true,
+      "flow": "xtls-rprx-vision#13460@proxy_online_net"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 48.103.133.47:8443",
+      "type": "ss",
+      "server": "48.103.133.47",
+      "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 194.26.229.197:24443",
+      "type": "vless",
+      "server": "194.26.229.197",
+      "port": 24443,
+      "uuid": "9c69546a-e435-4037-bc63-f9e5829a8be3",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.54.58.149:443",
@@ -1711,225 +1601,11 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.209.106:8443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.240.72:8443",
       "type": "vless",
-      "server": "95.163.209.106",
+      "server": "78.159.240.72",
       "port": 8443,
-      "uuid": "b21645a3-ec0f-4007-94c5-f8a1fd7ae708",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.176.128.128:443",
-      "type": "vless",
-      "server": "178.176.128.128",
-      "port": 443,
-      "uuid": "50b95deb-6394-46c5-b88a-583e5b3ca7ee",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 178.248.236.229:443",
-      "type": "ss",
-      "server": "178.248.236.229",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.23.52.104:9096",
-      "type": "vless",
-      "server": "84.23.52.104",
-      "port": 9096,
-      "uuid": "d81db550-4787-467e-b98a-579ee9d41999",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 213.219.215.243:8443",
-      "type": "vless",
-      "server": "213.219.215.243",
-      "port": 8443,
-      "uuid": "e2173ce2-e74d-45e4-ac39-5ca22ad6bc04",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.217.201.82:443",
-      "type": "ss",
-      "server": "83.217.201.82",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.36.219:443",
-      "type": "vless",
-      "server": "188.225.36.219",
-      "port": 443,
-      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 135.106.175.19:443",
-      "type": "ss",
-      "server": "135.106.175.19",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.4.84:443",
-      "type": "vless",
-      "server": "72.56.4.84",
-      "port": 443,
-      "uuid": "Fluffy_VPN-zKZUa4Ie",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.217.111:443",
-      "type": "vless",
-      "server": "195.209.217.111",
-      "port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.177.219.186:443",
-      "type": "vless",
-      "server": "185.177.219.186",
-      "port": 443,
-      "uuid": "da83025c-6edd-4f3b-979d-1cb0cf59f4d0",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.172.101.234:443",
-      "type": "vless",
-      "server": "109.172.101.234",
-      "port": 443,
-      "uuid": "4fe214fb-048e-431f-b939-4518dc9df6a2",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 91.207.183.48:443",
-      "type": "vless",
-      "server": "91.207.183.48",
-      "port": 443,
-      "uuid": "c50eae6b-18de-4bdc-a22f-9edda40a57ed",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.87.28:443",
-      "type": "vless",
-      "server": "51.250.87.28",
-      "port": 443,
-      "uuid": "358a7ddd-6b44-45b2-a318-f5718e25e464",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 37.235.247.81:8443",
-      "type": "ss",
-      "server": "37.235.247.81",
-      "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.108:8443",
-      "type": "ss",
-      "server": "95.129.234.108",
-      "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.144.254:443",
-      "type": "vless",
-      "server": "84.201.144.254",
-      "port": 443,
-      "uuid": "39a7fe2d-41dc-46f5-bb76-f07707994885",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.113:8443",
-      "type": "ss",
-      "server": "95.129.234.113",
-      "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 195.209.217.111:443",
-      "type": "ss",
-      "server": "195.209.217.111",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.221.235:443",
-      "type": "vless",
-      "server": "195.209.221.235",
-      "port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.250.155:8443",
-      "type": "ss",
-      "server": "78.159.250.155",
-      "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.35.83:443",
-      "type": "vless",
-      "server": "188.225.35.83",
-      "port": 443,
-      "uuid": "f7331345-aac5-4e81-b8ac-8b8aa3ee2068",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.243.24:443",
-      "type": "ss",
-      "server": "176.108.243.24",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.84.1.207:443",
-      "type": "ss",
-      "server": "45.84.1.207",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.66.78.227:443",
-      "type": "ss",
-      "server": "80.66.78.227",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.19.223.139:8443",
-      "type": "vless",
-      "server": "89.19.223.139",
-      "port": 8443,
-      "uuid": "f0be198c-db8c-4622-8803-ba3c8c8db515",
+      "uuid": "37af0181-5598-4aad-a040-d926bcb65757",
       "tls": true,
       "flow": ""
     },
@@ -1942,374 +1618,56 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.133.209:443",
-      "type": "ss",
-      "server": "104.171.133.209",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.233.127.76:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 179.253.173.85:443",
       "type": "vless",
-      "server": "193.233.127.76",
+      "server": "179.253.173.85",
       "port": 443,
-      "uuid": "f55ea93e-b325-43dc-9e1a-1264e7fd946e",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.253.97:4100",
-      "type": "ss",
-      "server": "147.45.253.97",
-      "port": 4100,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.58.114:443",
-      "type": "vless",
-      "server": "62.152.58.114",
-      "port": 443,
-      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 77.232.40.206:443",
-      "type": "ss",
-      "server": "77.232.40.206",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 80.249.131.7:443",
-      "type": "vless",
-      "server": "80.249.131.7",
-      "port": 443,
-      "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.193.153.93:443",
-      "type": "vless",
-      "server": "212.193.153.93",
-      "port": 443,
-      "uuid": "a2919d43-b36b-4c34-af88-36bdc6f8e01d",
+      "uuid": "2015b70a-aa1d-46cb-94f3-58ffa7a336cd",
       "tls": true,
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.208.65.195:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 136.148.83.70:443",
       "type": "vless",
-      "server": "195.208.65.195",
+      "server": "136.148.83.70",
       "port": 443,
-      "uuid": "95741677-c920-4d1b-b19b-5d348878be66",
+      "uuid": "00000000-0000-0001-0000-000000000000",
       "tls": true,
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 90.156.255.198:51114",
-      "type": "vless",
-      "server": "90.156.255.198",
-      "port": 51114,
-      "uuid": "8b575b35-3c7c-42b0-ac80-2aa6b0d7717c",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 48.103.133.47:8443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 79.174.12.251:8407",
       "type": "ss",
-      "server": "48.103.133.47",
+      "server": "79.174.12.251",
+      "port": 8407,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.240.72:8443",
+      "type": "ss",
+      "server": "78.159.240.72",
       "port": 8443,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.159.248.125:8880",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 161.104.106.131:443",
       "type": "vless",
-      "server": "45.159.248.125",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "server": "161.104.106.131",
+      "port": 443,
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
       "tls": true,
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.245.45:25565",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.68.201.85:8443",
       "type": "vless",
-      "server": "78.159.245.45",
-      "port": 25565,
-      "uuid": "72edcaa1-685e-4022-9576-273746529e1f",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.51.12.98:443",
-      "type": "ss",
-      "server": "201.51.12.98",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.46.157:8443",
-      "type": "ss",
-      "server": "147.45.46.157",
+      "server": "188.68.201.85",
       "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.26.228.10:443",
-      "type": "vless",
-      "server": "94.26.228.10",
-      "port": 443,
-      "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+      "uuid": "c7116c5a-95c3-4bd3-9750-ebca954f839b",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.208.240:443",
-      "type": "ss",
-      "server": "193.160.208.240",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 92.38.139.95:50005",
-      "type": "ss",
-      "server": "92.38.139.95",
-      "port": 50005,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.14:443",
-      "type": "vless",
-      "server": "45.8.211.14",
-      "port": 443,
-      "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.155.125:443",
-      "type": "vless",
-      "server": "84.201.155.125",
-      "port": 443,
-      "uuid": "a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.151.70.116:443",
-      "type": "ss",
-      "server": "45.151.70.116",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 213.183.41.38:9027",
-      "type": "ss",
-      "server": "213.183.41.38",
-      "port": 9027,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 138.16.206.147:9114",
-      "type": "ss",
-      "server": "138.16.206.147",
-      "port": 9114,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.169.2.136:443",
-      "type": "ss",
-      "server": "89.169.2.136",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 144.48.11.97:43000",
-      "type": "vless",
-      "server": "144.48.11.97",
-      "port": 43000,
-      "uuid": "4799abf0-d0d9-4a46-9c31-b1f76ae00e1e",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.106.56:2087",
-      "type": "vless",
-      "server": "185.148.106.56",
-      "port": 2087,
-      "uuid": "31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.9.4.224:443",
-      "type": "vless",
-      "server": "37.9.4.224",
-      "port": 443,
-      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.226:443",
-      "type": "vless",
-      "server": "178.130.46.226",
-      "port": 443,
-      "uuid": "3619ae0e-bd3a-458c-bb0a-c0479019d9ec",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 92.255.58.59:443",
-      "type": "vless",
-      "server": "92.255.58.59",
-      "port": 443,
-      "uuid": "a30903dc-1bf0-0001-8b1b-603a3a56211c",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.144.176.135:3001",
-      "type": "ss",
-      "server": "45.144.176.135",
-      "port": 3001,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.230:443",
-      "type": "vless",
-      "server": "45.8.211.230",
-      "port": 443,
-      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.250.84:8443",
-      "type": "vless",
-      "server": "78.159.250.84",
-      "port": 8443,
-      "uuid": "6a2aff19-ff1f-4a13-96c8-a4d8986a9699",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.88.182:443",
-      "type": "vless",
-      "server": "195.209.88.182",
-      "port": 443,
-      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 87.242.94.42:443",
-      "type": "vless",
-      "server": "87.242.94.42",
-      "port": 443,
-      "uuid": "fd90e601-a56c-42b8-aab7-aa02d26fcb04",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.56.73:443",
-      "type": "vless",
-      "server": "62.152.56.73",
-      "port": 443,
-      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.242.55.42:443",
-      "type": "vless",
-      "server": "94.242.55.42",
-      "port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.23.52.104:9096",
-      "type": "ss",
-      "server": "84.23.52.104",
-      "port": 9096,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.231.205.99:8880",
-      "type": "vless",
-      "server": "185.231.205.99",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 136.148.83.69:443",
-      "type": "ss",
-      "server": "136.148.83.69",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.71.245.99:443",
-      "type": "ss",
-      "server": "109.71.245.99",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 191.44.46.255:443",
-      "type": "vless",
-      "server": "191.44.46.255",
-      "port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.178.208.176:443",
-      "type": "vless",
-      "server": "185.178.208.176",
-      "port": 443,
-      "uuid": "4bdb673a-56ba-43d3-a9b9-ef5aef990644",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.102:8443",
-      "type": "vless",
-      "server": "45.8.211.102",
-      "port": 8443,
-      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.135.229:443",
-      "type": "ss",
-      "server": "104.171.135.229",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.71.67.212:443",
@@ -2321,18 +1679,34 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.120.189.154:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.193.153.93:443",
       "type": "vless",
-      "server": "109.120.189.154",
+      "server": "212.193.153.93",
       "port": 443,
-      "uuid": "39a7fe2d-41dc-46f5-bb76-f07707994885",
+      "uuid": "f5e8cbda-923b-4ef2-992a-252ee5ae47bf",
       "tls": true,
-      "flow": "xtls-rprx-vision"
+      "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.177.111.134:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.113:8443",
       "type": "ss",
-      "server": "31.177.111.134",
+      "server": "95.129.234.113",
+      "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.179.190.170:59222",
+      "type": "ss",
+      "server": "185.179.190.170",
+      "port": 59222,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.66.78.227:443",
+      "type": "ss",
+      "server": "80.66.78.227",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -2346,29 +1720,143 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 144.48.11.146:43000",
-      "type": "ss",
-      "server": "144.48.11.146",
-      "port": 43000,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.221.165:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 80.249.131.7:443",
       "type": "vless",
-      "server": "195.209.221.165",
+      "server": "80.249.131.7",
       "port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+      "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.207.183.48:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.178.208.176:443",
+      "type": "vless",
+      "server": "185.178.208.176",
+      "port": 443,
+      "uuid": "4bdb673a-56ba-43d3-a9b9-ef5aef990644",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.151.70.116:443",
       "type": "ss",
-      "server": "91.207.183.48",
+      "server": "45.151.70.116",
       "port": 443,
       "cipher": "auto",
       "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.14:443",
+      "type": "vless",
+      "server": "45.8.211.14",
+      "port": 443,
+      "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.208.240:443",
+      "type": "ss",
+      "server": "193.160.208.240",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.208.65.195:443",
+      "type": "vless",
+      "server": "195.208.65.195",
+      "port": 443,
+      "uuid": "65dbc1ed-6728-4214-a7a8-85cff051db1f",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.58.114:443",
+      "type": "vless",
+      "server": "62.152.58.114",
+      "port": 443,
+      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.102:8443",
+      "type": "vless",
+      "server": "45.8.211.102",
+      "port": 8443,
+      "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.106.56:2087",
+      "type": "vless",
+      "server": "185.148.106.56",
+      "port": 2087,
+      "uuid": "31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.217:443",
+      "type": "vless",
+      "server": "45.8.211.217",
+      "port": 443,
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 213.183.41.38:9027",
+      "type": "ss",
+      "server": "213.183.41.38",
+      "port": 9027,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.4.65.6:21247",
+      "type": "ss",
+      "server": "185.4.65.6",
+      "port": 21247,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.242.55.42:443",
+      "type": "vless",
+      "server": "94.242.55.42",
+      "port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.71.245.99:443",
+      "type": "ss",
+      "server": "109.71.245.99",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.159.248.125:8880",
+      "type": "vless",
+      "server": "45.159.248.125",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.19.223.139:8443",
+      "type": "vless",
+      "server": "89.19.223.139",
+      "port": 8443,
+      "uuid": "f0be198c-db8c-4622-8803-ba3c8c8db515",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 77.110.105.122:443",
@@ -2380,28 +1868,20 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.58.179.199:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.144.254:443",
       "type": "vless",
-      "server": "193.58.179.199",
+      "server": "84.201.144.254",
       "port": 443,
-      "uuid": "df7c56c6-2e4a-49cd-ba89-aa4d38836244",
+      "uuid": "39a7fe2d-41dc-46f5-bb76-f07707994885",
       "tls": true,
-      "flow": ""
+      "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.179.190.170:59222",
-      "type": "ss",
-      "server": "185.179.190.170",
-      "port": 59222,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.233.82.140:40478",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.88.182:443",
       "type": "vless",
-      "server": "37.233.82.140",
-      "port": 40478,
-      "uuid": "e977d854-33f3-4345-abee-bf3fa9a6d880",
+      "server": "195.209.88.182",
+      "port": 443,
+      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
       "tls": true,
       "flow": ""
     },
@@ -2414,29 +1894,122 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.177.111.134:443",
-      "type": "vless",
-      "server": "31.177.111.134",
-      "port": 443,
-      "uuid": "fd90e601-a56c-42b8-aab7-aa02d26fcb04",
-      "tls": true,
-      "flow": ""
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.253.97:4100",
+      "type": "ss",
+      "server": "147.45.253.97",
+      "port": 4100,
+      "cipher": "auto",
+      "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.125.29.31:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 144.48.11.97:43000",
       "type": "vless",
-      "server": "89.125.29.31",
-      "port": 443,
-      "uuid": "8cef0a51-ce05-50f7-993d-bd341515cc44",
+      "server": "144.48.11.97",
+      "port": 43000,
+      "uuid": "4799abf0-d0d9-4a46-9c31-b1f76ae00e1e",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.217:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.245.45:25565",
       "type": "vless",
-      "server": "45.8.211.217",
+      "server": "78.159.245.45",
+      "port": 25565,
+      "uuid": "72edcaa1-685e-4022-9576-273746529e1f",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.46.157:8443",
+      "type": "ss",
+      "server": "147.45.46.157",
+      "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.250.84:8443",
+      "type": "vless",
+      "server": "78.159.250.84",
+      "port": 8443,
+      "uuid": "6a2aff19-ff1f-4a13-96c8-a4d8986a9699",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.56.73:443",
+      "type": "vless",
+      "server": "62.152.56.73",
       "port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.120.189.154:443",
+      "type": "vless",
+      "server": "109.120.189.154",
+      "port": 443,
+      "uuid": "39a7fe2d-41dc-46f5-bb76-f07707994885",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 92.38.139.95:50005",
+      "type": "ss",
+      "server": "92.38.139.95",
+      "port": 50005,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.169.2.136:443",
+      "type": "ss",
+      "server": "89.169.2.136",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.140.159:8443",
+      "type": "ss",
+      "server": "193.160.140.159",
+      "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.230:443",
+      "type": "vless",
+      "server": "45.8.211.230",
+      "port": 443,
+      "uuid": "838f5273-5d2d-4630-a0f5-9cc8e4aef4d6",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.9.4.224:443",
+      "type": "vless",
+      "server": "37.9.4.224",
+      "port": 443,
+      "uuid": "2b285251-1c04-404e-bea8-e1489920e853",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.144.176.135:3001",
+      "type": "ss",
+      "server": "45.144.176.135",
+      "port": 3001,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 90.156.255.198:51114",
+      "type": "vless",
+      "server": "90.156.255.198",
+      "port": 51114,
+      "uuid": "8b575b35-3c7c-42b0-ac80-2aa6b0d7717c",
       "tls": true,
       "flow": ""
     },
@@ -2449,12 +2022,31 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.4.65.6:21247",
-      "type": "ss",
-      "server": "185.4.65.6",
-      "port": 21247,
-      "cipher": "auto",
-      "password": ""
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.41.11.152:443",
+      "type": "vless",
+      "server": "212.41.11.152",
+      "port": 443,
+      "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.155.125:443",
+      "type": "vless",
+      "server": "84.201.155.125",
+      "port": 443,
+      "uuid": "a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.233.82.140:40478",
+      "type": "vless",
+      "server": "37.233.82.140",
+      "port": 40478,
+      "uuid": "e977d854-33f3-4345-abee-bf3fa9a6d880",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VMESS 194.53.53.16:443",
@@ -2495,6 +2087,33 @@
       "alterId": 0,
       "cipher": "auto",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.135.82.166:443",
+      "type": "vless",
+      "server": "185.135.82.166",
+      "port": 443,
+      "uuid": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.59.206.58:443",
+      "type": "vless",
+      "server": "5.59.206.58",
+      "port": 443,
+      "uuid": "7cbd9bf9-a3b1-4257-8406-df6109cd882f",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 147.45.108.45:443",
+      "type": "vless",
+      "server": "147.45.108.45",
+      "port": 443,
+      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.144.31.24:443",
@@ -3976,6 +3595,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.172.101.234:443",
+      "type": "vless",
+      "server": "109.172.101.234",
+      "port": 443,
+      "uuid": "49aabf68-e986-4722-8fd1-1702ce996bb6",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 155.212.164.103:443",
       "type": "vless",
       "server": "155.212.164.103",
@@ -4062,6 +3690,15 @@
       "server": "217.26.30.125",
       "port": 7443,
       "uuid": "4f466863-b6c5-4fdc-955e-7a601c18d89a",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.176.128.128:443",
+      "type": "vless",
+      "server": "178.176.128.128",
+      "port": 443,
+      "uuid": "50b95deb-6394-46c5-b88a-583e5b3ca7ee",
       "tls": true,
       "flow": ""
     },
@@ -4480,15 +4117,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 130.49.177.193:443",
-      "type": "vless",
-      "server": "130.49.177.193",
-      "port": 443,
-      "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.252.139.253:443",
       "type": "vless",
       "server": "84.252.139.253",
@@ -4858,15 +4486,6 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 129.101.100.126:8443",
-      "type": "vless",
-      "server": "129.101.100.126",
-      "port": 8443,
-      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.76.34.87:443",
       "type": "vless",
       "server": "31.76.34.87",
@@ -4962,15 +4581,6 @@
       "server": "138.124.76.103",
       "port": 8080,
       "uuid": "FastKey_160283",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 48.103.218.68:8080",
-      "type": "vless",
-      "server": "48.103.218.68",
-      "port": 8080,
-      "uuid": "FastKey_272260",
       "tls": true,
       "flow": ""
     },
@@ -5892,70 +5502,60 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 213.183.53.222:9014",
-      "type": "ss",
-      "server": "213.183.53.222",
-      "port": 9014,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9040",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9037",
       "type": "ss",
       "server": "45.89.52.66",
-      "port": 9040,
+      "port": 9037,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9031",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.221.153.52:444",
+      "type": "ss",
+      "server": "185.221.153.52",
+      "port": 444,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9042",
       "type": "ss",
       "server": "45.89.52.66",
-      "port": 9031,
+      "port": 9042,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 116.206.95.231:43000",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.172.67.43:443",
       "type": "ss",
-      "server": "116.206.95.231",
-      "port": 43000,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.91.54.162:43000",
-      "type": "ss",
-      "server": "45.91.54.162",
-      "port": 43000,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.132.179.90:443",
-      "type": "ss",
-      "server": "45.132.179.90",
+      "server": "31.172.67.43",
       "port": 443,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 194.26.229.197:24443",
-      "type": "vless",
-      "server": "194.26.229.197",
-      "port": 24443,
-      "uuid": "9c69546a-e435-4037-bc63-f9e5829a8be3",
-      "tls": true,
-      "flow": ""
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.207.183.63:15720",
+      "type": "ss",
+      "server": "91.207.183.63",
+      "port": 15720,
+      "cipher": "auto",
+      "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.223.0:443",
-      "type": "vless",
-      "server": "195.209.223.0",
-      "port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "tls": true,
-      "flow": "xtls-rprx-vision#\uD83D\uDD25Join\u002BTelegram:@Farah_VPN\uD83D\uDFE3"
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 146.185.198.44:444",
+      "type": "ss",
+      "server": "146.185.198.44",
+      "port": 444,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 90.156.228.141:46717",
+      "type": "ss",
+      "server": "90.156.228.141",
+      "port": 46717,
+      "cipher": "auto",
+      "password": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 213.108.2.130:443",
@@ -6026,14 +5626,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9041",
-      "type": "ss",
-      "server": "45.89.52.66",
-      "port": 9041,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9014",
       "type": "ss",
       "server": "45.89.52.66",
@@ -6046,6 +5638,14 @@
       "type": "ss",
       "server": "45.89.52.66",
       "port": 9001,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9031",
+      "type": "ss",
+      "server": "45.89.52.66",
+      "port": 9031,
       "cipher": "auto",
       "password": ""
     },
@@ -6070,6 +5670,14 @@
       "type": "ss",
       "server": "45.89.52.66",
       "port": 9065,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9040",
+      "type": "ss",
+      "server": "45.89.52.66",
+      "port": 9040,
       "cipher": "auto",
       "password": ""
     },
@@ -6258,20 +5866,38 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.139.42.37:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.59.205.83:443",
       "type": "vless",
-      "server": "37.139.42.37",
+      "server": "5.59.205.83",
       "port": 443,
-      "uuid": "a77d6228-85a9-000d-b600-ccf4018230eb",
+      "uuid": "49118954-b846-4da7-9d55-c859ce59ab50",
       "tls": true,
       "flow": "xtls-rprx-vision"
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.178.208.167:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.4.84:443",
       "type": "vless",
-      "server": "185.178.208.167",
+      "server": "72.56.4.84",
       "port": 443,
-      "uuid": "c2b17066-5386-0001-803b-5e652c0528f9",
+      "uuid": "Fluffy_VPN-zKZUa4Ie",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.214:12358",
+      "type": "vless",
+      "server": "185.86.145.214",
+      "port": 12358,
+      "uuid": "e603affa-cf4f-4b6a-a866-6d5d5bb3a13d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 81.200.158.26:443",
+      "type": "vless",
+      "server": "81.200.158.26",
+      "port": 443,
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
       "tls": true,
       "flow": ""
     },
@@ -6285,38 +5911,38 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.214:12358",
-      "type": "vless",
-      "server": "185.86.145.214",
-      "port": 12358,
-      "uuid": "e603affa-cf4f-4b6a-a866-6d5d5bb3a13d",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.59.205.83:443",
-      "type": "vless",
-      "server": "5.59.205.83",
-      "port": 443,
-      "uuid": "49118954-b846-4da7-9d55-c859ce59ab50",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 200.169.179.233:443",
-      "type": "vless",
-      "server": "200.169.179.233",
-      "port": 443,
-      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.209.247:443",
       "type": "vless",
       "server": "95.163.209.247",
       "port": 443,
       "uuid": "a90a8089-1367-4aa0-bf77-ce74d0786bdb",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.38.83:443",
+      "type": "vless",
+      "server": "72.56.38.83",
+      "port": 443,
+      "uuid": "Fluffy_VPN-zKZUa4Ie",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.139.42.37:443",
+      "type": "vless",
+      "server": "37.139.42.37",
+      "port": 443,
+      "uuid": "a77d6228-85a9-000d-b600-ccf4018230eb",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.236.117:443",
+      "type": "vless",
+      "server": "95.129.236.117",
+      "port": 443,
+      "uuid": "77998cc6-8a4d-4251-b974-ebff48a84c4d",
       "tls": true,
       "flow": ""
     },
@@ -6328,23 +5954,6 @@
       "uuid": "3f48cee8-2e5d-4ea4-9297-0777a79a9f06",
       "tls": true,
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 46.17.46.27:18443",
-      "type": "ss",
-      "server": "46.17.46.27",
-      "port": 18443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.37:443",
-      "type": "vless",
-      "server": "185.86.145.37",
-      "port": 443,
-      "uuid": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5",
-      "tls": true,
-      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 46.17.40.234:7018",
@@ -7028,6 +6637,15 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 136.148.83.71:443",
+      "type": "vless",
+      "server": "136.148.83.71",
+      "port": 443,
+      "uuid": "00000000-0000-0001-0000-000000000000",
+      "tls": true,
+      "flow": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.125.240.166:443",
       "type": "ss",
       "server": "176.125.240.166",
@@ -7048,22 +6666,6 @@
       "type": "ss",
       "server": "79.137.175.59",
       "port": 8443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.129.252.33:443",
-      "type": "ss",
-      "server": "5.129.252.33",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.238.135:443",
-      "type": "ss",
-      "server": "72.56.238.135",
-      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -7140,6 +6742,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 136.148.83.69:443",
+      "type": "ss",
+      "server": "136.148.83.69",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 94.131.113.228:443",
       "type": "ss",
       "server": "94.131.113.228",
@@ -7180,21 +6790,21 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.129.252.33:443",
-      "type": "vless",
-      "server": "5.129.252.33",
-      "port": 443,
-      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-      "tls": true,
-      "flow": ""
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 185.221.160.22:2096",
       "type": "trojan",
       "server": "185.221.160.22",
       "port": 2096,
       "password": "gIRrGnuuNm",
       "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.36.219:443",
+      "type": "vless",
+      "server": "188.225.36.219",
+      "port": 443,
+      "uuid": "25ac78e7-6d1d-4c9a-a450-c01a4871769f",
+      "tls": true,
+      "flow": ""
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.128.137.133:443",
@@ -11904,6 +11514,253 @@
       "flow": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.147.80:9444",
+      "type": "vless",
+      "server": "185.86.147.80",
+      "port": 9444,
+      "uuid": "e8b7b937-85d9-43f3-bb7a-7d98478756d7",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 159.194.217.26:443",
+      "type": "vless",
+      "server": "159.194.217.26",
+      "port": 443,
+      "uuid": "e48e4377-1f29-485b-80d4-85fd4fa27bfa",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.142.44.112:8443",
+      "type": "vless",
+      "server": "45.142.44.112",
+      "port": 8443,
+      "uuid": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.126.205.65:443",
+      "type": "vless",
+      "server": "94.126.205.65",
+      "port": 443,
+      "uuid": "d6dc1358-1bb5-4a9d-92fd-3e255567e3fc",
+      "tls": true,
+      "flow": "xtls-rprx-vision#@vpnclashfa - 3879"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.7.246:443",
+      "type": "vless",
+      "server": "51.250.7.246",
+      "port": 443,
+      "uuid": "cd88331a-8b9a-46a3-827c-e6b556d49a22",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.75.52:8443",
+      "type": "vless",
+      "server": "188.225.75.52",
+      "port": 8443,
+      "uuid": "cb73ec56-1faa-491d-b2eb-8edec2e4b12e",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.2.47:443",
+      "type": "vless",
+      "server": "95.163.2.47",
+      "port": 443,
+      "uuid": "c8c17d77-cc46-4c81-a2bf-779e75532bdc",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.56:8443",
+      "type": "vless",
+      "server": "178.130.46.56",
+      "port": 8443,
+      "uuid": "ba194ade935f46eaae27baf55714244a",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 200.165.236.84:443",
+      "type": "vless",
+      "server": "200.165.236.84",
+      "port": 443,
+      "uuid": "a54c6d0b-56d8-4bb8-a4af-8c5a7f0c0b34",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.142.47.40:8443",
+      "type": "vless",
+      "server": "95.142.47.40",
+      "port": 8443,
+      "uuid": "a21cd99660e54a6da3e328c305860be9",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 129.101.100.126:8443",
+      "type": "vless",
+      "server": "129.101.100.126",
+      "port": 8443,
+      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 145.249.109.121:8443",
+      "type": "vless",
+      "server": "145.249.109.121",
+      "port": 8443,
+      "uuid": "93961d050c164d01aa96cc07522338d9",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.47.231:443",
+      "type": "vless",
+      "server": "51.250.47.231",
+      "port": 443,
+      "uuid": "8f631f3f-5854-4d77-961a-ad33e10e29bb",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.171.133.213:443",
+      "type": "vless",
+      "server": "104.171.133.213",
+      "port": 443,
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.151.62.132:8443",
+      "type": "vless",
+      "server": "45.151.62.132",
+      "port": 8443,
+      "uuid": "792adea77a684201b13f85084a00287e",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 130.49.177.193:443",
+      "type": "vless",
+      "server": "130.49.177.193",
+      "port": 443,
+      "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.160.140.119:443",
+      "type": "vless",
+      "server": "193.160.140.119",
+      "port": 443,
+      "uuid": "680e92ac-1688-49e0-af96-7327fbc30ce8",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.130.149.165:875",
+      "type": "vless",
+      "server": "31.130.149.165",
+      "port": 875,
+      "uuid": "4a9d6057-985a-4531-851c-5b4db77b0409",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.252.100.33:43000",
+      "type": "vless",
+      "server": "84.252.100.33",
+      "port": 43000,
+      "uuid": "4a923161-156f-4914-8cac-762fb2433bfb",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.226:443",
+      "type": "vless",
+      "server": "178.130.46.226",
+      "port": 443,
+      "uuid": "3619ae0e-bd3a-458c-bb0a-c0479019d9ec",
+      "tls": true,
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.127.217.9:4100",
+      "type": "vless",
+      "server": "89.127.217.9",
+      "port": 4100,
+      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 130.17.2.27:4100",
+      "type": "vless",
+      "server": "130.17.2.27",
+      "port": 4100,
+      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.192.14.227:8443",
+      "type": "vless",
+      "server": "212.192.14.227",
+      "port": 8443,
+      "uuid": "152e80f4173b42668ab6a918ffcbaded",
+      "tls": true,
+      "flow": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 78.40.117.167:9443",
+      "type": "trojan",
+      "server": "78.40.117.167",
+      "port": 9443,
+      "password": "bfdf5f2c27bf47f78af2578be48ef6fc",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 145.249.109.128:9443",
+      "type": "trojan",
+      "server": "145.249.109.128",
+      "port": 9443,
+      "password": "3baa4ffc8ff14deba32e13658e39be06",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 176.125.240.167:9443",
+      "type": "trojan",
+      "server": "176.125.240.167",
+      "port": 9443,
+      "password": "249454d267254a52ab3c8b7906bc12ab",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 94.103.91.22:9443",
+      "type": "trojan",
+      "server": "94.103.91.22",
+      "port": 9443,
+      "password": "1e3b3ecf567f44d2b6e82116795ec598",
+      "tls": true
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 212.192.14.227:9443",
+      "type": "trojan",
+      "server": "212.192.14.227",
+      "port": 9443,
+      "password": "1e32fe52198848788f029c2ec244f347",
+      "tls": true
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.32.34.253:18443",
       "type": "ss",
       "server": "176.32.34.253",
@@ -12080,199 +11937,6 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 157.22.240.20:443",
-      "type": "vless",
-      "server": "157.22.240.20",
-      "port": 443,
-      "uuid": "f28ce4eb-62cd-45f5-b3b3-be1c1a95e335",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.142.44.112:8443",
-      "type": "vless",
-      "server": "45.142.44.112",
-      "port": 8443,
-      "uuid": "deba253c-fceb-4efb-b1b8-f7295ef2ec36",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.126.205.65:443",
-      "type": "vless",
-      "server": "94.126.205.65",
-      "port": 443,
-      "uuid": "d6dc1358-1bb5-4a9d-92fd-3e255567e3fc",
-      "tls": true,
-      "flow": "xtls-rprx-vision#@vpnclashfa - 3086"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.40.117.121:8443",
-      "type": "vless",
-      "server": "78.40.117.121",
-      "port": 8443,
-      "uuid": "ca424dc3c7494da9a1b4daf397932b71",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.56:8443",
-      "type": "vless",
-      "server": "178.130.46.56",
-      "port": 8443,
-      "uuid": "ba194ade935f46eaae27baf55714244a",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.125.240.166:8443",
-      "type": "vless",
-      "server": "176.125.240.166",
-      "port": 8443,
-      "uuid": "a7c617c90de442f19c0af1c2e64d83fe",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 200.165.236.84:443",
-      "type": "vless",
-      "server": "200.165.236.84",
-      "port": 443,
-      "uuid": "a54c6d0b-56d8-4bb8-a4af-8c5a7f0c0b34",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.223.124.93:443",
-      "type": "vless",
-      "server": "89.223.124.93",
-      "port": 443,
-      "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 113.30.154.221:443",
-      "type": "vless",
-      "server": "113.30.154.221",
-      "port": 443,
-      "uuid": "8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.151.62.132:8443",
-      "type": "vless",
-      "server": "45.151.62.132",
-      "port": 8443,
-      "uuid": "792adea77a684201b13f85084a00287e",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.83.204:7443",
-      "type": "vless",
-      "server": "188.225.83.204",
-      "port": 7443,
-      "uuid": "71bd5b95-4079-417e-a34f-386a07588105",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.147.27.120:443",
-      "type": "vless",
-      "server": "185.147.27.120",
-      "port": 443,
-      "uuid": "68d89911-b92d-46fe-9007-3645c3b285f0",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.192.14.227:8443",
-      "type": "vless",
-      "server": "212.192.14.227",
-      "port": 8443,
-      "uuid": "65847396469a4541b41e63c12b8f39f9",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.192.14.225:8443",
-      "type": "vless",
-      "server": "212.192.14.225",
-      "port": 8443,
-      "uuid": "5137b22bf02f4309a65bc06cf66a6b83",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.130.149.165:875",
-      "type": "vless",
-      "server": "31.130.149.165",
-      "port": 875,
-      "uuid": "4a9d6057-985a-4531-851c-5b4db77b0409",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.252.100.33:43000",
-      "type": "vless",
-      "server": "84.252.100.33",
-      "port": 43000,
-      "uuid": "4a923161-156f-4914-8cac-762fb2433bfb",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.125.240.190:8443",
-      "type": "vless",
-      "server": "176.125.240.190",
-      "port": 8443,
-      "uuid": "1f3204b67ce648829e532745dd97e4b4",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 78.40.117.167:9443",
-      "type": "trojan",
-      "server": "78.40.117.167",
-      "port": 9443,
-      "password": "bfdf5f2c27bf47f78af2578be48ef6fc",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 145.249.109.128:9443",
-      "type": "trojan",
-      "server": "145.249.109.128",
-      "port": 9443,
-      "password": "3baa4ffc8ff14deba32e13658e39be06",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 176.125.240.167:9443",
-      "type": "trojan",
-      "server": "176.125.240.167",
-      "port": 9443,
-      "password": "249454d267254a52ab3c8b7906bc12ab",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 94.103.91.22:9443",
-      "type": "trojan",
-      "server": "94.103.91.22",
-      "port": 9443,
-      "password": "1e3b3ecf567f44d2b6e82116795ec598",
-      "tls": true
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 212.192.14.227:9443",
-      "type": "trojan",
-      "server": "212.192.14.227",
-      "port": 9443,
-      "password": "1e32fe52198848788f029c2ec244f347",
-      "tls": true
-    },
-    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 79.174.92.222:443",
       "type": "vless",
       "server": "79.174.92.222",
@@ -12280,24 +11944,6 @@
       "uuid": "03ca8c3f-e777-45b5-a1b1-592094ca99ee",
       "tls": true,
       "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.127.217.9:4100",
-      "type": "vless",
-      "server": "89.127.217.9",
-      "port": 4100,
-      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.188.159.42:443",
-      "type": "vless",
-      "server": "5.188.159.42",
-      "port": 443,
-      "uuid": "25dcbe15-3d70-4f24-a8f2-3156e68f783e",
-      "tls": true,
-      "flow": "xtls-rprx-vision"
     },
     {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.42.82.167:443",
@@ -12309,11 +11955,11 @@
       "flow": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.108.244.162:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.147.27.120:443",
       "type": "vless",
-      "server": "176.108.244.162",
+      "server": "185.147.27.120",
       "port": 443,
-      "uuid": "6f1afd5d-9613-0001-b884-b52389da00c2",
+      "uuid": "68d89911-b92d-46fe-9007-3645c3b285f0",
       "tls": true,
       "flow": ""
     },
@@ -12341,15 +11987,6 @@
       "server": "31.172.67.215",
       "port": 2200,
       "uuid": "d4aad26f-70b6-4411-8517-17f7b4281886",
-      "tls": true,
-      "flow": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 159.194.217.26:443",
-      "type": "vless",
-      "server": "159.194.217.26",
-      "port": 443,
-      "uuid": "e48e4377-1f29-485b-80d4-85fd4fa27bfa",
       "tls": true,
       "flow": ""
     },
@@ -12389,6 +12026,14 @@
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.120.188.156:443",
       "type": "ss",
       "server": "109.120.188.156",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.238.135:443",
+      "type": "ss",
+      "server": "72.56.238.135",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -12474,17 +12119,17 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 200.165.235.78:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 179.253.173.85:443",
       "type": "ss",
-      "server": "200.165.235.78",
+      "server": "179.253.173.85",
       "port": 443,
       "cipher": "auto",
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.188.159.42:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 200.165.235.78:443",
       "type": "ss",
-      "server": "5.188.159.42",
+      "server": "200.165.235.78",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -12501,6 +12146,22 @@
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.42.82.167:443",
       "type": "ss",
       "server": "5.42.82.167",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.169.47.96:443",
+      "type": "ss",
+      "server": "89.169.47.96",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 189.74.114.116:443",
+      "type": "ss",
+      "server": "189.74.114.116",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -12562,10 +12223,18 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.245.147:445",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.24.116.192:443",
       "type": "ss",
-      "server": "78.159.245.147",
-      "port": 445,
+      "server": "201.24.116.192",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.51.12.98:443",
+      "type": "ss",
+      "server": "201.51.12.98",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -12574,6 +12243,14 @@
       "type": "ss",
       "server": "2.59.41.70",
       "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.147.246.12:443",
+      "type": "ss",
+      "server": "83.147.246.12",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -12610,6 +12287,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.171.241.130:443",
+      "type": "ss",
+      "server": "83.171.241.130",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 144.48.11.97:43000",
       "type": "ss",
       "server": "144.48.11.97",
@@ -12618,18 +12303,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.32.175:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.91.54.162:43000",
       "type": "ss",
-      "server": "188.225.32.175",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.181.171.10:443",
-      "type": "ss",
-      "server": "5.181.171.10",
-      "port": 443,
+      "server": "45.91.54.162",
+      "port": 43000,
       "cipher": "auto",
       "password": ""
     },
@@ -12638,6 +12315,14 @@
       "type": "ss",
       "server": "31.130.149.165",
       "port": 875,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 157.22.185.68:2058",
+      "type": "ss",
+      "server": "157.22.185.68",
+      "port": 2058,
       "cipher": "auto",
       "password": ""
     },
@@ -12693,14 +12378,6 @@
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.59.210.37:443",
       "type": "ss",
       "server": "31.59.210.37",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 81.200.158.26:443",
-      "type": "ss",
-      "server": "81.200.158.26",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -12882,9 +12559,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.244.162:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 135.106.175.19:443",
       "type": "ss",
-      "server": "176.108.244.162",
+      "server": "135.106.175.19",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -12894,14 +12571,6 @@
       "type": "ss",
       "server": "192.144.13.208",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.83.204:7443",
-      "type": "ss",
-      "server": "188.225.83.204",
-      "port": 7443,
       "cipher": "auto",
       "password": ""
     },
@@ -12925,6 +12594,14 @@
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.24.55.84:443",
       "type": "ss",
       "server": "201.24.55.84",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.55.239.195:443",
+      "type": "ss",
+      "server": "194.55.239.195",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -13018,9 +12695,9 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.86.145.78:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.241.230:443",
       "type": "ss",
-      "server": "185.86.145.78",
+      "server": "72.56.241.230",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -13037,14 +12714,6 @@
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 94.242.55.42:443",
       "type": "ss",
       "server": "94.242.55.42",
-      "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.181.171.2:443",
-      "type": "ss",
-      "server": "5.181.171.2",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -13090,6 +12759,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.26.229.197:24443",
+      "type": "ss",
+      "server": "194.26.229.197",
+      "port": 24443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.122.198.83:8443",
       "type": "ss",
       "server": "109.122.198.83",
@@ -13118,6 +12795,14 @@
       "type": "ss",
       "server": "147.45.226.155",
       "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.135.229:443",
+      "type": "ss",
+      "server": "104.171.135.229",
+      "port": 443,
       "cipher": "auto",
       "password": ""
     },
@@ -13170,9 +12855,25 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 145.249.109.142:443",
+      "type": "ss",
+      "server": "145.249.109.142",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.229.9.240:443",
       "type": "ss",
       "server": "185.229.9.240",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 178.248.236.229:443",
+      "type": "ss",
+      "server": "178.248.236.229",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -13182,14 +12883,6 @@
       "type": "ss",
       "server": "94.126.206.121",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.156.101.227:44367",
-      "type": "ss",
-      "server": "194.156.101.227",
-      "port": 44367,
       "cipher": "auto",
       "password": ""
     },
@@ -13222,6 +12915,22 @@
       "type": "ss",
       "server": "85.234.114.53",
       "port": 22231,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.108:8443",
+      "type": "ss",
+      "server": "95.129.234.108",
+      "port": 8443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.241.75:18443",
+      "type": "ss",
+      "server": "72.56.241.75",
+      "port": 18443,
       "cipher": "auto",
       "password": ""
     },
@@ -13290,6 +12999,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.175.81:443",
+      "type": "ss",
+      "server": "147.45.175.81",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.22.153.231:8443",
       "type": "ss",
       "server": "185.22.153.231",
@@ -13338,6 +13055,14 @@
       "password": ""
     },
     {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.23.52.104:9118",
+      "type": "ss",
+      "server": "84.23.52.104",
+      "port": 9118,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.67.32.147:22441",
       "type": "ss",
       "server": "45.67.32.147",
@@ -13362,18 +13087,10 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 129.101.98.60:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.133.209:443",
       "type": "ss",
-      "server": "129.101.98.60",
+      "server": "104.171.133.209",
       "port": 443,
-      "cipher": "auto",
-      "password": ""
-    },
-    {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.86.147.80:9441",
-      "type": "ss",
-      "server": "185.86.147.80",
-      "port": 9441,
       "cipher": "auto",
       "password": ""
     },
@@ -13381,6 +13098,14 @@
       "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 195.133.73.65:443",
       "type": "ss",
       "server": "195.133.73.65",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.217.201.82:443",
+      "type": "ss",
+      "server": "83.217.201.82",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -13394,9 +13119,25 @@
       "password": ""
     },
     {
-      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.126.93.225:443",
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 168.113.254.217:443",
       "type": "ss",
-      "server": "185.126.93.225",
+      "server": "168.113.254.217",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 195.209.223.0:443",
+      "type": "ss",
+      "server": "195.209.223.0",
+      "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.132.179.90:443",
+      "type": "ss",
+      "server": "45.132.179.90",
       "port": 443,
       "cipher": "auto",
       "password": ""
@@ -13406,6 +13147,14 @@
       "type": "ss",
       "server": "185.126.93.226",
       "port": 443,
+      "cipher": "auto",
+      "password": ""
+    },
+    {
+      "name": "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.71.245.99:8443",
+      "type": "ss",
+      "server": "109.71.245.99",
+      "port": 8443,
       "cipher": "auto",
       "password": ""
     },
@@ -13447,31 +13196,23 @@
       "name": "AUTO",
       "type": "url-test",
       "proxies": [
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 48.103.133.47:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.238.135:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9037",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.234.108:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.221.153.52:444",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 45.88.148.237:28443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9042",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.132.179.90:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.181.171.2:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.172.67.43:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 45.88.148.234:28443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.41.11.152:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 130.49.189.158:43558",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.207.183.63:15720",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.54.58.149:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 48.103.133.47:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 45.88.148.237:28443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 201.51.12.98:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 179.253.173.85:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.171.133.209:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.231.205.99:8880",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.181.171.2:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.91.54.162:43000",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.234.108:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.26.228.10:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 90.156.203.62:5112",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 201.24.116.192:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 146.185.198.44:444",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 90.156.228.141:46717",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 91.132.190.161:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 48.103.218.77:18443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.54.58.149:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9041",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 194.156.99.39:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 91.132.190.161:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.98.176.60:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 130.49.189.158:43558",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.8.1.4:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.8.158.176:10801",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.22.155.162:10808",
@@ -13504,6 +13245,7 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.179.190.170:59222",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.245.147:445",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.250.155:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 201.24.116.192:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 2.59.41.70:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 83.147.246.12:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.130.155.114:443",
@@ -13512,7 +13254,6 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.160.208.240:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 116.206.95.231:43000",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 144.48.11.146:43000",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.91.54.162:43000",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.172.114.57:2058",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 157.22.185.60:2058",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.120.242.196:2058",
@@ -13579,6 +13320,7 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 217.149.30.124:50053",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 129.101.98.60:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.26.249.216:52006",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.171.133.209:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.133.73.65:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 83.217.201.82:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.123.160.193:176",
@@ -13614,122 +13356,80 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 91.224.87.22:9882",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 83.147.246.153:4100",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 147.45.226.155:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.46.6:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.238.135:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.78.178:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - HYSTERIA2 103.88.243.142:11592",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.57.185:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.173:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - HYSTERIA2 103.88.243.142:11592",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.240.72:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - HYSTERIA2 91.196.32.163:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.78:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 152.234.239.170:9467",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.116.173.21:9038",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.38.83:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.78:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 81.200.158.26:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.139.245.200:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.209.106:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 147.45.108.45:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 168.113.254.217:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.140.159:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 153.80.22.106:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.151.71.176:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.84.1.207:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - HY2 103.88.243.142:11592",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.147.80:9441",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 77.232.40.206:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.32.175:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 194.156.101.227:44367",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.236.117:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.32.33.126:18443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.54.58.149:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.209.106:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.176.128.128:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 178.248.236.229:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.23.52.104:9096",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 213.219.215.243:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.217.201.82:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.36.219:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 135.106.175.19:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.4.84:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.217.111:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.177.219.186:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.172.101.234:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 91.207.183.48:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - HYSTERIA2 195.133.53.33:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.87.28:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 37.235.247.81:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.108:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.144.254:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.113:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 195.209.217.111:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.221.235:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.250.155:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.35.83:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.243.24:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.84.1.207:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.66.78.227:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.19.223.139:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 152.234.239.170:9467",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.133.209:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.233.127.76:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.253.97:4100",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.58.114:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 77.232.40.206:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 80.249.131.7:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.193.153.93:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.208.65.195:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 90.156.255.198:51114",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 48.103.218.68:8080",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.46.6:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 79.174.12.251:8407",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.46.6:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.223.0:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.213.91:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 80.66.78.73:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 88.218.170.118:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 48.103.133.47:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.159.248.125:8880",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.245.45:25565",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.51.12.98:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.46.157:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.26.228.10:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.208.240:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 92.38.139.95:50005",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.14:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.155.125:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.151.70.116:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 213.183.41.38:9027",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 138.16.206.147:9114",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.169.2.136:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 144.48.11.97:43000",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.106.56:2087",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.9.4.224:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.226:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 92.255.58.59:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.144.176.135:3001",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.230:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.250.84:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.88.182:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 87.242.94.42:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.56.73:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.242.55.42:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.23.52.104:9096",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.231.205.99:8880",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 136.148.83.69:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.71.245.99:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 191.44.46.255:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.178.208.176:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.102:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.135.229:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 194.26.229.197:24443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.54.58.149:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.240.72:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 152.234.239.170:9467",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 179.253.173.85:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 136.148.83.70:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 79.174.12.251:8407",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.240.72:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 161.104.106.131:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.68.201.85:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.71.67.212:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.120.189.154:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.177.111.134:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.245.75:9002",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 144.48.11.146:43000",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.221.165:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.207.183.48:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 77.110.105.122:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.58.179.199:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.193.153.93:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.113:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.179.190.170:59222",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.233.82.140:40478",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.159.248.125:8880",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.177.111.134:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.125.29.31:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.66.78.227:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.245.75:9002",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 80.249.131.7:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.178.208.176:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.151.70.116:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.14:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.208.240:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.208.65.195:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.58.114:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.102:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.106.56:2087",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.217:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.55.239.233:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 213.183.41.38:9027",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.4.65.6:21247",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.242.55.42:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.71.245.99:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.159.248.125:8880",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.19.223.139:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 77.110.105.122:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.144.254:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.88.182:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.159.248.125:8880",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.253.97:4100",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 144.48.11.97:43000",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.245.45:25565",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.46.157:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.159.250.84:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.56.73:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.120.189.154:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 92.38.139.95:50005",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.169.2.136:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.140.159:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - HY2 103.88.243.142:11592",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.8.211.230:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.9.4.224:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.144.176.135:3001",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 90.156.255.198:51114",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.55.239.233:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.41.11.152:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.201.155.125:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.233.82.140:40478",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - HYSTERIA2 46.17.41.189:50717",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - HY2 103.88.241.133:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - HYSTERIA2 77.232.139.128:11592",
@@ -13773,6 +13473,9 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VMESS 45.8.211.24:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VMESS 141.98.169.24:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VMESS 185.148.104.245:80",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.135.82.166:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.59.206.58:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 147.45.108.45:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SOCKS5 194.87.103.161:1080",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.144.31.24:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 87.228.61.175:1443",
@@ -13947,6 +13650,7 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.67.215.99:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.120.188.154:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.120.191.248:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.172.101.234:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 155.212.164.103:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.120.234.103:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 217.16.26.158:7443",
@@ -13957,6 +13661,7 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 80.92.205.51:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.73.206.90:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 217.26.30.125:7443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.176.128.128:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.252.136.245:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.47.5:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.83.255:443",
@@ -14003,7 +13708,6 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 158.160.188.11:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.233.202.7:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.106.55:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 130.49.177.193:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.252.139.253:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.147.175:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.211.158:443",
@@ -14045,7 +13749,6 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.228.123.26:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.104.124:2096",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.106.65:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 129.101.100.126:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.76.34.87:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.139.42.234:4443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.67.35.100:443",
@@ -14057,7 +13760,6 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.32.34.105:8080",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 46.29.167.14:8888",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 138.124.76.103:8080",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 48.103.218.68:8080",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.247.153:8080",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 194.35.119.193:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.67.215.144:443",
@@ -14160,14 +13862,13 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.67.215.117:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.148.104.13:80",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.67.215.117:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 213.183.53.222:9014",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9040",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9031",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 116.206.95.231:43000",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.91.54.162:43000",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.132.179.90:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 194.26.229.197:24443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 195.209.223.0:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9037",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.221.153.52:444",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9042",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.172.67.43:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.207.183.63:15720",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 146.185.198.44:444",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 90.156.228.141:46717",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 213.108.2.130:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.122.198.76:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.183.253.171:443",
@@ -14176,12 +13877,13 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.92.204.106:9000",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9000",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9011",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9041",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9014",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9001",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9031",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9043",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9005",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9065",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.89.52.66:9040",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 62.113.115.180:21309",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.92.204.106:9005",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.92.204.106:9006",
@@ -14205,16 +13907,16 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.92.204.106:9097",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 80.92.204.106:9098",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.15.157.199:45346",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.139.42.37:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.178.208.167:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.236.70:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.214:12358",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.59.205.83:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 200.169.179.233:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.4.84:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.214:12358",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 81.200.158.26:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.236.70:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.209.247:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 72.56.38.83:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 37.139.42.37:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.129.236.117:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.129.56.229:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 46.17.46.27:18443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.145.37:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 46.17.40.234:7018",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 145.249.109.121:25512",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.78.31:2053",
@@ -14291,11 +13993,10 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.209.127.33:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 77.222.35.36:4100",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 189.74.106.116:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 136.148.83.71:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.125.240.166:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.109.106.241:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 79.137.175.59:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.129.252.33:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.238.135:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.123.165.51:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.169.128.105:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 217.198.12.6:443",
@@ -14305,13 +14006,14 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 92.42.96.223:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 94.159.97.98:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.98.176.60:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 136.148.83.69:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 94.131.113.228:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 212.192.246.37:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 158.160.105.121:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 168.113.253.178:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 46.243.205.192:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.129.252.33:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 185.221.160.22:2096",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.36.219:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.128.137.133:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 109.122.198.83:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 121.127.37.211:443",
@@ -14835,6 +14537,34 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 189.74.114.116:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.169.47.96:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.76.142.70:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.86.147.80:9444",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 159.194.217.26:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.142.44.112:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.126.205.65:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.7.246:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.75.52:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.163.2.47:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.56:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 200.165.236.84:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 95.142.47.40:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 129.101.100.126:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 145.249.109.121:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 51.250.47.231:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 104.171.133.213:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.151.62.132:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 130.49.177.193:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 193.160.140.119:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.130.149.165:875",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.252.100.33:43000",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.226:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.127.217.9:4100",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 130.17.2.27:4100",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.192.14.227:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 78.40.117.167:9443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 145.249.109.128:9443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 176.125.240.167:9443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 94.103.91.22:9443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 212.192.14.227:9443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.32.34.253:18443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.125.240.190:42360",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 178.130.46.148:47345",
@@ -14857,42 +14587,18 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 145.249.109.14:60245",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.142.47.40:62238",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 212.192.14.227:56686",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 157.22.240.20:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.142.44.112:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 94.126.205.65:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 78.40.117.121:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 178.130.46.56:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.125.240.166:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 200.165.236.84:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.223.124.93:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 113.30.154.221:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 45.151.62.132:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 188.225.83.204:7443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.147.27.120:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.192.14.227:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 212.192.14.225:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.130.149.165:875",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 84.252.100.33:43000",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.125.240.190:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 78.40.117.167:9443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 145.249.109.128:9443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 176.125.240.167:9443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 94.103.91.22:9443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - TROJAN 212.192.14.227:9443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 79.174.92.222:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 89.127.217.9:4100",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.188.159.42:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 5.42.82.167:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 176.108.244.162:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 185.147.27.120:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 217.198.12.231:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 62.152.58.182:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 31.172.67.215:2200",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - VLESS 159.194.217.26:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.72.112.1:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 77.110.105.122:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 79.174.92.222:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.233.220.203:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.120.188.156:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.238.135:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.147.245.126:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 62.76.142.70:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.19.214.209:443",
@@ -14903,10 +14609,12 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.147.26.210:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.182.38.91:17267",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.241.195.242:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 179.253.173.85:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 200.165.235.78:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.188.159.42:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.233.219.98:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.42.82.167:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.169.47.96:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 189.74.114.116:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 153.80.241.175:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.113.235.41:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.141.227.180:2053",
@@ -14914,16 +14622,19 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.250.84:2053",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.37.224:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.42.117.160:1443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.245.147:445",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.24.116.192:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.51.12.98:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 2.59.41.70:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.147.246.12:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.252.100.49:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 139.100.204.54:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 153.76.161.58:2096",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 78.159.250.214:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.171.241.130:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 144.48.11.97:43000",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.32.175:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.181.171.10:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.91.54.162:43000",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.130.149.165:875",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 157.22.185.68:2058",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 189.74.114.106:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 178.176.128.128:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.38.187.134:443",
@@ -14931,7 +14642,6 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.143.188.10:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.59.210.26:2088",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.59.210.37:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 81.200.158.26:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.244.178:9881",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.244.38:9881",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.245.167:9881",
@@ -14954,12 +14664,12 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 85.193.88.227:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.223.122.96:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 92.53.120.186:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.244.162:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 135.106.175.19:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 192.144.13.208:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.225.83.204:7443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 37.139.34.145:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.213.54:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 201.24.55.84:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.55.239.195:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.224.87.22:9882",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.120.188.166:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.233.89.130:8443",
@@ -14971,32 +14681,36 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 217.198.12.231:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 94.242.52.3:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.233.80.34:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.86.145.78:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.241.230:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 77.110.105.102:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 94.242.55.42:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.181.171.2:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.233.217.20:7443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.233.230.64:24443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.38.183.237:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.148.6:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.127.251.227:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.26.229.197:24443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.122.198.83:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 62.152.58.182:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 89.23.113.11:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.226.155:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.135.229:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 46.17.43.40:20221",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 139.100.212.52:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.166.235.114:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.36:10443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.36:20443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.36:9443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 145.249.109.142:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.229.9.240:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 178.248.236.229:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 94.126.206.121:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 194.156.101.227:44367",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.182.4.137:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.108.242.15:1505",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 217.16.31.218:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 85.234.114.53:22231",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 95.129.234.108:8443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 72.56.241.75:18443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.233.127.149:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 188.68.218.46:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 153.80.184.59:8443",
@@ -15005,21 +14719,26 @@
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.42.99.64:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.240.86.12:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.240.87.166:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 147.45.175.81:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.22.153.231:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.22.152.49:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 5.129.206.155:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.248.169.195:43000",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 31.172.67.215:2200",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 87.228.92.113:25576",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 84.23.52.104:9118",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.67.32.147:22441",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.147.26.21:23335",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 159.194.217.26:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 129.101.98.60:443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.86.147.80:9441",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 104.171.133.209:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 195.133.73.65:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 83.217.201.82:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 176.124.214.107:8443",
-        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.126.93.225:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 168.113.254.217:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 195.209.223.0:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 45.132.179.90:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 185.126.93.226:443",
+        "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 109.71.245.99:8443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 153.80.241.206:8444",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 193.160.141.27:443",
         "\uD83C\uDDF7\uD83C\uDDFA Russia - SS 91.210.169.181:443",
